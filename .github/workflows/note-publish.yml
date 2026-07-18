@@ -24,6 +24,10 @@ on:
         description: "対象記事dir（空なら最新日付を自動選択）"
         default: ""
         type: string
+      probe_only:
+        description: "1=エディタDOMを調べて結果に記録するだけ（投稿しない）"
+        default: "0"
+        type: string
   schedule:
     - cron: "45 22 * * *"   # 07:45 JST（07:30 JSTの生成後に投稿）※デフォルトブランチでのみ発火
 
@@ -59,6 +63,7 @@ jobs:
           PUBLISH_MODE: ${{ github.event.inputs.publish_mode || 'auto' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
           ARTICLE_DIR: ${{ github.event.inputs.article_dir || '' }}
+          PROBE_ONLY: ${{ github.event.inputs.probe_only || '0' }}
         run: python scripts/note_playwright_post.py
 
       - name: Upload debug screenshots

@@ -140,12 +140,33 @@ def run():
         page = ctx.new_page()
         try:
             page.goto(NEW_NOTE_URL, wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(3000)
-            page.screenshot(path=str(dbg / "01_editor.png"))
+            page.wait_for_timeout(4000)
+            page.screenshot(path=str(dbg / "01_editor.png"), full_page=True)
 
             if "login" in page.url:
                 result["errors"].append(f"ログイン状態が無効（{page.url}）。Cookie再取得が必要。")
                 finish("fallback_package")
+
+            # --- DOM probe（セレクタ調整用。結果JSONに残す）---
+            try:
+                result["current_url"] = page.url
+                result["editor_probe"] = page.evaluate(r"""() => {
+                    const clip = s => (s||'').slice(0,60);
+                    const ph = [...document.querySelectorAll('input[placeholder],textarea[placeholder]')]
+                        .map(e => ({tag:e.tagName, placeholder:clip(e.getAttribute('placeholder')), aria:clip(e.getAttribute('aria-label'))}));
+                    const ce = [...document.querySelectorAll('[contenteditable="true"]')]
+                        .map(e => ({tag:e.tagName, dph:clip(e.getAttribute('data-placeholder')), aria:clip(e.getAttribute('aria-label')), cls:clip(e.className)}));
+                    const tb = [...document.querySelectorAll('[role="textbox"]')]
+                        .map(e => ({tag:e.tagName, aria:clip(e.getAttribute('aria-label')), dph:clip(e.getAttribute('data-placeholder'))}));
+                    const btn = [...document.querySelectorAll('button,[role="button"]')]
+                        .map(e => clip((e.innerText||e.getAttribute('aria-label')||'').trim())).filter(Boolean).slice(0,40);
+                    return {placeholders:ph, contenteditables:ce, textboxes:tb, buttons:btn};
+                }""")
+            except Exception as e:
+                result["errors"].append(f"probe失敗: {e}")
+
+            if os.getenv("PROBE_ONLY", "0") == "1":
+                finish("probe")
 
             # --- タイトル ---  # TUNE: placeholder文言はnoteのUIに合わせて調整
             title_box = page.get_by_placeholder(re.compile("記事タイトル|タイトル"))
