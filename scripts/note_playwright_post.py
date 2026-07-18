@@ -141,6 +141,14 @@ def run():
                                               "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"))
         ctx.add_cookies(cookies)
         page = ctx.new_page()
+
+        # 診断: 失敗レスポンス / コンソールエラー / リクエスト失敗 を収集
+        net_fail, console_msgs, req_fail = [], [], []
+        page.on("response", lambda r: net_fail.append(f"{r.status} {r.request.method} {r.url[:100]}") if r.status >= 400 else None)
+        page.on("console", lambda m: console_msgs.append(f"{m.type}: {m.text[:140]}") if m.type in ("error", "warning") else None)
+        page.on("requestfailed", lambda r: req_fail.append(f"{r.url[:100]} :: {r.failure}"))
+        result["_net_fail"], result["_console"], result["_req_fail"] = net_fail, console_msgs, req_fail
+
         try:
             page.goto(NEW_NOTE_URL, wait_until="domcontentloaded", timeout=45000)
             # エディタSPAはスピナー→描画に時間がかかる。入力要素が出るまで待つ（最大~40s）。
@@ -196,6 +204,9 @@ def run():
                 result["errors"].append(f"probe失敗: {e}")
 
             if os.getenv("PROBE_ONLY", "0") == "1":
+                result["_net_fail"] = net_fail[-40:]
+                result["_console"] = console_msgs[-30:]
+                result["_req_fail"] = req_fail[-20:]
                 finish("probe")
 
             # --- タイトル ---  # TUNE: placeholder文言はnoteのUIに合わせて調整
