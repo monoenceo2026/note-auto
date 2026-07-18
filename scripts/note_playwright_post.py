@@ -179,6 +179,10 @@ def run():
                         frames.append({"frame_url": clipurl(fr.url), **data})
                 result["frames_count"] = len(page.frames)
                 result["editor_probe"] = frames or "全フレームで要素が見つかりません"
+                # 何のページか診断（ローディング/ログイン/チャレンジ等の切り分け）
+                result["page_title"] = page.title()
+                result["page_text"] = page.evaluate("() => document.body ? document.body.innerText.slice(0,900) : ''")
+                result["page_html_head"] = page.evaluate("() => document.body ? document.body.outerHTML.slice(0,1800) : ''")
             except Exception as e:
                 result["errors"].append(f"probe失敗: {e}")
 
