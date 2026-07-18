@@ -66,10 +66,17 @@ STEP1の `selection.json` を受け取り、**公開品質の記事1本**をMark
   "sources": [{"title": "...", "publisher": "...", "date": "...", "url": "..."}],
   "internal_links": ["https://note.com/monoen_co_jp/n/xxxx"],
   "cta": "無料相談",
-  "eyecatch_brief": "アイキャッチの主題を1〜2文（STEP3が使う）",
+  "eyecatch_brief": "アイキャッチ背景の主題を1〜2文（STEP3が使う。実在商品を再現しない抽象/静物）",
+  "eyecatch_text": "サムネに載せるフック（全角〜20字目安。\\n で改行可。煽らず、しかしクリックしたくなる当事者の一言）",
+  "eyecatch_eyebrow": "小見出し（英字のカテゴリ推奨。例 MANUFACTURING BRANDING / LIVE COMMERCE）",
   "char_count": 4200
 }
 ```
+
+### eyecatch_text（サムネのフック）の作り方
+- 記事の核を突く**短い一言**。読者（中小メーカー経営者）の心の声・反直感・約束のいずれか。
+- 例：「技術はある。\n でも、伝わっていない。」／「価格で戦わない、という選択」／「フォロワー数より、相性。」
+- 禁止：最上級・断定（絶対/必ず/No.1）、煽りすぎ、記事内容と乖離した釣り。ブランドの品位を保つ。
 
 ## 最後に自己点検
 `04-seo-llmo-aio-checklist.md` の各項目を自分で確認してから出力する。

@@ -1,14 +1,19 @@
-# STEP 4 プロンプト｜アイキャッチ画像プロンプト設計（gpt-image-1）
+# STEP 4 プロンプト｜アイキャッチ（サムネ）設計
 
-`metadata.json` の `eyecatch_brief` と記事内容から、**gpt-image-1 用の英語プロンプト**を1つ作ります。
-生成は `scripts/generate_eyecatch.py` が行い、1280×670（1.91:1）に整形します。
+作り方は2層構造です：
+1. **背景**：`gpt-image-1` で上質・ミニマルな画像を生成（**画像には文字を入れさせない**＝日本語の文字化け回避）。
+2. **テキスト**：`scripts/generate_eyecatch.py` が Pillow で日本語フック＋カテゴリ＋MONOENワードマークを**鮮明に合成**。
 
-## ブランドのビジュアル原則
+`metadata.json` の `eyecatch_brief`（背景の主題）・`eyecatch_text`（フック）・`eyecatch_eyebrow`（カテゴリ）を使います。
+最終出力は 1280×670（1.91:1）。**noteのフィードで目を引きつつ、ブランドの品位を保つ**のが狙い。
+
+## ブランドのビジュアル原則（背景画像）
 - MONOENのコアアイデア「**無機物に、生命を。技術に、物語を。**」を視覚化する。
 - 工業（金属・工具・工場）× 物語性（光・質感・静けさ・品格）の掛け合わせ。
 - 和製LVMH＝**上質・ミニマル・エディトリアル**。安っぽいストックフォト感やコラージュ感を避ける。
 - 実在の商品・ロゴ・工程を**具体的に再現しない**（誤認防止）。抽象・象徴表現にする。
-- **テキストは入れない**（noteのタイトルが上に乗る前提。文字化けも防ぐ）。
+- **背景画像に文字を入れさせない**（テキストは後段でPillow合成。AIに日本語を描かせない）。
+- **構図**：被写体は上2/3・やや右。**下1/3は静かで暗め**にし、テキスト合成の余白を確保する。
 
 ## トーン&マナー
 - 配色：素材の質感を活かした落ち着いたトーン（鉄・真鍮・生成り・墨・自然光）。差し色は控えめ。
@@ -38,10 +43,15 @@ No text, no logos, no readable brand marks, do not depict real identifiable prod
 Color palette: muted, material-driven, restrained accent.
 ```
 
-## 実行
+## 実行（テキスト合成つき）
 ```
 python3 scripts/generate_eyecatch.py \
   --prompt-file <articleディレクトリ>/eyecatch_prompt.txt \
-  --out <articleディレクトリ>/eyecatch.png
+  --out <articleディレクトリ>/eyecatch.png \
+  --text "<metadata.eyecatch_text>" \
+  --eyebrow "<metadata.eyecatch_eyebrow>" \
+  --brand "MONOEN"
 ```
-- 失敗・APIキー無し・コスト上限超過の場合はスキップし、`eyecatch_prompt.txt` を残して警告（記事は画像なしでも公開可、ただしメタに記録）。
+- `--text` を渡すと下部スクリム＋日本語フック＋カテゴリ＋ワードマークを合成（サムネ化）。
+- 日本語フォントは IPAGothic を自動使用（`EYECATCH_FONT` で変更可）。アクセント色は `EYECATCH_ACCENT`（既定ブラス）。
+- 失敗・APIキー無し・コスト上限超過はスキップし、`eyecatch_prompt.txt` を残して警告（記事は画像なしでも公開可）。フォント不在時はテキストなしで背景のみ出力。

@@ -255,8 +255,9 @@ def main():
     body_html = md_to_note_html(md)
     (d / "note_body.html").write_text(body_html, encoding="utf-8")
 
-    mode = os.getenv("PUBLISH_MODE", "package").lower()      # auto|draft|package
-    dry = os.getenv("DRY_RUN", "1") not in ("0", "false", "False", "")
+    # 既定は「Cookieがあれば公開」。Cookie未設定なら下の分岐で安全にfallback。
+    mode = os.getenv("PUBLISH_MODE", "auto").lower()         # auto|draft|package
+    dry = os.getenv("DRY_RUN", "0") not in ("0", "false", "False", "")
     result["mode"], result["dry_run"] = mode, dry
 
     # QAが draft指定なら、autoでも公開しない

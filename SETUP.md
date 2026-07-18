@@ -57,9 +57,12 @@ Claude Code の環境設定（Environment の環境変数／シークレット�
 | `IMAGE_COST_CEILING_USD` | `0.30` | 任意 | 1枚の見積上限。超えたら画像スキップ |
 | `NOTE_SESSION_COOKIE` | `_note_session_v5=...; ...` | ✅(自動公開) | STEP2のCookie |
 | `NOTE_USERNAME` | `monoen_co_jp` | ✅(自動公開) | |
-| `PUBLISH_MODE` | `auto` | ✅ | auto / draft / package |
-| `DRY_RUN` | `1`（最初）→ `0`（本番） | ✅ | 最初はテスト、確認後に本番 |
+| `PUBLISH_MODE` | `auto` | 任意 | 未設定時の既定=auto。draft / package も可 |
+| `DRY_RUN` | `1`（試運転）→ `0`（本番） | 任意 | 未設定時の既定=0（本番公開）。最初だけ1推奨 |
 | `PUBLISH_TIME_JST` | `08:00` | 任意 | 記事メタの公開予定時刻 |
+
+> **公開のスイッチ＝Cookie**：`NOTE_SESSION_COOKIE` を登録した時点で自動公開が有効になります（既定 auto/0）。
+> Cookie未登録の間は自動で package（note未投稿）に留まるため、事故は起きません。慎重に始めたい場合のみ `DRY_RUN=1` を数日。
 
 > ローカルで試す場合のみ、`scripts/.env.example` を `scripts/.env` にコピーして値を入れられます（`.env` はコミットされません）。本番はシークレットを使ってください。
 
