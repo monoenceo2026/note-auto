@@ -1,13 +1,15 @@
 name: note-publish
 
-# note.com への投稿を GitHub Actions 上で実行する（記事生成はClaudeルーチン、投稿はここ）。
-# Claudeの実行環境はブラウザが使えないため、投稿はネットワーク制限のないActionsランナーで行う。
+# ⚠️ 検証の結論（2026-07-18）:
+#   note.com は自動投稿を能動的にブロックします。実測で、noteのエディタ自身が読み込み時に
+#   叩く下書き作成 API `POST /api/v1/text_notes` が 422 を返し、エディタがローディングの
+#   まま描画されません（＝bot/CSRF対策による書き込み拒否）。非公式APIを直接叩いても同じ 422。
+#   これを突破するには bot 検知の回避が必要で、それは行いません（規約・ポリシー上不可）。
+#   → note への投稿は「半自動（生成は全自動→人が約2分で公開）」が正式サポートの運用です。
+#      詳細は docs/NOTE_POSTING.md。
 #
-# 有効化の前提:
-#   1) リポジトリ Secrets に NOTE_SESSION_COOKIE（長期有効な _note_session_v5 等）を登録
-#   2) （任意）Variables に NOTE_USERNAME=monoen_co_jp
-#   3) スケジュール実行はデフォルトブランチ上のワークフローでのみ発火します。
-#      まずは workflow_dispatch（手動/API）で DRY_RUN=1 → スクショ確認 → 調整、の順で。
+# このワークフローは参考・将来用に残します（定時実行は無効。手動実行のみ）。
+# note 側の仕様が変わった場合の再検証にどうぞ。
 
 on:
   workflow_dispatch:
@@ -28,8 +30,6 @@ on:
         description: "1=エディタDOMを調べて結果に記録するだけ（投稿しない）"
         default: "0"
         type: string
-  schedule:
-    - cron: "45 22 * * *"   # 07:45 JST（07:30 JSTの生成後に投稿）※デフォルトブランチでのみ発火
 
 permissions:
   contents: write
