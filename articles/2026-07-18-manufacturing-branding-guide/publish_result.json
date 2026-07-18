@@ -6,7 +6,16 @@
   "note_url": "",
   "errors": [],
   "article_dir": "/home/runner/work/note-auto/note-auto/articles/2026-07-18-manufacturing-branding-guide",
-  "at": "2026-07-18T12:12:39+00:00",
+  "at": "2026-07-18T12:15:44+00:00",
+  "_net_fail": [
+    "422 POST https://note.com/api/v1/text_notes"
+  ],
+  "_console": [
+    "error: Failed to load resource: the server responded with a status of 422 ()"
+  ],
+  "_req_fail": [
+    "https://logcollector.note.com/log_tracking_pb.firehose :: net::ERR_ABORTED"
+  ],
   "editor_ready": false,
   "editor_waited_ms": 39000,
   "current_url": "https://editor.note.com/new",
