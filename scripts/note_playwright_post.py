@@ -135,7 +135,7 @@ def run():
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=os.getenv("HEADLESS", "1") != "0")
-        ctx = browser.new_context(locale="ja-JP",
+        ctx = browser.new_context(locale="ja-JP", timezone_id="Asia/Tokyo",
                                   viewport={"width": 1440, "height": 1000},
                                   user_agent=("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                                               "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"))
