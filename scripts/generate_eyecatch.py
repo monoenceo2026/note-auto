@@ -115,7 +115,7 @@ def main():
     if not api_key:
         _fail("OPENAI_API_KEY が未設定。画像はスキップします。")
 
-    quality = os.getenv("OPENAI_IMAGE_QUALITY", "medium").lower()
+    quality = os.getenv("OPENAI_IMAGE_QUALITY", "high").lower()
     if quality not in COST_ESTIMATE_USD:
         quality = "medium"
     ceiling = float(os.getenv("IMAGE_COST_CEILING_USD", "0.30"))
