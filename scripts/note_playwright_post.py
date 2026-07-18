@@ -143,11 +143,20 @@ def run():
         page = ctx.new_page()
         try:
             page.goto(NEW_NOTE_URL, wait_until="domcontentloaded", timeout=45000)
-            try:
-                page.wait_for_load_state("networkidle", timeout=20000)
-            except Exception:
-                pass
-            page.wait_for_timeout(6000)
+            # エディタSPAはスピナー→描画に時間がかかる。入力要素が出るまで待つ（最大~40s）。
+            ready_sel = ('[contenteditable="true"],[contenteditable=""],[role="textbox"],'
+                         'input[placeholder],textarea[placeholder]')
+            ready, waited = False, 0
+            for _ in range(26):
+                page.wait_for_timeout(1500); waited += 1500
+                try:
+                    if page.evaluate(f"() => document.querySelectorAll('{ready_sel}').length") > 0:
+                        ready = True; break
+                except Exception:
+                    pass
+            result["editor_ready"] = ready
+            result["editor_waited_ms"] = waited
+            page.wait_for_timeout(1500)
             page.screenshot(path=str(dbg / "01_editor.png"), full_page=True)
 
             if "login" in page.url:
