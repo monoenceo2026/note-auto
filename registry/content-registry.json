@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
+    "version": 1,
+    "updated": "2026-07-18",
+    "note_account": "https://note.com/monoen_co_jp",
+    "fields": {
+      "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
+      "date": "公開日 YYYY-MM-DD (JST)",
+      "title": "実際の公開タイトル",
+      "primary_kw": "この記事が唯一狙うプライマリキーワード（カニバリ判定キー）",
+      "secondary_kw": "補助キーワード（配列）",
+      "intent": "know | how | compare | case | commercial",
+      "pillar": "P1..P7",
+      "type": "pillar | cluster",
+      "note_url": "公開後のnote記事URL（下書き/保留時は空）",
+      "status": "published | draft | hold",
+      "qa_score": "QAガードレールの合計点(0-100)",
+      "trend_rationale": "そのテーマを選んだ根拠（トレンド・出典）",
+      "internal_links": "本文に張った内部リンク先URL（配列）",
+      "summary": "40-80字の要約（重複検知の補助）"
+    }
+  },
+  "published": [],
+  "held": []
+}

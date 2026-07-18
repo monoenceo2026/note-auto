@@ -1,0 +1,130 @@
+# =============================================================================
+# MONOEN キーワードマップ（記事スロットの master plan）
+# =============================================================================
+# - これは「計画」。公開実績は registry/content-registry.json が「台帳」。
+# - 毎日のテーマ選定は、status: planned の中から
+#   (検索価値 × MONOEN一次情報の濃さ × トレンド適合 × カニバリ非該当) で選ぶ。
+# - primary_kw は 1スロット1つ。カニバリ判定の主キー。
+# - 新スロットを足すときも、既存 primary_kw と intent が重複しないこと。
+# status: planned | in_progress | published | hold | retired
+# intent:  know | how | compare | case | commercial
+# type:    pillar | cluster
+# priority: 1(最優先) 〜 5
+# =============================================================================
+
+meta:
+  version: 1
+  updated: "2026-07-18"
+  note_account: "https://note.com/monoen_co_jp"
+
+pillars:
+
+  # ---------------- P1 製造業ブランディング ----------------
+  - id: P1
+    name: 製造業ブランディング
+    head_kw: 製造業 ブランディング
+    articles:
+      - {id: P1-000, type: pillar,  status: planned, priority: 1, intent: know, primary_kw: 製造業 ブランディング, title: "製造業ブランディングとは｜価格競争から抜け出す完全ガイド", secondary_kw: [製造業 ブランド, メーカー ブランディング, 製造業 ブランド戦略]}
+      - {id: P1-001, type: cluster, status: planned, priority: 2, intent: how,  primary_kw: 製造業 リブランディング, title: "製造業リブランディングの進め方", differentiator: "既存を作り直すREBRAND特化"}
+      - {id: P1-002, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 中小企業 ブランディング, title: "中小企業のブランディング入門", differentiator: "中小全般の上位概念"}
+      - {id: P1-003, type: cluster, status: planned, priority: 2, intent: how,  primary_kw: 町工場 自社ブランド, title: "町工場が自社ブランドを持つには", differentiator: "町工場主体・ブランド戦略視点"}
+      - {id: P1-004, type: cluster, status: planned, priority: 2, intent: how,  primary_kw: 技術の見せ方, title: "技術の見せ方：スペックを欲しい理由に翻訳する", differentiator: "表現/伝え方に特化"}
+      - {id: P1-005, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 職人 ブランド化, title: "職人をブランド化する方法", differentiator: "個人(職人)の人格ブランド"}
+      - {id: P1-006, type: cluster, status: planned, priority: 3, intent: know, primary_kw: ブランド診断, title: "ブランド診断とは｜自社の現在地を知る", differentiator: "入口サービス解説"}
+      - {id: P1-007, type: cluster, status: planned, priority: 3, intent: commercial, primary_kw: 製造業 ブランディング 費用, title: "製造業ブランディングの費用と期間の考え方", differentiator: "お金/期間の意思決定"}
+      - {id: P1-008, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 会社 リブランディング, title: "会社リブランディング（事業承継期の見え方の更新）", differentiator: "コーポレート×承継"}
+      - {id: P1-009, type: cluster, status: planned, priority: 4, intent: know, primary_kw: 製造業 ブランディング 失敗, title: "製造業ブランディングでよくある失敗", differentiator: "失敗/落とし穴のネガ検索回収"}
+      - {id: P1-010, type: cluster, status: planned, priority: 4, intent: know, primary_kw: BtoB メーカー ブランディング, title: "BtoB部材メーカーのブランディング", differentiator: "消費者に遠い部材/素材"}
+
+  # ---------------- P2 商品リブランディング・新商品開発 ----------------
+  - id: P2
+    name: 商品リブランディング・新商品開発
+    head_kw: 商品リブランディング
+    articles:
+      - {id: P2-000, type: pillar,  status: planned, priority: 1, intent: how,  primary_kw: 商品リブランディング, title: "商品リブランディングの進め方｜スペックを欲しい理由に翻訳する5ステップ", secondary_kw: [商品 リブランド, 商品 ブランド刷新]}
+      - {id: P2-001, type: cluster, status: planned, priority: 2, intent: case, primary_kw: 商品リブランディング 事例, title: "商品リブランディングの事例で学ぶ", differentiator: "事例検索回収(一般化＋領域)"}
+      - {id: P2-002, type: cluster, status: planned, priority: 2, intent: know, primary_kw: 商品 ブランディング, title: "商品ブランディングとは", differentiator: "新規も含む定義・基礎"}
+      - {id: P2-003, type: cluster, status: planned, priority: 2, intent: how,  primary_kw: 製造業 新商品開発, title: "製造業の新商品開発の進め方", differentiator: "ゼロから作る開発プロセス"}
+      - {id: P2-004, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 価値の棚卸し, title: "価値の棚卸しのやり方", differentiator: "開発の最初の1工程"}
+      - {id: P2-005, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 商品 ネーミング, title: "売れる商品ネーミング・コピー設計", differentiator: "言語設計の実務"}
+      - {id: P2-006, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 商品ページ 作り方, title: "商品ページ・パッケージの設計", differentiator: "販売導線の見せ物設計"}
+      - {id: P2-007, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 別注 商品開発, title: "別注・限定品のつくり方（共創）", differentiator: "CO-CREATE特化"}
+      - {id: P2-008, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 価格 決め方 製造業, title: "価格競争にならない値付け", differentiator: "価格戦略特化"}
+      - {id: P2-009, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: OEM 自社ブランド, title: "OEM・下請けから自社ブランドへ（商品ライン戦略）", differentiator: "商品ラインの作り方視点"}
+
+  # ---------------- P3 ライブコマース・D2C・EC・販路開拓 ----------------
+  - id: P3
+    name: ライブコマース・D2C・EC・販路開拓
+    head_kw: 製造業 ライブコマース
+    articles:
+      - {id: P3-000, type: pillar,  status: planned, priority: 1, intent: know, primary_kw: 製造業 ライブコマース, title: "製造業のライブコマース完全ガイド｜町工場がTikTok LIVEで語って売る方法", secondary_kw: [メーカー ライブコマース, ライブコマース 製造業]}
+      - {id: P3-001, type: cluster, status: planned, priority: 1, intent: how,  primary_kw: 製造業 D2C, title: "製造業のD2Cの始め方", differentiator: "販売モデル全体の設計"}
+      - {id: P3-002, type: cluster, status: planned, priority: 2, intent: commercial, primary_kw: メーカー EC 支援, title: "メーカーのEC立ち上げ・運用支援", differentiator: "EC構築/運用の依頼視点"}
+      - {id: P3-003, type: cluster, status: planned, priority: 2, intent: know, primary_kw: ものづくり 販路開拓, title: "ものづくりの販路開拓の地図", differentiator: "販路という上位概念"}
+      - {id: P3-004, type: cluster, status: planned, priority: 2, intent: how,  primary_kw: TikTok LIVE 売り方, title: "TikTok LIVEの売れる配信構成", differentiator: "配信台本/構成に特化"}
+      - {id: P3-005, type: cluster, status: planned, priority: 3, intent: know, primary_kw: ライブコマース 失敗, title: "ライブコマースでよくある失敗3パターン", differentiator: "失敗要因の回収"}
+      - {id: P3-006, type: cluster, status: planned, priority: 3, intent: compare, primary_kw: ライブコマーサー 選び方, title: "ライブコマーサーの選び方", differentiator: "演者選定に特化"}
+      - {id: P3-007, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 消化仕入れ とは, title: "消化仕入れとは（在庫リスクを負わない仕組み）", differentiator: "取引/在庫の仕組み"}
+      - {id: P3-008, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: ライブコマース 集客, title: "Instagram×TikTokの2ステップ集客設計", differentiator: "事前集客→刈り取り動線"}
+      - {id: P3-009, type: cluster, status: planned, priority: 3, intent: commercial, primary_kw: ライブコマース 費用, title: "ライブコマースの費用・手数料の考え方", differentiator: "お金の意思決定"}
+      - {id: P3-010, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 展示販売, title: "リアル×オンライン連動の展示販売", differentiator: "The Lab.リアル起点"}
+      - {id: P3-011, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: ライブコマース 商品 選び方, title: "ライブで売れる商品の3条件", differentiator: "商材適性の診断"}
+
+  # ---------------- P4 ものづくりの現場・職人の物語 ----------------
+  - id: P4
+    name: ものづくりの現場・職人の物語
+    head_kw: ものづくり 事例
+    articles:
+      - {id: P4-000, type: pillar,  status: planned, priority: 2, intent: case, primary_kw: ものづくり 事例, title: "ものづくりの現場から｜技術を物語に変えるメーカーの記録", secondary_kw: [製造業 事例, 町工場 事例]}
+      - {id: P4-001, type: cluster, status: planned, priority: 2, intent: case, primary_kw: The Lab. グランフロント大阪, title: "The Lab.（グランフロント大阪）現場レポート", differentiator: "拠点体験レポ"}
+      - {id: P4-002, type: cluster, status: planned, priority: 3, intent: case, primary_kw: 金属加工 ブランディング, title: "金属加工の技術を物語に変える", differentiator: "素材=金属の領域"}
+      - {id: P4-003, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 刃物 ブランド, title: "刃物・道具の切れ味をどう見せるか", differentiator: "視覚的変化の見せ方"}
+      - {id: P4-004, type: cluster, status: planned, priority: 3, intent: case, primary_kw: 部材メーカー D2C, title: "素材・部材メーカーがD2Cに挑む", differentiator: "BtoB→BtoC転換事例"}
+      - {id: P4-005, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 職人 発信, title: "職人が自ら語ると売れる理由", differentiator: "当事者の語りの効果"}
+      - {id: P4-006, type: cluster, status: planned, priority: 3, intent: case, primary_kw: 事業承継 ブランディング, title: "二代目社長のブランド意思決定", differentiator: "承継者の意思決定物語"}
+      - {id: P4-007, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: インタビュー 引き出し方, title: "開発秘話の引き出し方（取材の技術）", differentiator: "取材/編集ノウハウ"}
+
+  # ---------------- P5 業界課題・トレンド・データ ----------------
+  - id: P5
+    name: 業界課題・トレンド・データ
+    head_kw: 製造業 課題
+    articles:
+      - {id: P5-000, type: pillar,  status: planned, priority: 2, intent: know, primary_kw: 製造業 課題, title: "日本のものづくりの現在地｜データで読む課題と勝ち筋", secondary_kw: [中小製造業 課題, ものづくり 未来]}
+      - {id: P5-001, type: cluster, status: planned, priority: 2, intent: know, primary_kw: 価格競争 脱却, title: "価格競争から抜け出す構造", differentiator: "なぜ価格競争になるかの構造分析"}
+      - {id: P5-002, type: cluster, status: planned, priority: 2, intent: know, primary_kw: 下請け 脱却, title: "下請け依存からの脱却", differentiator: "経営構造(取引依存)の視点"}
+      - {id: P5-003, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 事業承継 課題, title: "後継者不足と事業承継の現実（データ）", differentiator: "承継の課題データ"}
+      - {id: P5-004, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 製造業 採用 課題, title: "中小製造業の採用・人材課題", differentiator: "採用/人材の課題"}
+      - {id: P5-005, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 採用ブランディング 製造業, title: "採用ブランディング（製造業）の実務", differentiator: "採用広報の実務"}
+      - {id: P5-006, type: cluster, status: planned, priority: 4, intent: know, primary_kw: 地域ブランド 製造業, title: "地場産業・地域ブランドの活性化", differentiator: "地域/産地の視点"}
+      - {id: P5-007, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 製造業 AI 活用, title: "製造業のAI・DX活用の現実解", differentiator: "技術活用の現実解"}
+      - {id: P5-008, type: cluster, status: planned, priority: 4, intent: know, primary_kw: インバウンド 製造業, title: "インバウンド×ものづくり", differentiator: "訪日需要の視点"}
+      # トレンド枠：日々のトレンド分析で見つけた時事ネタをここに動的追加（primary_kwは都度設定）
+
+  # ---------------- P6 海外展開・地域共創・コミュニティ ----------------
+  - id: P6
+    name: 海外展開・地域共創・コミュニティ
+    head_kw: 製造業 海外展開
+    articles:
+      - {id: P6-000, type: pillar,  status: planned, priority: 3, intent: know, primary_kw: 製造業 海外展開, title: "ものづくりの海外展開ガイド｜小さく始めて世界に届ける", secondary_kw: [ものづくり 海外, メーカー 海外進出]}
+      - {id: P6-001, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 製造業 海外展開 始め方, title: "製造業の海外展開の始め方", differentiator: "最初の一歩"}
+      - {id: P6-002, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 越境EC 製造業, title: "越境ECの立ち上げ", differentiator: "越境ECの手段"}
+      - {id: P6-003, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 多言語 発信, title: "多言語発信とAI翻訳の活用", differentiator: "発信/翻訳の実務"}
+      - {id: P6-004, type: cluster, status: planned, priority: 4, intent: know, primary_kw: 地域共創, title: "自治体・金融機関との地域共創", differentiator: "産官金連携"}
+      - {id: P6-005, type: cluster, status: planned, priority: 4, intent: know, primary_kw: コミュニティ 運営 ブランド, title: "参加型コミュニティ運営（ファン共創）", differentiator: "ファン共創/トークン"}
+      - {id: P6-006, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 和製LVMH, title: "「和製LVMH」構想を分解する", differentiator: "ビジョン解説(思想寄り)"}
+
+  # ---------------- P7 思想・用語解説・FAQ ----------------
+  - id: P7
+    name: MONOENの思想・用語解説・FAQ
+    head_kw: ブランド創造会社
+    articles:
+      - {id: P7-000, type: pillar,  status: planned, priority: 2, intent: know, primary_kw: ブランド創造会社, title: "MONOENという実験｜ブランド創造会社の思想と実践", secondary_kw: [MONOEN, モノエン]}
+      - {id: P7-001, type: pillar,  status: planned, priority: 2, intent: know, primary_kw: ブランディング 用語, title: "ものづくりブランド用語集", secondary_kw: [ブランディング とは, ブランド 用語 一覧]}
+      - {id: P7-002, type: cluster, status: planned, priority: 3, intent: know, primary_kw: ブランド創造会社 とは, title: "「販売会社ではなくブランド創造会社」宣言の意味", differentiator: "自己定義の解説"}
+      - {id: P7-003, type: cluster, status: planned, priority: 4, intent: know, primary_kw: MONOEN経済圏, title: "MONOEN経済圏とは", differentiator: "3ブランド横断の全体像"}
+      - {id: P7-004, type: cluster, status: planned, priority: 3, intent: know, primary_kw: ライブコマース とは, title: "用語解説：ライブコマースとは", differentiator: "単語1つを定義(AI引用狙い)"}
+      - {id: P7-005, type: cluster, status: planned, priority: 3, intent: know, primary_kw: D2C とは, title: "用語解説：D2Cとは（製造業向け）", differentiator: "単語1つを定義"}
+      - {id: P7-006, type: cluster, status: planned, priority: 4, intent: know, primary_kw: 消化仕入れ 掛け率, title: "用語解説：消化仕入れ／掛け率", differentiator: "取引用語の定義"}
+      - {id: P7-007, type: cluster, status: planned, priority: 4, intent: commercial, primary_kw: MONOEN 相談, title: "よくある質問（サービス別FAQ）", differentiator: "検討者の疑問を一括回収"}
+      - {id: P7-008, type: cluster, status: planned, priority: 4, intent: case, primary_kw: The Lab. とは, title: "The Lab.の舞台裏", differentiator: "拠点の裏側"}
+      - {id: P7-009, type: cluster, status: planned, priority: 4, intent: commercial, primary_kw: MONOEN 採用, title: "一緒に働く仲間へ（採用広報）", differentiator: "採用候補者向け"}

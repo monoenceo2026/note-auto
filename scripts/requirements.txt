@@ -1,0 +1,10 @@
+# note-auto 日次パイプラインが使う Python パッケージ
+# インストール:  python3 -m pip install -r scripts/requirements.txt
+
+openai>=1.40.0        # アイキャッチ画像生成（gpt-image-1）
+Pillow>=10.3.0        # 画像を note 推奨サイズ 1280x670 に整形
+requests>=2.32.0      # note 非公式APIへのHTTP（公開スクリプト）
+PyYAML>=6.0.1         # キーワードマップ等のYAML読み込み
+python-dotenv>=1.0.1  # ローカル検証時の .env 読み込み（本番はenv varでも可）
+markdown-it-py>=3.0.0 # Markdown → note向けHTML変換
+beautifulsoup4>=4.12  # HTML整形・サニタイズ

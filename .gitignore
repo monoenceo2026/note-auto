@@ -1,0 +1,31 @@
+# === 機密情報（絶対にコミットしない） ===
+.env
+.env.*
+!.env.example
+*.local
+secrets/
+config.env
+note_cookie.txt
+*.pem
+*.key
+
+# === 生成物のうち大きいバイナリ（画像は必要なら別管理） ===
+# アイキャッチ画像はリポジトリに残す運用のため無視しない。
+# 一時ファイルのみ無視する。
+scripts/__pycache__/
+**/__pycache__/
+*.pyc
+.python-version
+.venv/
+venv/
+node_modules/
+
+# === 一時・ログ ===
+*.log
+.DS_Store
+tmp/
+.cache/
+_work/
+
+# === QAで公開保留になった記事の一時フラグ（レジストリで管理するため） ===
+*.hold
