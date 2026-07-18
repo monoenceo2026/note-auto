@@ -1,25 +1,25 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-generate_eyecatch.py — アイキャッチ/サムネイル生成（OpenAI gpt-image-1 ＋ 日本語テキスト合成）
+generate_eyecatch.py — アイキャッチ/サムネイル生成（OpenAI gpt-image-1 一発生成）
 
-方針:
-  - 背景は gpt-image-1 で「上質・ミニマル・ブランド準拠」に生成（テキストは入れさせない=文字化け回避）
-  - その上に Pillow で日本語テキスト（フック＋カテゴリ＋MONOENワードマーク）を高解像で合成
-    → note のフィードで目を引く「クリックしたくなるサムネ」に。ブランドは崩さない。
-  - note 推奨 1280x670（1.91:1）で出力。
+方針（ユーザー選択）:
+  - 背景も日本語テキストも gpt-image-1 に「一気に」描かせる（後処理でのテキスト合成はしない）。
+  - --text / --eyebrow / --brand を渡すと、それらを「画像内に正確に描くテキスト」として
+    プロンプトへ埋め込む。
+  - note 推奨 1280x670（1.91:1）へクロップして出力。
   - APIキー無し/コスト上限超過/失敗 時はスキップ（記事は画像なしでも公開可）。
 
 使い方:
   python3 generate_eyecatch.py --prompt-file p.txt --out out.png \
-      --text "価格で戦わない\n製造業ブランディング" --eyebrow "MANUFACTURING BRANDING"
-  （--text 未指定なら従来どおりテキストなしの静物画像）
+      --text "技術はある。でも、伝わっていない。" --eyebrow "MANUFACTURING BRANDING" --brand MONOEN
 
 環境変数:
   OPENAI_API_KEY / OPENAI_IMAGE_MODEL(既定 gpt-image-1) / OPENAI_IMAGE_QUALITY(high|medium|low)
   IMAGE_COST_CEILING_USD(既定 0.30)
-  EYECATCH_FONT      日本語フォントパス（既定: IPAPGothic）
-  EYECATCH_ACCENT    アクセント色 hex（既定 #C8A96A ブラス）
+
+注意: 画像モデルによる日本語テキストは、稀に字形が崩れることがあります。品質重視の場合は
+      OPENAI_IMAGE_QUALITY=high を推奨（コストは上がります）。
 """
 import argparse
 import base64
@@ -30,14 +30,6 @@ from pathlib import Path
 COST_ESTIMATE_USD = {"low": 0.02, "medium": 0.07, "high": 0.19}
 GEN_SIZE = "1536x1024"
 TARGET_W, TARGET_H = 1280, 670
-
-FONT_CANDIDATES = [
-    os.getenv("EYECATCH_FONT", ""),
-    "/usr/share/fonts/opentype/ipafont-gothic/ipagp.ttf",
-    "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf",
-    "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf",
-]
-ACCENT = os.getenv("EYECATCH_ACCENT", "#C8A96A")
 
 
 def _load_env():
@@ -55,22 +47,31 @@ def _fail(msg, code=2):
     sys.exit(code)
 
 
-def _font_path():
-    for p in FONT_CANDIDATES:
-        if p and Path(p).exists():
-            return p
-    return None
+def build_text_block(text, eyebrow, brand):
+    """画像内に正確に描かせる日本語テキストの指示を作る。"""
+    lines = []
+    lines.append(
+        "IMPORTANT — render the following text directly ON the image as crisp, "
+        "legible typography. Reproduce every character EXACTLY as written; do NOT "
+        "translate, alter, omit, or add any characters. The Japanese must be perfectly accurate."
+    )
+    if eyebrow:
+        lines.append(f'- Small kicker label (uppercase, letter-spaced, small), text: "{eyebrow}"')
+    if text:
+        disp = text.replace("\\n", " / ")
+        lines.append(f'- Main headline (large, bold, Japanese, may wrap to 2 lines), text: "{disp}"')
+    if brand:
+        lines.append(f'- Wordmark in a bottom corner (small, refined), text: "{brand}"')
+    lines.append(
+        "Typography: elegant modern sans-serif (Japanese Gothic for the Japanese text). "
+        "Place the text over a calm, darker area of the composition with strong contrast so it is "
+        "easily readable at thumbnail size. Left-aligned, generous margins, premium editorial layout. "
+        "Keep it minimal and on-brand — do NOT make it look like a loud advertisement."
+    )
+    return "\n".join(lines)
 
 
-def _hex(c):
-    c = c.lstrip("#")
-    return tuple(int(c[i:i + 2], 16) for i in (0, 2, 4))
-
-
-# --------------------------------------------------------------------------- #
-# 画像整形
-# --------------------------------------------------------------------------- #
-def crop_to_note(src_bytes: bytes):
+def crop_to_note(src_bytes: bytes, out_path: Path):
     from io import BytesIO
     from PIL import Image
     img = Image.open(BytesIO(src_bytes)).convert("RGB")
@@ -83,118 +84,32 @@ def crop_to_note(src_bytes: bytes):
     else:
         nh = int(w / tr); top = (h - nh) // 2
         img = img.crop((0, top, w, top + nh))
-    return img.resize((TARGET_W, TARGET_H), Image.LANCZOS)
+    img = img.resize((TARGET_W, TARGET_H), Image.LANCZOS)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_path, "PNG", optimize=True)
 
 
-def _wrap(draw, text, font, maxw):
-    """日本語向け：明示改行を尊重しつつ、幅に収まるよう文字単位で折り返す。"""
-    lines = []
-    for raw in text.replace("\\n", "\n").split("\n"):
-        if not raw:
-            lines.append("")
-            continue
-        cur = ""
-        for ch in raw:
-            if draw.textlength(cur + ch, font=font) <= maxw:
-                cur += ch
-            else:
-                lines.append(cur); cur = ch
-        if cur:
-            lines.append(cur)
-    return lines[:3]  # 最大3行
-
-
-def overlay_thumbnail(img, hook, eyebrow=None, brand="MONOEN"):
-    """プレミアムな下部スクリム＋日本語テキストを合成。"""
-    from PIL import Image, ImageDraw, ImageFont
-    fpath = _font_path()
-    if not fpath:
-        print("[eyecatch] WARN: 日本語フォントが見つからずテキスト合成をスキップ", file=sys.stderr)
-        return img
-
-    img = img.convert("RGBA")
-    W, H = img.size
-    accent = _hex(ACCENT)
-    margin = 64
-
-    # --- 下部グラデーションスクリム（可読性確保・上品に）---
-    scrim_h = int(H * 0.66)
-    grad = Image.new("L", (1, scrim_h), 0)
-    px = grad.load()
-    for y in range(scrim_h):
-        px[0, y] = int(238 * (y / scrim_h) ** 1.5)
-    grad = grad.resize((W, scrim_h))
-    scrim = Image.new("RGBA", (W, scrim_h), (10, 11, 13, 255))
-    scrim.putalpha(grad)
-    img.alpha_composite(scrim, (0, H - scrim_h))
-
-    draw = ImageDraw.Draw(img)
-
-    # フォントサイズ（フック文字数で自動調整）
-    hook_size = 84 if len(hook.replace("\\n", "").replace("\n", "")) <= 12 else (72 if len(hook) <= 20 else 60)
-    hook_font = ImageFont.truetype(fpath, hook_size)
-    eb_font = ImageFont.truetype(fpath, 26)
-    brand_font = ImageFont.truetype(fpath, 28)
-
-    maxw = int(W * 0.80)
-    lines = _wrap(draw, hook, hook_font, maxw)
-    line_h = int(hook_size * 1.28)
-
-    # レイアウト：下から wordmark → hook → eyebrow の順に積む
-    y_brand = H - margin - 30
-    hook_block_h = line_h * len(lines)
-    y_hook_bottom = y_brand - 34
-    y_hook_top = y_hook_bottom - hook_block_h
-    y_eyebrow = y_hook_top - 46
-
-    # eyebrow（小さめ・字間広め・アクセント色）＋ 直下に細い罫
-    if eyebrow:
-        ex = margin
-        for chx in eyebrow.upper():
-            draw.text((ex, y_eyebrow), chx, font=eb_font, fill=accent + (255,))
-            ex += draw.textlength(chx, font=eb_font) + 6
-        draw.line([(margin, y_eyebrow + 40), (margin + 300, y_eyebrow + 40)],
-                  fill=accent + (180,), width=2)
-
-    # 左端の縦アクセントバー（エディトリアルなアクセント）
-    draw.rectangle([margin - 22, y_hook_top + 6, margin - 14, y_hook_bottom - 6],
-                   fill=accent + (255,))
-
-    # フック本文（微かな影で可読性を上げつつ、太めに見せる）
-    y = y_hook_top
-    for ln in lines:
-        draw.text((margin + 2, y + 2), ln, font=hook_font, fill=(0, 0, 0, 120))          # shadow
-        draw.text((margin, y), ln, font=hook_font, fill=(245, 245, 242, 255),
-                  stroke_width=1, stroke_fill=(245, 245, 242, 255))                        # faux-bold
-        y += line_h
-
-    # ワードマーク（MONOEN・字間広め・控えめな白）
-    bx = margin
-    for chx in brand:
-        draw.text((bx, y_brand), chx, font=brand_font, fill=(255, 255, 255, 210))
-        bx += draw.textlength(chx, font=brand_font) + 5
-
-    return img.convert("RGB")
-
-
-# --------------------------------------------------------------------------- #
 def main():
     _load_env()
     ap = argparse.ArgumentParser()
     ap.add_argument("--prompt-file")
     ap.add_argument("--prompt")
     ap.add_argument("--out", required=True)
-    ap.add_argument("--text", help="サムネのフック文（\\n で改行可）。未指定ならテキストなし")
-    ap.add_argument("--eyebrow", help="カテゴリ等の小見出し（英字推奨）")
+    ap.add_argument("--text", help="画像内に描く日本語フック（\\n 可）")
+    ap.add_argument("--eyebrow", help="小見出し（英字カテゴリ推奨）")
     ap.add_argument("--brand", default="MONOEN")
     args = ap.parse_args()
 
     if args.prompt:
-        prompt = args.prompt
+        base = args.prompt
     elif args.prompt_file and Path(args.prompt_file).exists():
-        prompt = Path(args.prompt_file).read_text(encoding="utf-8").strip()
+        base = Path(args.prompt_file).read_text(encoding="utf-8").strip()
     else:
         _fail("プロンプトがありません（--prompt か --prompt-file）")
+
+    prompt = base
+    if args.text or args.eyebrow:
+        prompt = base + "\n\n" + build_text_block(args.text, args.eyebrow, args.brand)
 
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
@@ -219,17 +134,12 @@ def main():
         _fail(f"画像API失敗: {e}")
 
     try:
-        img = crop_to_note(raw)
-        if args.text:
-            img = overlay_thumbnail(img, args.text, args.eyebrow, args.brand)
-        out = Path(args.out)
-        out.parent.mkdir(parents=True, exist_ok=True)
-        img.save(out, "PNG", optimize=True)
+        crop_to_note(raw, Path(args.out))
     except Exception as e:
         Path(args.out).with_suffix(".raw.png").write_bytes(raw)
-        _fail(f"整形/合成失敗（生画像を .raw.png で保存）: {e}")
+        _fail(f"整形失敗（生画像を .raw.png で保存）: {e}")
 
-    txt = "＋テキスト合成" if args.text else "テキストなし"
+    txt = "テキスト入り一発生成" if (args.text or args.eyebrow) else "テキストなし"
     print(f"[eyecatch] OK: {args.out}  ({model}/{quality}, {txt}, est≈${est:.2f})")
 
 

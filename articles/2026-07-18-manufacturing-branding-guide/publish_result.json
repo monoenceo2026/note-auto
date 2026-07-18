@@ -1,9 +1,12 @@
 {
-  "status": "package_only",
-  "mode": "package",
-  "dry_run": true,
+  "status": "fallback_package",
+  "mode": "draft",
+  "dry_run": false,
   "note_url": "",
   "note_key": "",
-  "errors": [],
-  "at": "2026-07-18T10:56:07+00:00"
+  "errors": [
+    "アイキャッチ投稿失敗（画像なしで継続）: 404 Client Error: Not Found for url: https://note.com/api/v1/upload_image",
+    "投稿中エラー: 422 Client Error: Unprocessable Entity for url: https://note.com/api/v1/text_notes"
+  ],
+  "at": "2026-07-18T11:19:38+00:00"
 }

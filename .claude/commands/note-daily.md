@@ -41,17 +41,20 @@ description: MONOENのnoteに、SEO/LLMO/AIO最適化記事を1本、自動生�
 4. 出力：`article.md`（1行目 `# タイトル`）と `metadata.json`（`prompts/20`の形）。
    - `internal_links` は `registry` の**公開済みnote_url**のみ。無ければ空でよい。
 
-## STEP 3. アイキャッチ生成（サムネ／`prompts/40-eyecatch-prompt.md`）
-1. `eyecatch_prompt.txt`（英語・**背景に文字を入れない**・被写体は上2/3・下1/3は暗め・実在商品を再現しない）を作る。
-2. 生成（`metadata.json` の `eyecatch_text`/`eyecatch_eyebrow` を渡してサムネ化）：
+## STEP 3. アイキャッチ生成（GPT一発サムネ／`prompts/40-eyecatch-prompt.md`）
+1. `eyecatch_prompt.txt`（英語・背景の指示・被写体は片側／反対側を暗く空ける・実在商品を再現しない）を作る。
+2. 生成（`metadata.json` の `eyecatch_text`/`eyecatch_eyebrow` を渡す。テキストも画像内に一発で描かせる）：
    ```
-   python3 scripts/generate_eyecatch.py \
+   OPENAI_IMAGE_QUALITY=high python3 scripts/generate_eyecatch.py \
      --prompt-file articles/.../eyecatch_prompt.txt \
      --out articles/.../eyecatch.png \
      --text "<eyecatch_text>" --eyebrow "<eyecatch_eyebrow>" --brand "MONOEN"
    ```
-   背景をgpt-image-1で生成→日本語フック等をPillowで鮮明合成→1280×670で出力。
-   失敗/キー無し/コスト上限超過ならスキップ（記事は画像なしでも可。metadataに記録）。
+3. **文字化け検証（必須）**：生成した `eyecatch.png` を**自分の目（画像読み取り）で確認**し、
+   `eyecatch_text` と `eyecatch_eyebrow` が**一字一句正しく**描かれているか判定。
+   - 崩れていたら**再生成（最大2回）**。なお崩れる場合は `--eyebrow` を短く/省略、または `--text` のみに。
+   - それでもダメなら画像なしで継続（metadataに `eyecatch_status:"skipped"` を記録）。
+   失敗/キー無し/コスト上限超過ならスキップ（記事は画像なしでも可）。
 
 ## STEP 4. 公開前QA（`prompts/30-qa-guardrail.md`）★安全網
 1. `article.md` と `metadata.json` を厳しく審査し、`qa.json` を書く（decision, total_score, must_ng_hits, fix_instructions）。
