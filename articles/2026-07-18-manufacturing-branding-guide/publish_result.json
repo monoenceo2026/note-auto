@@ -1,12 +1,12 @@
 {
   "status": "fallback_package",
   "mode": "draft",
-  "dry_run": false,
+  "dry_run": true,
+  "want_publish": false,
   "note_url": "",
-  "note_key": "",
   "errors": [
-    "アイキャッチ投稿失敗（画像なしで継続）: 404 Client Error: Not Found for url: https://note.com/api/v1/upload_image",
-    "投稿中エラー: 422 Client Error: Unprocessable Entity for url: https://note.com/api/v1/text_notes"
+    "NOTE_SESSION_COOKIE 未設定"
   ],
-  "at": "2026-07-18T11:19:38+00:00"
+  "article_dir": "/home/runner/work/note-auto/note-auto/articles/2026-07-18-manufacturing-branding-guide",
+  "at": "2026-07-18T11:58:34+00:00"
 }
