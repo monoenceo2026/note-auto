@@ -37,10 +37,13 @@ import datetime as _dt
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-NEW_NOTE_URL = "https://note.com/notes/new"
+NEW_NOTE_URL = "https://editor.note.com/new"   # note.com/notes/new はここへリダイレクトされる
 
 
 def log(m): print(f"[note-pw] {m}", flush=True)
+
+
+def clipurl(u): return (u or "")[:80]
 
 
 # --------------------------------------------------------------------------- #
@@ -140,28 +143,42 @@ def run():
         page = ctx.new_page()
         try:
             page.goto(NEW_NOTE_URL, wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(4000)
+            try:
+                page.wait_for_load_state("networkidle", timeout=20000)
+            except Exception:
+                pass
+            page.wait_for_timeout(6000)
             page.screenshot(path=str(dbg / "01_editor.png"), full_page=True)
 
             if "login" in page.url:
                 result["errors"].append(f"ログイン状態が無効（{page.url}）。Cookie再取得が必要。")
                 finish("fallback_package")
 
-            # --- DOM probe（セレクタ調整用。結果JSONに残す）---
+            # --- DOM probe（全フレームを走査。セレクタ調整用に結果JSONへ）---
+            probe_js = r"""() => {
+                const clip = s => (s||'').slice(0,70);
+                const ph = [...document.querySelectorAll('input[placeholder],textarea[placeholder]')]
+                    .map(e => ({tag:e.tagName, placeholder:clip(e.getAttribute('placeholder')), aria:clip(e.getAttribute('aria-label'))}));
+                const ce = [...document.querySelectorAll('[contenteditable="true"],[contenteditable=""]')]
+                    .map(e => ({tag:e.tagName, dph:clip(e.getAttribute('data-placeholder')), aria:clip(e.getAttribute('aria-label')), cls:clip(e.className)}));
+                const tb = [...document.querySelectorAll('[role="textbox"]')]
+                    .map(e => ({tag:e.tagName, aria:clip(e.getAttribute('aria-label')), dph:clip(e.getAttribute('data-placeholder'))}));
+                const btn = [...document.querySelectorAll('button,[role="button"]')]
+                    .map(e => clip((e.innerText||e.getAttribute('aria-label')||'').trim())).filter(Boolean).slice(0,50);
+                return {placeholders:ph, contenteditables:ce, textboxes:tb, buttons:btn, bodyLen:document.body?document.body.innerText.length:0};
+            }"""
             try:
                 result["current_url"] = page.url
-                result["editor_probe"] = page.evaluate(r"""() => {
-                    const clip = s => (s||'').slice(0,60);
-                    const ph = [...document.querySelectorAll('input[placeholder],textarea[placeholder]')]
-                        .map(e => ({tag:e.tagName, placeholder:clip(e.getAttribute('placeholder')), aria:clip(e.getAttribute('aria-label'))}));
-                    const ce = [...document.querySelectorAll('[contenteditable="true"]')]
-                        .map(e => ({tag:e.tagName, dph:clip(e.getAttribute('data-placeholder')), aria:clip(e.getAttribute('aria-label')), cls:clip(e.className)}));
-                    const tb = [...document.querySelectorAll('[role="textbox"]')]
-                        .map(e => ({tag:e.tagName, aria:clip(e.getAttribute('aria-label')), dph:clip(e.getAttribute('data-placeholder'))}));
-                    const btn = [...document.querySelectorAll('button,[role="button"]')]
-                        .map(e => clip((e.innerText||e.getAttribute('aria-label')||'').trim())).filter(Boolean).slice(0,40);
-                    return {placeholders:ph, contenteditables:ce, textboxes:tb, buttons:btn};
-                }""")
+                frames = []
+                for fr in page.frames:
+                    try:
+                        data = fr.evaluate(probe_js)
+                    except Exception as fe:
+                        data = {"error": str(fe)[:80]}
+                    if any(data.get(k) for k in ("placeholders", "contenteditables", "textboxes", "buttons")):
+                        frames.append({"frame_url": clipurl(fr.url), **data})
+                result["frames_count"] = len(page.frames)
+                result["editor_probe"] = frames or "全フレームで要素が見つかりません"
             except Exception as e:
                 result["errors"].append(f"probe失敗: {e}")
 
