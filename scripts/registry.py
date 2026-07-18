@@ -105,30 +105,36 @@ def published_kw_index(reg):
 # --------------------------------------------------------------------------- #
 # カニバリ判定
 # --------------------------------------------------------------------------- #
-def check_cannibalization(primary_kw: str, intent: str = None, reg=None):
+def check_cannibalization(primary_kw: str, intent: str = None, reg=None, exclude_id: str = None):
     """
     戻り値: {
       "status": "ok" | "conflict" | "warn",
       "conflicts": [ {kw, intent, title, note_url, reason} ... ]
     }
-    - 完全一致 published → conflict（公開停止レベル）
+    公開済み(published)＋下書き/保留(held)の両方を対象にする（下書き段階でも重複生成を防ぐ）。
+    - 完全一致 → conflict（生成/公開停止レベル）
     - 高重なり(>=0.6) かつ 同一intent → conflict
     - 高重なり(>=0.6) かつ 異intent → warn（切り口が違えばOKだが要確認）
+    exclude_id: 同一記事を下書き→公開へ昇格させる場合など、自分自身を除外するためのID。
     """
     if reg is None:
         reg = load_registry()
     n = norm(primary_kw)
     conflicts, warns = [], []
-    for e in reg.get("published", []):
+    for e in all_registered(reg):
+        if exclude_id is not None and e.get("id") == exclude_id:
+            continue
         en = norm(e.get("primary_kw", ""))
         ov = kw_overlap(primary_kw, e.get("primary_kw", ""))
         same_intent = intent is not None and e.get("intent") == intent
+        st = e.get("status", "published")
+        tag = "" if st == "published" else f"／{st}"
         if en == n:
-            conflicts.append({**_slim(e), "reason": "primary_kw 完全一致"})
+            conflicts.append({**_slim(e), "reason": f"primary_kw 完全一致{tag}"})
         elif ov >= 0.6 and same_intent:
-            conflicts.append({**_slim(e), "reason": f"KW重なり{ov:.0%}＋同一intent({intent})"})
+            conflicts.append({**_slim(e), "reason": f"KW重なり{ov:.0%}＋同一intent({intent}){tag}"})
         elif ov >= 0.6:
-            warns.append({**_slim(e), "reason": f"KW重なり{ov:.0%}（intent違いで棲み分け要確認）"})
+            warns.append({**_slim(e), "reason": f"KW重なり{ov:.0%}（intent違いで棲み分け要確認）{tag}"})
     if conflicts:
         return {"status": "conflict", "conflicts": conflicts, "warns": warns}
     if warns:
@@ -235,11 +241,14 @@ def add_entry(entry: dict, reg=None):
     missing = [k for k in REQUIRED if not entry.get(k)]
     if missing:
         raise ValueError(f"必須フィールド不足: {missing}")
-    # 公開扱いなら最終カニバリ確認（保険）
+    # 公開扱いなら最終カニバリ確認（保険）。自分自身（同一id）の下書きは除外して昇格を許可。
     if entry["status"] == "published":
-        cann = check_cannibalization(entry["primary_kw"], entry.get("intent"), reg)
+        cann = check_cannibalization(entry["primary_kw"], entry.get("intent"),
+                                     reg, exclude_id=entry.get("id"))
         if cann["status"] == "conflict":
             raise ValueError(f"カニバリ conflict のため追記拒否: {cann['conflicts']}")
+        # 同一idの下書きが held にあれば、公開昇格として held から取り除く
+        reg["held"] = [h for h in reg.get("held", []) if h.get("id") != entry.get("id")]
         reg.setdefault("published", []).append(entry)
     else:  # draft / hold
         reg.setdefault("held", []).append(entry)
