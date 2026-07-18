@@ -255,9 +255,11 @@ def main():
     body_html = md_to_note_html(md)
     (d / "note_body.html").write_text(body_html, encoding="utf-8")
 
-    # 既定は「Cookieがあれば公開」。Cookie未設定なら下の分岐で安全にfallback。
-    mode = os.getenv("PUBLISH_MODE", "auto").lower()         # auto|draft|package
-    dry = os.getenv("DRY_RUN", "0") not in ("0", "false", "False", "")
+    # 既定は package（noteへは触れず、note_body.html＋パッケージのみ生成）。
+    # 実際のnote投稿は GitHub Actions（note_playwright_post.py）が担当する。
+    # ※このスクリプトのAPI投稿(auto/draft)は非公式APIで不安定なため既定では使わない。
+    mode = os.getenv("PUBLISH_MODE", "package").lower()      # auto|draft|package
+    dry = os.getenv("DRY_RUN", "1") not in ("0", "false", "False", "")
     result["mode"], result["dry_run"] = mode, dry
 
     # QAが draft指定なら、autoでも公開しない

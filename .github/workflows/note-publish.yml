@@ -1,0 +1,80 @@
+name: note-publish
+
+# note.com への投稿を GitHub Actions 上で実行する（記事生成はClaudeルーチン、投稿はここ）。
+# Claudeの実行環境はブラウザが使えないため、投稿はネットワーク制限のないActionsランナーで行う。
+#
+# 有効化の前提:
+#   1) リポジトリ Secrets に NOTE_SESSION_COOKIE（長期有効な _note_session_v5 等）を登録
+#   2) （任意）Variables に NOTE_USERNAME=monoen_co_jp
+#   3) スケジュール実行はデフォルトブランチ上のワークフローでのみ発火します。
+#      まずは workflow_dispatch（手動/API）で DRY_RUN=1 → スクショ確認 → 調整、の順で。
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1=公開ボタンを押さない（下書きで停止・テスト）"
+        default: "1"
+        type: string
+      publish_mode:
+        description: "auto=公開 / draft=下書きまで"
+        default: "draft"
+        type: string
+      article_dir:
+        description: "対象記事dir（空なら最新日付を自動選択）"
+        default: ""
+        type: string
+  schedule:
+    - cron: "45 22 * * *"   # 07:45 JST（07:30 JSTの生成後に投稿）※デフォルトブランチでのみ発火
+
+permissions:
+  contents: write
+
+concurrency:
+  group: note-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Post to note
+        env:
+          NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
+          NOTE_USERNAME: ${{ vars.NOTE_USERNAME || 'monoen_co_jp' }}
+          PUBLISH_MODE: ${{ github.event.inputs.publish_mode || 'auto' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          ARTICLE_DIR: ${{ github.event.inputs.article_dir || '' }}
+        run: python scripts/note_playwright_post.py
+
+      - name: Upload debug screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: note-debug
+          path: articles/**/_debug/**
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Commit publish result
+        if: always()
+        run: |
+          git config user.name "monoen-note-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add articles/**/publish_result.json registry/content-registry.json 2>/dev/null || true
+          git commit -m "note-publish: record result [skip ci]" || echo "nothing to commit"
+          git push || echo "push skipped"

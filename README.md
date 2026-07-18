@@ -54,12 +54,18 @@ SEO・LLMO・AIO に最適化した記事を**自動で作成・公開**する�
 
 ---
 
-## ⚠️ 正直にお伝えするリスク（note自動公開）
+## ⚙️ note投稿の構成（記事生成＝Claude／投稿＝GitHub Actions）
 
-noteには**公式の投稿APIがありません**。完全自動公開は、ログインセッションを使う「非公式」な方法で、
-**note側の仕様変更で止まること、規約上のリスクがゼロではないこと**を理解の上でご利用ください。
-- 本システムは、投稿に失敗しても**必ずローカルに完成パッケージを残し**、手動投稿できるように設計しています（沈黙しません）。
-- 不安があれば `PUBLISH_MODE=draft`（下書きまで自動）に落とすのが安全です。詳細は [`OPERATIONS.md`](./OPERATIONS.md)。
+noteには**公式の投稿APIがありません**。また**Claudeの実行環境はブラウザが使えない**（外向き通信がプロキシ限定）ため、
+投稿は **GitHub Actions（Playwright）** が担当します（Xアカウント運用と同じ「生成と投稿の分離」）。
+
+- **Claudeルーチン**：毎朝07:30 JSTに 生成→QA→サムネ→`article.md`＋`note_body.html` をコミット。
+- **GitHub Actions（`note-publish`）**：07:45 JST or 手動で、Playwrightがnoteにログインして投稿。
+- 有効化（Cookie secret・テスト・調整）の手順は **[`docs/NOTE_POSTING.md`](./docs/NOTE_POSTING.md)**。
+
+> ⚠️ 非公式な自動化のため、note側のUI変更・bot対策で**壊れることがあり、規約リスクも残ります**。
+> 壊れている間も毎朝の**完成パッケージ**は生成され続けるので、[`OPERATIONS.md`](./OPERATIONS.md) の手順で
+> **手動投稿（約2分）**に切り替えられます（運用は止まりません）。
 
 ---
 

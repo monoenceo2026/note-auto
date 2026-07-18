@@ -61,13 +61,15 @@ description: MONOENのnoteに、SEO/LLMO/AIO最適化記事を1本、自動生�
 2. `decision=="draft"` かつ 原因が軽微（法令・事実系でない）なら、fix_instructionsに従い **article.md を1回だけ修正して再採点**。
 3. 法令・未確認事実の必須NGは自動修正で消さず、`draft` のまま人に上げる。
 
-## STEP 5. 公開（`scripts/note_publisher.py`）
+## STEP 5. パッケージ化（`scripts/note_publisher.py`）＝noteへは触れない
 ```
 python3 scripts/note_publisher.py --dir articles/<今日のディレクトリ>
 ```
-- 環境変数 `PUBLISH_MODE`(auto/draft/package) と `DRY_RUN` に従う。QA=draftなら auto でも公開せず下書き。
-- 例外は自動で捕捉され、`publish_result.json` に status が入る（published / draft / fallback_package / package_only / dry_run_ok）。
-- `fallback_package` は「note投稿に失敗したので手動投稿してね」の意味。**日次処理は止めない**。
+- このClaude環境は**ブラウザが使えず、noteへ確実に投稿できない**ため、ここでは
+  **note貼り付け用HTML（`note_body.html`）＋パッケージのみ生成**する（既定 PUBLISH_MODE=package）。
+- 実際のnote投稿は **GitHub Actions（`.github/workflows/note-publish.yml` → `note_playwright_post.py`）** が担当。
+  ワークフローが有効（デフォルトブランチ＋`NOTE_SESSION_COOKIE` secret）なら、生成後に自動/定時で投稿される。
+- `publish_result.json` に package の status が入る（日次処理は止めない）。
 
 ## STEP 6. 台帳更新（カニバリ制御の要）
 1. `metadata.json` + `qa.json` + `publish_result.json` から台帳エントリを作り、一時JSONに保存。
