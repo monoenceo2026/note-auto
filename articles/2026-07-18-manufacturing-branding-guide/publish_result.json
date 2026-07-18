@@ -1,12 +1,17 @@
 {
-  "status": "fallback_package",
+  "status": "probe",
   "mode": "draft",
   "dry_run": true,
   "want_publish": false,
   "note_url": "",
-  "errors": [
-    "投稿中エラー: Locator.click: Timeout 20000ms exceeded.\nCall log:\n  - waiting for get_by_placeholder(re.compile(r\"記事タイトル|タイトル\"))\n"
-  ],
+  "errors": [],
   "article_dir": "/home/runner/work/note-auto/note-auto/articles/2026-07-18-manufacturing-branding-guide",
-  "at": "2026-07-18T12:02:21+00:00"
+  "at": "2026-07-18T12:06:02+00:00",
+  "current_url": "https://editor.note.com/new",
+  "editor_probe": {
+    "placeholders": [],
+    "contenteditables": [],
+    "textboxes": [],
+    "buttons": []
+  }
 }
