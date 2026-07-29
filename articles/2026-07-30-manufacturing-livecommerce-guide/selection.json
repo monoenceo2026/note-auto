@@ -1,0 +1,15 @@
+{
+  "id": "P3-000",
+  "pillar": "P3",
+  "type": "pillar",
+  "title": "製造業のライブコマース完全ガイド｜町工場がTikTok LIVEで語って売る方法",
+  "primary_kw": "製造業 ライブコマース",
+  "secondary_kw": ["町工場 TikTok LIVE", "ライブコマース 始め方 製造業", "BtoBメーカー 直販"],
+  "intent": "know",
+  "trend_score": 3,
+  "trend_rationale": "TikTok LIVEを軸にしたライブコマース専門事務所「トキバナ」が2025年6月期に前年比412%増・年商約16億円を達成し2026年6月期は50億円を目標に掲げるなど急成長中（出典：株式会社Cellest プレスリリース、PR TIMES 2026年）。業界メディアも『2026年、ライブ配信によるリアルタイム販売がEC事業者のスタンダードになる』と予測しており（出典：ジャグー株式会社『【2026年】TikTok Shopライブコマースで売上UP！』2026年）、ライブコマース自体の勢いは強い一方、製造業・町工場に特化した実践ガイドは検索結果に見当たらず空白領域。MONOENは『LIVE/EC/REAL』を3大成長エンジンの一つに掲げ、TikTok LIVEをものづくり企業のSales & Experience支援として実践しており、一次情報（brand-brief）と直結するテーマ。",
+  "cannibal_check": "ok（registry.py check 済み・conflict/warn なし）",
+  "differentiator": "一般的なライブコマース解説記事の多くはアパレル・コスメ・生活雑貨の事例に偏っており、『機能・スペックをどう言葉と画面で伝えるか』という製造業特有の壁には踏み込んでいない。本記事はMONOENの独自フレーム（CURATE→REBRAND→CERTIFY→SELL→CO-CREATEと3大成長エンジンA/B/C）を使い、町工場・中小メーカーがTikTok LIVEで『スペックではなく欲しい理由』を語って売るための当事者視点の実務ガイドとして差別化する。",
+  "target_reader": "自社の技術力はあるが、商社・卸を経由した価格競争から抜け出せず、EC直販やライブ配信に興味はあるが何から始めればいいか分からない中小製造業の経営者・広報担当",
+  "internal_link_candidates": []
+}

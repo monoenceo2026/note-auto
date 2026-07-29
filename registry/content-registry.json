@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -65,6 +65,27 @@
       "internal_links": [],
       "summary": "商品の中身を変えず伝わり方を再設計する商品リブランディングを、価値の棚卸し〜公式販売までの5ステップとMONOENのライブコマース一次情報で解説するP2ピラー記事。",
       "local_dir": "articles/2026-07-28-product-rebranding-5steps"
+    },
+    {
+      "id": "P3-000",
+      "date": "2026-07-30",
+      "title": "製造業のライブコマース完全ガイド｜町工場がTikTok LIVEで語って売る方法",
+      "primary_kw": "製造業 ライブコマース",
+      "secondary_kw": [
+        "町工場 TikTok LIVE",
+        "ライブコマース 始め方 製造業",
+        "BtoBメーカー 直販"
+      ],
+      "intent": "know",
+      "pillar": "P3",
+      "type": "pillar",
+      "note_url": "",
+      "status": "hold",
+      "qa_score": 89,
+      "trend_rationale": "TikTok LIVEを軸にしたライブコマース専門事務所「トキバナ」が2025年6月期に前年比412%増・年商約16億円を達成し2026年6月期は50億円を目標に掲げるなど急成長中（出典：株式会社Cellest プレスリリース、PR TIMES 2026年）。業界メディアも『2026年、ライブ配信によるリアルタイム販売がEC事業者のスタンダードになる』と予測（出典：ジャグー株式会社 2026年）。製造業・町工場に特化した実践ガイドは見当たらず空白領域であり、MONOENの『LIVE/EC/REAL』一次情報と直結するため選定。",
+      "internal_links": [],
+      "summary": "TikTok LIVEで語って売る製造業ライブコマースを、MONOENの2ステップ設計・配信構成・掛け率50%などの一次情報で解説するP3ピラー記事。",
+      "local_dir": "articles/2026-07-30-manufacturing-livecommerce-guide"
     }
   ]
 }

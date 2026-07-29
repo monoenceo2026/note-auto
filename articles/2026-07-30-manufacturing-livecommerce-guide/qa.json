@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 89,
+  "scores": {"title_lead": 14, "headings": 14, "llmo": 19, "internal_links": 5, "compliance": 20, "originality": 15, "media_tags": 2},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：『勝利の2ステップ設計』（Instagram事前投稿→TikTok LIVE購買後押し）、朝7-8時ゴールデンタイム、掛け率50%/25%、推奨単価5,000〜10,000円",
+    "具体手順：配信当日の構成（前半20分＝会社紹介、後半＝実演・購入誘導）、始め方の4ステップ",
+    "当事者視点：『私たちがLIVE/EC/リアル拠点を軸にした事業を運営する中で分かったのは』という一次経験の明示",
+    "独自フレーム：『勝利の2ステップ設計』というMONOEN命名のフレームワーク",
+    "反直感：『フォロワー数より、ブランドとの相性』という通説を裏返す論点"
+  ],
+  "issues": [
+    "内部リンクなし（registry内に公開済み記事が現時点で0件のため、リンク候補が存在しない。次号以降、本記事が公開されればP3クラスタからの参照先として機能する）",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定のためスキップ。metadata.jsonにeyecatch_status:skippedを記録済み）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-07-30T08:15:00+09:00"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "P3-000",
+  "date": "2026-07-30",
+  "title": "製造業のライブコマース完全ガイド｜町工場がTikTok LIVEで語って売る方法",
+  "primary_kw": "製造業 ライブコマース",
+  "secondary_kw": ["町工場 TikTok LIVE", "ライブコマース 始め方 製造業", "BtoBメーカー 直販"],
+  "intent": "know",
+  "pillar": "P3",
+  "type": "pillar",
+  "hashtags": ["#製造業", "#ライブコマース", "#TikTokLIVE", "#ものづくり", "#MONOEN"],
+  "lead_140": "製造業のライブコマースとは、作り手自身がTikTok LIVEなどでリアルタイムに実演販売する手法です。価格競争から抜け出したい中小製造業に向け、MONOENが積み重ねた一次情報から2ステップ設計・配信構成・料金を解説します。",
+  "summary": "TikTok LIVEで語って売る製造業ライブコマースを、MONOENの2ステップ設計・配信構成・掛け率50%などの一次情報で解説するP3ピラー記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "TikTok LIVEを軸にしたライブコマース専門事務所「トキバナ」が2025年6月期に前年比412%増・年商約16億円を達成し2026年6月期は50億円を目標に掲げるなど急成長中（出典：株式会社Cellest プレスリリース、PR TIMES 2026年）。業界メディアも『2026年、ライブ配信によるリアルタイム販売がEC事業者のスタンダードになる』と予測（出典：ジャグー株式会社 2026年）。一方で製造業・町工場に特化した実践ガイドは見当たらず空白領域であり、MONOENの『LIVE/EC/REAL』一次情報と直結するため選定。",
+  "sources": [
+    {"title": "TikTok配信で年商16億円、2年連続で前年比400%達成のライブコマース専門事務所「トキバナ」がTikTok Shopにショップ開設", "publisher": "株式会社Cellest（PR TIMES）", "date": "2026", "url": "https://prtimes.jp/main/html/rd/p/000000052.000102719.html"},
+    {"title": "【2026年】TikTok Shopライブコマースで売上UP！配信テクニックと失敗しないための7つのポイント", "publisher": "ジャグー株式会社", "date": "2026", "url": "https://jagoo.co.jp/column/tiktokshop-livecommerce/"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "スマートフォンのライブ配信画面を思わせる縦長のフレームと、金属加工品（フライパンや金網を抽象化した静物）を対比させた構図。右側に製品の質感、左側は暗く落ち着いた面にして見出しを載せる。実在商品を再現しない。",
+  "eyecatch_text": "技術はある。\nあとは、語るだけ。",
+  "eyecatch_eyebrow": "LIVE COMMERCE",
+  "char_count": 4506,
+  "eyecatch_status": "skipped"
+}
