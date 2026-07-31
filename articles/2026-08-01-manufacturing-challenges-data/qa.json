@@ -1,0 +1,20 @@
+{
+  "decision": "publish",
+  "total_score": 89,
+  "scores": {"title_lead": 14, "headings": 14, "llmo": 19, "internal_links": 5, "compliance": 20, "originality": 15, "media_tags": 2},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：ライブコマース配信の最初20分を会社・技術紹介に充てる構成、『フォロワー数より相性』",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階で課題を整理",
+    "当事者視点：『私たちモノエンが全国の連携メーカーと...現場に入り込んで分かったのは』という一次経験の明示",
+    "反直感：『衰退ではなく、足りないのは技術ではなく世界に届く言葉・文脈・見せ方』という通説を裏返す論点",
+    "具体手順：課題を機会に変える4ステップのチェックリスト（棚卸し→交渉材料→販路実験→採用広報転用）"
+  ],
+  "issues": [
+    "内部リンクなし（registry内に公開済み記事が現時点で0件のため、リンク候補が存在しない）",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定のためスキップ。metadata.jsonにeyecatch_status:skipped_no_api_keyを記録済み）",
+    "労働生産性の伸び率（中小4.9%／大企業25.9%、2015-2024年度）は中小企業白書の原本PDFが直接取得できなかったため、独立した2つの業界メディア（プロフェクト社／SmartF）の要約記事から相互確認して採用。原本PDF未直読のため、次回更新時に一次資料での再確認を推奨。"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-01T09:30:00+09:00"
+}

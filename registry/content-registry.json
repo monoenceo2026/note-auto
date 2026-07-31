@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-07-29",
+    "updated": "2026-07-31",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -86,6 +86,28 @@
       "internal_links": [],
       "summary": "TikTok LIVEで語って売る製造業ライブコマースを、MONOENの2ステップ設計・配信構成・掛け率50%などの一次情報で解説するP3ピラー記事。",
       "local_dir": "articles/2026-07-30-manufacturing-livecommerce-guide"
+    },
+    {
+      "id": "P5-000",
+      "date": "2026-08-01",
+      "title": "製造業の課題とは｜日本のものづくりの現在地とデータで読む勝ち筋",
+      "primary_kw": "製造業 課題",
+      "secondary_kw": [
+        "中小企業白書 2026",
+        "価格転嫁 製造業",
+        "製造業 生産性",
+        "製造業 人手不足"
+      ],
+      "intent": "know",
+      "pillar": "P5",
+      "type": "pillar",
+      "note_url": "",
+      "status": "hold",
+      "qa_score": 89,
+      "trend_rationale": "2026年4月24日に閣議決定された『2026年版中小企業白書・小規模企業白書』（経済産業省・中小企業庁）が、価格転嫁の遅れ・労働生産性のギャップ拡大・人手不足を中小製造業の中心課題として提示。さらに『価格交渉促進月間（2026年3月）フォローアップ調査結果』（経済産業省、2026年6月26日発表）で価格転嫁率54.2%と公表され、日本経済新聞（2026年6月）も『取適法施行後初の調査で改善は小幅』と報道。公的一次情報が最新の形で出そろったタイミングであり、かつP5（業界課題・トレンド・データ）ピラーが未着手（primacy_bonus対象）のため採用。",
+      "internal_links": [],
+      "summary": "2026年版中小企業白書等のデータで、製造業の3つの構造課題（価格転嫁・生産性・人手不足）と、MONOENの現場視点による打ち手を解説するP5ピラー記事。",
+      "local_dir": "articles/2026-08-01-manufacturing-challenges-data"
     }
   ]
 }
