@@ -1,0 +1,27 @@
+{
+  "decision": "publish",
+  "total_score": 85,
+  "scores": {
+    "title_lead": 13,
+    "headings": 14,
+    "llmo": 19,
+    "internal_links": 3,
+    "compliance": 20,
+    "originality": 14,
+    "media_tags": 2
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：掛け率50%/25%・朝7〜8時ゴールデンタイム・勝利の2ステップ設計・The Lab.出展期間",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階",
+    "当事者視点：MONOEN自身の「販売会社ではなくブランド創造会社」という自己定義の解説",
+    "反直感：ライブコマースのキャスティングは「フォロワー数より相性」",
+    "具体的な数字・手順：掛け率/推奨単価/3ステップ導入フロー"
+  ],
+  "issues": [
+    "内部リンク：registryに公開済み記事(note_url)が1本もないため、親ピラー/クラスタへの実リンクを張れていない（未公開記事へのリンクは意図的に回避）。クラスタ記事が公開され次第、追記が必要。",
+    "アイキャッチ画像：OPENAI_API_KEY未設定のため生成スキップ（eyecatch_status=skipped）。画像なしでの掲載。"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-02T08:30:00+09:00"
+}

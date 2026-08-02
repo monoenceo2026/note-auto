@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-07-31",
+    "updated": "2026-08-02",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -108,6 +108,29 @@
       "internal_links": [],
       "summary": "2026年版中小企業白書等のデータで、製造業の3つの構造課題（価格転嫁・生産性・人手不足）と、MONOENの現場視点による打ち手を解説するP5ピラー記事。",
       "local_dir": "articles/2026-08-01-manufacturing-challenges-data"
+    },
+    {
+      "id": "P7-001",
+      "date": "2026-08-02",
+      "title": "ものづくりブランド用語集｜ブランディング／D2C／ライブコマースをやさしく",
+      "primary_kw": "ブランディング 用語",
+      "secondary_kw": [
+        "ブランディング とは",
+        "D2C とは",
+        "ライブコマース とは",
+        "消化仕入れ 掛け率",
+        "OEM 自社ブランド"
+      ],
+      "intent": "know",
+      "pillar": "P7",
+      "type": "pillar",
+      "note_url": "",
+      "status": "hold",
+      "qa_score": 85,
+      "trend_rationale": "生成AI検索(ChatGPT/Perplexity等)の普及で用語の定義ページがAI回答の引用元に選ばれやすくなっており、ブランディング支援各社も2026年に入り用語集コンテンツを相次いで公開（出典：ブランディングテクノロジー株式会社「ブランディング用語集」2026年2月更新／reiro「中小企業のブランディング完全ガイド」2026年版）。またMONOEN側はP7（思想・用語解説・FAQ）のピラー記事が0本のため、編集カレンダーの原則（ピラー先行）に基づき優先。",
+      "internal_links": [],
+      "summary": "ブランディング/リブランディング/D2C/ライブコマース/消化仕入れ/OEM等の基本用語を、MONOENの一次情報とフレームで定義するP7用語ハブ記事。",
+      "local_dir": "articles/2026-08-02-branding-glossary"
     }
   ]
 }
