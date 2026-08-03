@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-02",
+    "updated": "2026-08-03",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -131,6 +131,27 @@
       "internal_links": [],
       "summary": "ブランディング/リブランディング/D2C/ライブコマース/消化仕入れ/OEM等の基本用語を、MONOENの一次情報とフレームで定義するP7用語ハブ記事。",
       "local_dir": "articles/2026-08-02-branding-glossary"
+    },
+    {
+      "id": "P4-000",
+      "date": "2026-08-04",
+      "title": "ものづくり事例に学ぶ｜技術を物語に変える中小メーカーの記録",
+      "primary_kw": "ものづくり 事例",
+      "secondary_kw": [
+        "町工場 自社ブランド 事例",
+        "製造業 リブランディング 事例",
+        "ものづくり 職人 物語"
+      ],
+      "intent": "case",
+      "pillar": "P4",
+      "type": "pillar",
+      "note_url": "",
+      "status": "hold",
+      "qa_score": 85,
+      "trend_rationale": "繊研新聞「国内工場の自社ブランド立ち上げが加速 試される日本の物作りの底力」(2026年)が、町工場が自社ブランドで直接エンドユーザーに届ける動きの拡大を報じている。また老舗ものづくり企業のリブランディング事例が業界誌で相次いで取り上げられており、事例コンテンツへの需要が高まっている時期と判断。P4(ものづくりの現場・職人の物語)ピラーが未着手だったため優先。",
+      "internal_links": [],
+      "summary": "ものづくり事例を「意思決定と実行の記録」と定義し、課題→意思決定→実行→結果→学びの5段階構造と、MONOENの現場一次情報で事例発信の型を解説するP4ピラー記事。",
+      "local_dir": "articles/2026-08-04-manufacturing-story-report"
     }
   ]
 }

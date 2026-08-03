@@ -1,0 +1,28 @@
+{
+  "decision": "publish",
+  "total_score": 85,
+  "scores": {
+    "title_lead": 14,
+    "headings": 13,
+    "llmo": 18,
+    "internal_links": 3,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 2
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：TikTok LIVE配信の最初20分は会社紹介・技術紹介に充てる／配信ゴールデンタイム朝7〜8時",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEを事例編集プロセスに接続",
+    "当事者視点：「私たちが現場でやってみて分かったこと」という一次観察の明示",
+    "具体的手順：事例を物語に変える3ステップ（課題の言語化／意思決定の分岐点／結果を変化で語る）",
+    "反直感：実績の大きさより意思決定の生々しさの方が信頼を動かすという逆説"
+  ],
+  "issues": [
+    "画像未生成（OPENAI_API_KEY未設定のためeyecatch skip）。画像・タグ観点を減点",
+    "内部リンクが0本（他ピラー・クラスタ記事が未公開のため）。内部リンク観点を減点。今後の公開に応じて追記推奨",
+    "出典にURLは記載したが、繊研新聞記事は定性的なトレンド言及にとどまり、具体的な統計値は含まない（数値根拠はMONOEN一次情報のみ）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-04T07:50:00+09:00"
+}

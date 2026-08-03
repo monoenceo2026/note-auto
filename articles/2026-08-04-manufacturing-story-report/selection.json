@@ -1,0 +1,24 @@
+{
+  "id": "P4-000",
+  "date": "2026-08-04",
+  "pillar": "P4",
+  "type": "pillar",
+  "primary_kw": "ものづくり 事例",
+  "secondary_kw": ["町工場 自社ブランド 事例", "製造業 リブランディング 事例", "ものづくり 職人 物語"],
+  "intent": "case",
+  "candidates_considered": [
+    {"id": "P4-000", "base_score": 6, "trend_score": 2, "final_score": 8},
+    {"id": "P6-000", "base_score": 5, "trend_score": 3, "final_score": 8},
+    {"id": "P7-000", "base_score": 6, "trend_score": 1, "final_score": 7},
+    {"id": "P3-001", "base_score": 4, "trend_score": 3, "final_score": 7}
+  ],
+  "selection_rationale": "P4-000とP6-000が同点8点でタイ。編集カレンダー(05-editorial-calendar.md)の初期順序でP4-000(Day10)がP6-000(Day15)より前に位置づけられていること、かつP4がMONOENのE-E-A-T(Experience)証明とThe Lab.・連携メーカーという一次情報の厚みに直結すること、トレンド根拠がより具体的な事例(老舗メーカーの65周年リブランディング等)であることから、P4-000を採用。",
+  "trend_rationale": "繊研新聞「国内工場の自社ブランド立ち上げが加速 試される日本の物作りの底力」(2026年)が、町工場が自社ブランドで直接エンドユーザーに届ける動きの拡大を報じている。また2025年に燕市の金属製品メーカーが創業65周年を機にBtoBからBtoCへ展開領域を広げるリブランディングを実施するなど、老舗ものづくり企業のリブランディング事例が業界誌(ブレーン等)で相次いで取り上げられている。ものづくり企業が“事例”を求めて検索する需要が高まっている時期と判断し、P4(ものづくりの現場・職人の物語)ピラーが未着手(primacy_bonus対象)であることも踏まえ選定。",
+  "trend_sources": [
+    "繊研新聞「【記者の目】国内工場の自社ブランド立ち上げが加速 試される日本の物作りの底力」 https://senken.co.jp/posts/theview-madeinjapan-brand",
+    "Advertimes「未来を示すデザイン ものづくり伝統企業のリブランディング／『ブレーン』6月号発売」(2025) https://www.advertimes.com/20250430/article496595/"
+  ],
+  "differentiator": "P2『商品リブランディング事例』が“商品単位の切り口”であるのに対し、本記事は“会社・現場・作り手の物語”を主語にしたピラー記事。P4クラスタ群(The Lab.レポート、金属加工、刃物、部材D2C等)の入口となる総論。",
+  "internal_link_candidates": [],
+  "cannibal_check": {"status": "ok", "conflicts": [], "warns": []}
+}
