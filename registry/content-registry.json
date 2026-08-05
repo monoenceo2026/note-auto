@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-04",
+    "updated": "2026-08-05",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -151,6 +151,25 @@
       "internal_links": [],
       "summary": "2026年版中小企業白書等のデータと、MONOENの和製LVMHロードマップを応用した4段階の実践地図で、製造業の海外展開を『小さく始める』方法として解説するP6ピラー記事。",
       "local_dir": "articles/2026-08-05-manufacturing-overseas-expansion"
+    },
+    {
+      "id": "P4-000",
+      "date": "2026-08-06",
+      "title": "ものづくりの現場から｜技術を物語に変えるメーカーの記録",
+      "primary_kw": "ものづくり 事例",
+      "secondary_kw": [
+        "製造業 事例",
+        "町工場 事例"
+      ],
+      "intent": "case",
+      "pillar": "P4",
+      "type": "pillar",
+      "note_url": "",
+      "status": "hold",
+      "qa_score": 85,
+      "trend_rationale": "中小企業庁は事業承継・M&A補助金（2026年5月公募）や『事例から学ぶ！ブランディング』特集（mirasapo-plus.go.jp）を通じ、中小製造業の事例発信を継続的に後押ししている。展示会シーズンとも重なり、P4（ものづくりの現場・職人の物語）ピラーは未着手（primacy_bonus対象）かつ直近14日でP4該当記事がないため選定。",
+      "internal_links": [],
+      "summary": "The Lab.・TikTok LIVEでの一次観察と『課題→意思決定→実行→結果→学び』の型を軸に、ものづくり事例の引き出し方を解説するP4ピラー記事。"
     }
   ]
 }

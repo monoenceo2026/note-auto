@@ -1,0 +1,28 @@
+{
+  "id": "P4-000",
+  "date": "2026-08-06",
+  "title": "ものづくりの現場から｜技術を物語に変えるメーカーの記録",
+  "primary_kw": "ものづくり 事例",
+  "secondary_kw": ["製造業 事例", "町工場 事例"],
+  "intent": "case",
+  "pillar": "P4",
+  "type": "pillar",
+  "hashtags": ["#ものづくり", "#製造業", "#事例", "#中小企業", "#MONOEN"],
+  "lead_140": "ものづくりの事例とは、完成した商品や技術そのものではなく、作り手がどんな課題に直面し、何を判断し、どう実行してきたかという「意思決定の記録」を指します。本記事では、株式会社モノエンが現場（The Lab.やTikTok LIVEでの配信）で見てきた一次情報をもとに、中小メーカーの事例がなぜ今ブランディングの武器になるのか、そしてその物語をどう引き出し、記録すればよいのかを整理します。",
+  "summary": "The Lab.・TikTok LIVEでの一次観察と『課題→意思決定→実行→結果→学び』の型を軸に、ものづくり事例の引き出し方を解説するP4ピラー記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "中小企業庁は事業承継・M&A補助金（2026年5月公募）や『事例から学ぶ！ブランディング』特集（mirasapo-plus.go.jp）を通じ、中小製造業の事例発信を継続的に後押ししている。『ものづくりワールド[大阪]2026』等の展示会シーズンで技術発信への関心が高まる時期とも重なり、P4（ものづくりの現場・職人の物語）ピラーは未着手（primacy_bonus対象）かつ直近14日でP4該当記事がないため選定。",
+  "sources": [
+    {"title": "事例から学ぶ！ブランディング", "publisher": "中小企業庁（mirasapo-plus.go.jp）", "date": "2026", "url": "https://mirasapo-plus.go.jp/hint/19331/"},
+    {"title": "事業承継・M&A補助金 第15次公募要領", "publisher": "中小企業庁", "date": "2026-05", "url": "https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2026/260522001.html"},
+    {"title": "ものづくりワールド［大阪］2026", "publisher": "ものづくりワールド事務局", "date": "2026", "url": "https://www.manufacturing-world.jp/osaka/ja-jp.html"}
+  ],
+  "internal_links": [],
+  "cta": "The Lab.来場／相談",
+  "eyecatch_brief": "職人の手元と技術図面のモチーフが、光の粒子となって物語のページのように広がっていく抽象的な静物構図。片側は工業的な素材・質感（金属・図面の線）、反対側は暗く空けて余白にする。実在の職人・実在工場・実在商品を再現しない。",
+  "eyecatch_text": "その技術に、\nまだ語られていない物語がある。",
+  "eyecatch_eyebrow": "MAKER STORIES",
+  "char_count": 4396,
+  "eyecatch_status": "skipped_no_api_key"
+}

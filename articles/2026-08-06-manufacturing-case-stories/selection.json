@@ -1,0 +1,16 @@
+{
+  "id": "P4-000",
+  "pillar": "P4",
+  "type": "pillar",
+  "title": "ものづくりの現場から｜技術を物語に変えるメーカーの記録",
+  "primary_kw": "ものづくり 事例",
+  "secondary_kw": ["製造業 事例", "町工場 事例"],
+  "intent": "case",
+  "trend_score": 2,
+  "trend_rationale": "中小企業庁は事業承継・M&A補助金（2026年5月公募、https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2026/260522001.html）や『事例から学ぶ！ブランディング』特集（mirasapo-plus.go.jp, https://mirasapo-plus.go.jp/hint/19331/）を通じ、中小製造業のブランディング事例発信を継続的に後押ししている。また『ものづくりワールド[大阪]2026』（https://www.manufacturing-world.jp/osaka/ja-jp.html）等の展示会シーズンでAI活用・省人化が話題になっており、現場の事例記事への関心が高まりやすい時期。強い単発ニュースではなく、政策・展示会シーズンとの継続的な整合性を根拠とする。",
+  "cannibal_check": "ok",
+  "differentiator": "P4はMONOENのE-E-A-T（現場の一次経験）を証明するピラー記事。他ピラーが「戦略・手法」を語るのに対し、P4は『The Lab.・TikTok LIVEでの一次観察』を核にした“物語”そのものに焦点を当てる。",
+  "target_reader": "技術・品質に自信はあるが、その価値を言葉にできずにいる中小メーカー経営者・後継者。自社の物語を発信する意義を知りたい層。",
+  "internal_link_candidates": [],
+  "note": "P4はまだピラー記事が存在しないため primacy_bonus 対象。直近14日でP4該当記事なし（balance面でも優位）。base_score=6、trend_score=2で最終スコア8。次点P7-000(ブランド創造会社)はtrend_score0（外部トレンド裏付けなし、一次情報のみの発信と位置づけるべき）のため見送り。"
+}
