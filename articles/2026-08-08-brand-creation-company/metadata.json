@@ -1,0 +1,28 @@
+{
+  "id": "P7-000",
+  "date": "2026-08-08",
+  "title": "MONOENという実験｜ブランド創造会社の思想と実践",
+  "primary_kw": "ブランド創造会社",
+  "secondary_kw": ["MONOEN", "モノエン", "販売会社 ブランド創造会社 違い"],
+  "intent": "know",
+  "pillar": "P7",
+  "type": "pillar",
+  "hashtags": ["#MONOEN", "#ブランディング", "#ものづくり", "#ブランド創造会社", "#製造業"],
+  "lead_140": "ブランド創造会社とは、商品を右から左へ売るのではなく、技術・時間・物語ごと「欲しがられるブランド資産」に変えて育てる会社のことです。株式会社モノエン（MONOEN）は自らを「販売会社ではなく、ブランド創造会社」と定義し、日本のものづくりを世界が欲しがるブランドへ翻訳する活動をしています。",
+  "summary": "MONOENの自己定義「ブランド創造会社」の思想と、5段階の事業モデル・和製LVMHへのロードマップを一次情報で解説するP7ピラー記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "AI検索（Google AI Overview等）の表示率は2024年5月の約30%から2026年初頭には約48%まで拡大しており（複数のAIO対策専門会社による2026年最新ガイド記事が同時多発的に公開されるほど市場の関心が高い状況、出典：flagout.co.jp「BtoB企業のAIO対策完全ガイド」2026年、jinrai.co.jp「AIO対策とは」2026年4月）、生成AI検索は『企業の自己定義・思想を明確に言語化したページ』を引用元に選びやすい。MONOENはP7（思想・用語解説・FAQ）ピラーの土台となる記事が0本のため、編集カレンダーの『ピラー先行の原則』に基づき優先し、『販売会社ではなくブランド創造会社』という自己定義を一次情報として言語化した。",
+  "sources": [
+    {"title": "BtoB企業のAIO対策完全ガイド", "publisher": "flagout.co.jp", "date": "2026", "url": "https://flagout.co.jp/aio-seo-btob-guide/"},
+    {"title": "AIO対策とは？AI検索に引用させる仕組みと始め方", "publisher": "jinrai.co.jp", "date": "2026-04", "url": "https://jinrai.co.jp/blog/2026/04/06/aio-taisaku-toha-guide/"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "無機物に光が宿る瞬間を思わせる抽象的な静物カット。中心に金属質感の有機的なオブジェ（実在商品の再現ではない抽象フォルム）を配置し、片側から柔らかい光を当て、反対側は暗く余白を残す。工業的だが冷たすぎない、物語性を感じさせるトーン。",
+  "eyecatch_text": "販売するのではなく、\n世界観ごと育てる。",
+  "eyecatch_eyebrow": "BRAND CREATION COMPANY",
+  "eyecatch_status": "skipped",
+  "eyecatch_skip_reason": "OPENAI_API_KEY 未設定のため画像生成をスキップ（記事は画像なしで継続）",
+  "char_count": 4410
+}

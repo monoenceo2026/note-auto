@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-05",
+    "updated": "2026-08-07",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -170,6 +170,27 @@
       "trend_rationale": "中小企業庁は事業承継・M&A補助金（2026年5月公募）や『事例から学ぶ！ブランディング』特集（mirasapo-plus.go.jp）を通じ、中小製造業の事例発信を継続的に後押ししている。展示会シーズンとも重なり、P4（ものづくりの現場・職人の物語）ピラーは未着手（primacy_bonus対象）かつ直近14日でP4該当記事がないため選定。",
       "internal_links": [],
       "summary": "The Lab.・TikTok LIVEでの一次観察と『課題→意思決定→実行→結果→学び』の型を軸に、ものづくり事例の引き出し方を解説するP4ピラー記事。"
+    },
+    {
+      "id": "P7-000",
+      "date": "2026-08-08",
+      "title": "MONOENという実験｜ブランド創造会社の思想と実践",
+      "primary_kw": "ブランド創造会社",
+      "secondary_kw": [
+        "MONOEN",
+        "モノエン",
+        "販売会社 ブランド創造会社 違い"
+      ],
+      "intent": "know",
+      "pillar": "P7",
+      "type": "pillar",
+      "note_url": "",
+      "status": "hold",
+      "qa_score": 86,
+      "trend_rationale": "AI検索（Google AI Overview等）の表示率は2024年5月の約30%から2026年初頭には約48%まで拡大しており（複数のAIO対策専門会社による2026年最新ガイド記事が同時多発的に公開されるほど市場の関心が高い状況、出典：flagout.co.jp「BtoB企業のAIO対策完全ガイド」2026年、jinrai.co.jp「AIO対策とは」2026年4月）、生成AI検索は『企業の自己定義・思想を明確に言語化したページ』を引用元に選びやすい。MONOENはP7（思想・用語解説・FAQ）ピラーの土台となる記事が0本のため、編集カレンダーの『ピラー先行の原則』（primacy_bonus対象）に基づき優先し、『販売会社ではなくブランド創造会社』という自己定義を一次情報として言語化した。",
+      "internal_links": [],
+      "summary": "MONOENの自己定義「ブランド創造会社」の思想と、5段階の事業モデル・和製LVMHへのロードマップを一次情報で解説するP7ピラー記事。",
+      "local_dir": "articles/2026-08-08-brand-creation-company"
     }
   ]
 }

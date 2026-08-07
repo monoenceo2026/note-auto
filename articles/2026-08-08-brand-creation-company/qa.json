@@ -1,0 +1,28 @@
+{
+  "decision": "publish",
+  "total_score": 86,
+  "scores": {
+    "title_lead": 13,
+    "headings": 14,
+    "llmo": 19,
+    "internal_links": 3,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 2
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：サービス進化の5段階（CURATE→REBRAND→CERTIFY→SELL→CO-CREATE）と4ステップのオペレーティングモデル",
+    "具体的な数字・手順：和製LVMHへの4段階ロードマップ／掛け率50%（メーカー配送時25%）／配信最初の約20分の会社紹介／The Lab.出展期間2026年6月1日〜2027年4月30日",
+    "当事者視点：The Lab.・ライブコマースの現場でメーカーと接して見えた『技術はある。でも、選ばれる理由が伝わっていない』という一次観察",
+    "独自フレーム：3つの成長エンジン（LIVE/EC/REAL・CREATIVE DIRECTION・MAKER NETWORK）",
+    "反直感：『まずブランドを作ってから売る』のではなく『売りながらブランドを育てる』という順序の逆転"
+  ],
+  "issues": [
+    "内部リンクは0本（registryに公開済み記事が無いため、ルールに従いリンクなし。今後公開が進めば充実させる）",
+    "アイキャッチ画像は OPENAI_API_KEY 未設定のためスキップ（eyecatch_prompt.txt は保存済み、後日鍵設定後に生成可能）",
+    "primary_kw『ブランド創造会社』はタイトルの中央付近（｜の直後）に位置し、計画済みタイトル（keyword-map.yaml記載）をそのまま採用。より前寄りの言い換えは今後の改善余地"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-08T08:30:00+09:00"
+}
