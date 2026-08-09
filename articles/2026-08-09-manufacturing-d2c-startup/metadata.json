@@ -1,0 +1,29 @@
+{
+  "id": "P3-001",
+  "date": "2026-08-09",
+  "title": "製造業のD2Cの始め方｜在庫を持たずに直販網をつくる設計図",
+  "primary_kw": "製造業 D2C",
+  "secondary_kw": ["D2C 製造業 始め方", "消化仕入れ D2C", "製造業 直販"],
+  "intent": "how",
+  "pillar": "P3",
+  "type": "cluster",
+  "hashtags": ["#製造業", "#D2C", "#ライブコマース", "#ものづくり", "#MONOEN"],
+  "lead_140": "製造業のD2Cとは、メーカーが卸や小売を介さず、EC・ライブコマース・実店舗などを通じて顧客に直接商品を届ける販売モデルのことです。この記事では、下請けや卸依存から抜け出したい中小製造業の経営者に向けて、在庫リスクを抑えながらD2Cを始めるための考え方と手順を、MONOENの実務データをもとに解説します。",
+  "summary": "在庫を持たずに始める消化仕入れの仕組みと5ステップの実践手順で、製造業がD2Cを始める方法をMONOENの一次情報から解説するP3クラスタ記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "日本のD2C市場は約3兆円規模・年成長率15〜20%とされ（出典：Shopify Japan「D2Cのトレンドと市場動向14選（2026年版）」2026年）、生成AI活用・パーソナライズ・ファンコミュニティ形成が2026年のD2Cマーケティングの主要トレンドとして挙げられている（出典：株式会社プリンシプル「【2026年版】ブランドEC・D2C担当者向けマーケティングトレンド7選」2026年）。業界メディアでも経済産業省の指針を踏まえた『攻めのEC化』が中小製造業のDX戦略として紹介されている（出典：EC-CUBE「【2026年最新】製造業の課題を突破するDX戦略とは」2026年）。P3（ライブコマース・D2C・EC・販路開拓）はMONOEN独自性が最も出るピラーで、ピラー記事(P3-000)はhold状態のままクラスタが未着手（primacy_bonus対象）。『D2Cを始める』という販売モデル全体の設計は、消化仕入れ・掛け率・2ステップ設計というMONOENの一次情報で具体的に語れる差別化余地が大きいため選定。",
+  "sources": [
+    {"title": "D2Cのトレンドと市場動向14選（2026年版）", "publisher": "Shopify Japan", "date": "2026", "url": "https://www.shopify.com/jp/blog/dtc-trends"},
+    {"title": "【2026年版】ブランドEC・D2C担当者向けマーケティングトレンド7選", "publisher": "株式会社プリンシプル", "date": "2026", "url": "https://www.principle-c.com/column/brand-ec-d2c-marketing-trends-2026/"},
+    {"title": "【2026年最新】製造業の課題を突破するDX戦略とは？経産省の指針から読み解く「攻めのEC化」の全貌", "publisher": "EC-CUBE", "date": "2026", "url": "https://www.ec-cube.net/enterprise/btob/column/manufacture-issue/"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "無機物の静物に光が宿る瞬間を思わせる抽象カット。中心に、直販・輸送の流れを暗示する幾何学的なオブジェ（実在の梱包資材・製品の再現ではない抽象フォルム）を配置し、片側から柔らかい光を当て、反対側は暗く余白を残す。工業的だが冷たすぎない、前進感のあるトーン。",
+  "eyecatch_text": "在庫を持たずに、\n直接、届ける。",
+  "eyecatch_eyebrow": "MANUFACTURING D2C",
+  "eyecatch_status": "skipped",
+  "eyecatch_skip_reason": "OPENAI_API_KEY 未設定のため画像生成をスキップ（記事は画像なしで継続）",
+  "char_count": 4459
+}

@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-07",
+    "updated": "2026-08-09",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -191,6 +191,27 @@
       "internal_links": [],
       "summary": "MONOENの自己定義「ブランド創造会社」の思想と、5段階の事業モデル・和製LVMHへのロードマップを一次情報で解説するP7ピラー記事。",
       "local_dir": "articles/2026-08-08-brand-creation-company"
+    },
+    {
+      "id": "P3-001",
+      "date": "2026-08-09",
+      "title": "製造業のD2Cの始め方｜在庫を持たずに直販網をつくる設計図",
+      "primary_kw": "製造業 D2C",
+      "secondary_kw": [
+        "D2C 製造業 始め方",
+        "消化仕入れ D2C",
+        "製造業 直販"
+      ],
+      "intent": "how",
+      "pillar": "P3",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 87,
+      "trend_rationale": "日本のD2C市場は約3兆円規模・年成長率15〜20%とされ（出典：Shopify Japan「D2Cのトレンドと市場動向14選（2026年版）」2026年）、生成AI活用・パーソナライズ・ファンコミュニティ形成が2026年のD2Cマーケティングの主要トレンドとして挙げられている（出典：株式会社プリンシプル「【2026年版】ブランドEC・D2C担当者向けマーケティングトレンド7選」2026年）。業界メディアでも経済産業省の指針を踏まえた『攻めのEC化』が中小製造業のDX戦略として紹介されている（出典：EC-CUBE「【2026年最新】製造業の課題を突破するDX戦略とは」2026年）。P3（ライブコマース・D2C・EC・販路開拓）はMONOEN独自性が最も出るピラーで、ピラー記事(P3-000)はhold状態のままクラスタが未着手（primacy_bonus対象）。『D2Cを始める』という販売モデル全体の設計は、消化仕入れ・掛け率・2ステップ設計というMONOENの一次情報で具体的に語れる差別化余地が大きいため選定。",
+      "internal_links": [],
+      "summary": "在庫を持たずに始める消化仕入れの仕組みと5ステップの実践手順で、製造業がD2Cを始める方法をMONOENの一次情報から解説するP3クラスタ記事。",
+      "local_dir": "articles/2026-08-09-manufacturing-d2c-startup"
     }
   ]
 }
