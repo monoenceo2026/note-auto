@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 88,
+  "scores": {"title_lead": 14, "headings": 14, "llmo": 19, "internal_links": 4, "compliance": 20, "originality": 15, "media_tags": 2},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：ライブコマースの朝7〜8時ゴールデンタイム／最初20分の会社・技術紹介／掛け率50%・25%の消化仕入れ",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEでの翻訳工程の説明",
+    "具体的手順：自社ブランド化の5ステップと下請け/自社ブランドの比較表",
+    "反直感の主張：『技術が足りないのではなく、翻訳が足りない』『フォロワー数より相性』",
+    "当事者視点：『私たちが現場で見てきたのは』という一次経験の明示"
+  ],
+  "issues": [
+    "registry上に公開済み記事がまだ0件のため、内部リンクを1本も張れていない（P1-000等が公開され次第、次回以降のクラスタ記事で相互リンクを補強する）。",
+    "OPENAI_API_KEY未設定のため、アイキャッチ画像を生成できなかった（eyecatch_prompt.txtは保存済み。キー設定後に手動生成可）。"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-10T23:10:00+09:00"
+}

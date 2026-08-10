@@ -1,0 +1,15 @@
+{
+  "id": "P1-003",
+  "pillar": "P1",
+  "type": "cluster",
+  "title": "町工場が自社ブランドを持つには",
+  "primary_kw": "町工場 自社ブランド",
+  "secondary_kw": ["町工場 ブランディング", "下請け 脱却 ブランド", "自社ブランド 立ち上げ 製造業"],
+  "intent": "how",
+  "trend_score": 2,
+  "trend_rationale": "業界メディア調査で『町工場の自社ブランド立ち上げが加速』と報じられている（繊研新聞, 2026年, https://senken.co.jp/posts/theview-madeinjapan-brand）。加えて、町工場の自社商品の受注・新商品開発を目的にした専門展示会『町工場NOW!』が2026年9月2日〜4日に東京ビッグサイトで開催予定（出典: https://www.giftshow.co.jp/tigs/category_sp/factorynow/）で、直近の商談・情報収集ニーズが立ち上がりやすい時期にあたる。",
+  "cannibal_check": "ok",
+  "differentiator": "主体を『町工場』に絞り、下請け構造からの脱却を『商品を作る力』ではなく『ブランドとして見せる力』の観点で扱う点で、P2『OEM 自社ブランド』（商品ラインの作り方）やP5『下請け 脱却』（経営構造の視点）と切り分ける。",
+  "target_reader": "自社の加工技術・製造力はあるが、下請け依存から抜け出し自社ブランドを持ちたい町工場の経営者・後継者",
+  "internal_link_candidates": []
+}

@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-09",
+    "updated": "2026-08-10",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -212,6 +212,27 @@
       "internal_links": [],
       "summary": "在庫を持たずに始める消化仕入れの仕組みと5ステップの実践手順で、製造業がD2Cを始める方法をMONOENの一次情報から解説するP3クラスタ記事。",
       "local_dir": "articles/2026-08-09-manufacturing-d2c-startup"
+    },
+    {
+      "id": "P1-003",
+      "date": "2026-08-10",
+      "title": "町工場が自社ブランドを持つには｜下請けの技術を\"名乗れる商品\"に変える設計図",
+      "primary_kw": "町工場 自社ブランド",
+      "secondary_kw": [
+        "町工場 ブランディング",
+        "下請け 脱却 ブランド",
+        "自社ブランド 立ち上げ 製造業"
+      ],
+      "intent": "how",
+      "pillar": "P1",
+      "type": "cluster",
+      "note_url": "",
+      "status": "hold",
+      "qa_score": 88,
+      "trend_rationale": "業界メディア調査で『町工場の自社ブランド立ち上げが加速』と報じられている（繊研新聞, 2026年）。加えて、町工場の自社商品の受注・新商品開発を目的にした専門展示会『町工場NOW!』が2026年9月2日〜4日に東京ビッグサイトで開催予定で、直近の商談・情報収集ニーズが立ち上がりやすい時期にあたる。",
+      "internal_links": [],
+      "summary": "町工場が下請け依存から自社ブランドへ移行するための5ステップと、直接販売接点の設計を、MONOENの実務knowledgeを交えて解説する記事。",
+      "local_dir": "articles/2026-08-10-machikoba-own-brand"
     }
   ]
 }
