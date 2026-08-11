@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 86,
+  "scores": {"title_lead": 14, "headings": 14, "llmo": 19, "internal_links": 3, "compliance": 20, "originality": 14, "media_tags": 2},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：ライブコマースのゴールデンタイム朝7〜8時／掛け率50%（25%）／2ステップ設計／リードタイム",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階と、STEP1〜3の導入フロー",
+    "当事者視点：『私たちMONOENが現場で感じているのは』という一次経験の明示",
+    "反直感：『技術ではなく“翻訳”の不足』『フォロワー数より相性』",
+    "季節性トレンド：2026年9月の商談展示会（町工場NOW！／町工場見本市2026）を起点にした具体的な行動提案"
+  ],
+  "issues": [
+    "現時点でregistryに公開済み(note_url)記事が1本もないため、内部リンクを設置できず内部リンク配点が低い（構造的制約であり本記事固有の欠陥ではない）",
+    "OPENAI_API_KEYが環境に未設定のためアイキャッチ画像を生成できず、画像なしでの公開となる"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-12T07:42:44+09:00"
+}
