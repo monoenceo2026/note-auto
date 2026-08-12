@@ -44,7 +44,7 @@ pillars:
       - {id: P2-000, type: pillar,  status: planned, priority: 1, intent: how,  primary_kw: 商品リブランディング, title: "商品リブランディングの進め方｜スペックを欲しい理由に翻訳する5ステップ", secondary_kw: [商品 リブランド, 商品 ブランド刷新]}
       - {id: P2-001, type: cluster, status: planned, priority: 2, intent: case, primary_kw: 商品リブランディング 事例, title: "商品リブランディングの事例で学ぶ", differentiator: "事例検索回収(一般化＋領域)"}
       - {id: P2-002, type: cluster, status: planned, priority: 2, intent: know, primary_kw: 商品 ブランディング, title: "商品ブランディングとは", differentiator: "新規も含む定義・基礎"}
-      - {id: P2-003, type: cluster, status: planned, priority: 2, intent: how,  primary_kw: 製造業 新商品開発, title: "製造業の新商品開発の進め方", differentiator: "ゼロから作る開発プロセス"}
+      - {id: P2-003, type: cluster, status: in_progress, priority: 2, intent: how,  primary_kw: 製造業 新商品開発, title: "製造業の新商品開発の進め方", differentiator: "ゼロから作る開発プロセス"}
       - {id: P2-004, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 価値の棚卸し, title: "価値の棚卸しのやり方", differentiator: "開発の最初の1工程"}
       - {id: P2-005, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 商品 ネーミング, title: "売れる商品ネーミング・コピー設計", differentiator: "言語設計の実務"}
       - {id: P2-006, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 商品ページ 作り方, title: "商品ページ・パッケージの設計", differentiator: "販売導線の見せ物設計"}

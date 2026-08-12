@@ -1,0 +1,28 @@
+{
+  "decision": "publish",
+  "total_score": 85,
+  "scores": {
+    "title_lead": 14,
+    "headings": 13,
+    "llmo": 19,
+    "internal_links": 3,
+    "compliance": 20,
+    "originality": 14,
+    "media_tags": 2
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：5段階フレーム（CURATE→REBRAND→CERTIFY→SELL→CO-CREATE）／消化仕入れ・掛け率50%／朝7〜8時ゴールデンタイム／The Lab.（2026年6月〜2027年4月出展）",
+    "具体的な数字・手順：新商品開発5ステップの表（価値の棚卸し→顧客像→コンセプト/試作→反応検証→販路・価格設計）／推奨単価5,000〜10,000円",
+    "当事者視点：The Lab.・TikTok LIVEの現場でメーカーと接して見えた『技術はある。でも、選ばれる理由が伝わっていない』という一次観察",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階、Instagram×TikTok LIVEの『勝利の2ステップ設計』",
+    "反直感：『技術力の高さ』と『新商品が生まれるスピード』はほぼ相関しない、という主張。補助金採択を先に動くべきという通説を『顧客像・コンセプトを先に固める』順番で裏返す"
+  ],
+  "issues": [
+    "内部リンクは0本（registryのpublished配列が空で公開済み記事が無いため、ルールに従いリンクなし。今後の公開が進めば充実させる）",
+    "アイキャッチ画像は OPENAI_API_KEY 未設定のためスキップ（eyecatch_prompt.txt は保存済み、後日鍵設定後に生成可能）",
+    "補助金の金額・公募期間は外部一次情報（中小機構・補助金ポータル）に基づく引用であり、MONOEN自身の実績数値ではない旨を明記した上で使用"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-12T23:10:00+09:00"
+}
