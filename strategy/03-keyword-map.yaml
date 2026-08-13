@@ -59,7 +59,7 @@ pillars:
     articles:
       - {id: P3-000, type: pillar,  status: planned, priority: 1, intent: know, primary_kw: 製造業 ライブコマース, title: "製造業のライブコマース完全ガイド｜町工場がTikTok LIVEで語って売る方法", secondary_kw: [メーカー ライブコマース, ライブコマース 製造業]}
       - {id: P3-001, type: cluster, status: in_progress, priority: 1, intent: how,  primary_kw: 製造業 D2C, title: "製造業のD2Cの始め方", differentiator: "販売モデル全体の設計"}
-      - {id: P3-002, type: cluster, status: planned, priority: 2, intent: commercial, primary_kw: メーカー EC 支援, title: "メーカーのEC立ち上げ・運用支援", differentiator: "EC構築/運用の依頼視点"}
+      - {id: P3-002, type: cluster, status: in_progress, priority: 2, intent: commercial, primary_kw: メーカー EC 支援, title: "メーカーのEC立ち上げ・運用支援", differentiator: "EC構築/運用の依頼視点"}
       - {id: P3-003, type: cluster, status: planned, priority: 2, intent: know, primary_kw: ものづくり 販路開拓, title: "ものづくりの販路開拓の地図", differentiator: "販路という上位概念"}
       - {id: P3-004, type: cluster, status: planned, priority: 2, intent: how,  primary_kw: TikTok LIVE 売り方, title: "TikTok LIVEの売れる配信構成", differentiator: "配信台本/構成に特化"}
       - {id: P3-005, type: cluster, status: planned, priority: 3, intent: know, primary_kw: ライブコマース 失敗, title: "ライブコマースでよくある失敗3パターン", differentiator: "失敗要因の回収"}
