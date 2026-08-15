@@ -1,0 +1,29 @@
+{
+  "decision": "publish",
+  "total_score": 88,
+  "scores": {
+    "title_lead": 14,
+    "headings": 14,
+    "llmo": 19,
+    "internal_links": 3,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階フレーム、STEP1〜3の導入フロー",
+    "具体的手順：価値の棚卸し4項目（技術・素材・工程・背景）の表とチェック観点",
+    "当事者視点：『私たちが現場でメーカーと対話する中で』という一次経験の記述、大阪の金属加工二代目経営者ペルソナでの意思決定順序の例示",
+    "独自フレーム：5段階フレームで自社ブランド化の順序を整理",
+    "反直感：『技術ではなく翻訳が足りていない』『順序を守ることが遠回りに見えて最短ルート』"
+  ],
+  "issues": [
+    "internal_links が0本（registryに公開済み記事のnote_urlが1本も無いため構造上やむを得ない。次回以降、公開済み記事が出れば張れる）",
+    "アイキャッチ画像なし（OPENAI_API_KEY未設定のためSTEP3でスキップ、metadataにeyecatch_status: skipped_no_api_key記録済み）",
+    "出典の年月表記が年単位まで（月次までは未特定。繊研新聞・町工場NOW公式情報とも年表記のみ入手）",
+    "更新日の明記なし（初回公開のため公開日のみ記載）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-16T07:55:00+09:00"
+}
