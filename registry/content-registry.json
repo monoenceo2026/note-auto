@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-15",
+    "updated": "2026-08-17",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -254,6 +254,27 @@
       "internal_links": [],
       "summary": "下請け構造から脱却したい町工場が、価値の棚卸しから公式販売までをCURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階で進める方法をMONOENの一次情報で解説するP1クラスタ記事。",
       "local_dir": "articles/2026-08-16-machikoba-own-brand"
+    },
+    {
+      "id": "P3-004",
+      "date": "2026-08-18",
+      "title": "TikTok LIVEの売れる配信構成｜最初の20分で「買う理由」を育てる台本設計",
+      "primary_kw": "TikTok LIVE 売り方",
+      "secondary_kw": [
+        "TikTok LIVE 配信構成",
+        "ライブコマース 台本",
+        "製造業 TikTok LIVE"
+      ],
+      "intent": "how",
+      "pillar": "P3",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 87,
+      "trend_rationale": "2025年6月30日にTikTok Shopが日本で正式サービスを開始して以降、ライブコマースが実売チャネルとして急速に立ち上がっており（出典：ジャグー株式会社「【2026年】TikTok Shopライブコマースで売上UP！配信テクニックと失敗しないための7つのポイント」2026年）、TikTok LIVEを軸にしたライブコマース専門事務所「トキバナ」は2025年6月期に前年比412%増・年商約16億円を達成し、2026年6月期は年商約50億円を目標に掲げるなど急成長が続いている（出典：株式会社Cellestプレスリリース「TikTok配信で年商16億円、2年連続で前年比400%達成のライブコマース専門事務所『トキバナ』がTikTok Shopにショップ開設」PR TIMES、2026年）。始め方・メリット中心の一般論記事は多いが、配信の中身（台本・構成）に踏み込んだ記事は手薄で、MONOEN=BEGINNING LEGACYのライブコマース実務（最初20分の会社・技術紹介、朝7〜8時のゴールデンタイム、失敗要因）を最も具体的に語れる領域のため選定。",
+      "internal_links": [],
+      "summary": "TikTok LIVEで視聴者は集まるのに売上につながらない企業に向け、最初の約20分を会社・技術紹介にあてる台本構成、朝7〜8時のゴールデンタイム、出演者選定基準をMONOENの実務で解説するP3クラスタ記事。",
+      "local_dir": "articles/2026-08-18-tiktok-live-format"
     }
   ]
 }

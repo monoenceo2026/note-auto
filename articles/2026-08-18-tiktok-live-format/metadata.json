@@ -1,0 +1,27 @@
+{
+  "id": "P3-004",
+  "date": "2026-08-18",
+  "title": "TikTok LIVEの売れる配信構成｜最初の20分で「買う理由」を育てる台本設計",
+  "primary_kw": "TikTok LIVE 売り方",
+  "secondary_kw": ["TikTok LIVE 配信構成", "ライブコマース 台本", "製造業 TikTok LIVE"],
+  "intent": "how",
+  "pillar": "P3",
+  "type": "cluster",
+  "hashtags": ["#TikTokLIVE", "#ライブコマース", "#製造業", "#ものづくり", "#MONOEN"],
+  "lead_140": "TikTok LIVEの売れる配信構成とは、開始直後にいきなり商品を売り込むのではなく、最初の時間を会社・技術の紹介にあて、視聴者の中に「欲しい理由」を育ててから販売に入る構成のことです。TikTok Shopの日本正式サービス開始（2025年6月）以降、ライブコマースに挑戦する企業は増えていますが、多くが「何を話せば売れるのか」という配信の中身で迷っています。",
+  "summary": "TikTok LIVEで売上につながらない企業に向け、最初の約20分を会社・技術紹介にあてる台本構成、朝7〜8時のゴールデンタイム、出演者選定基準をMONOENの実務で解説するP3クラスタ記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "2025年6月30日にTikTok Shopが日本で正式サービスを開始して以降、ライブコマースが実売チャネルとして急速に立ち上がっており（出典：ジャグー株式会社「【2026年】TikTok Shopライブコマースで売上UP！配信テクニックと失敗しないための7つのポイント」2026年）、TikTok LIVEを軸にしたライブコマース専門事務所「トキバナ」は2025年6月期に前年比412%増・年商約16億円を達成し、2026年6月期は年商約50億円を目標に掲げるなど急成長が続いている（出典：株式会社Cellestプレスリリース「TikTok配信で年商16億円、2年連続で前年比400%達成のライブコマース専門事務所『トキバナ』がTikTok Shopにショップ開設」PR TIMES、2026年）。始め方・メリット中心の一般論記事は多いが、配信の中身（台本・構成）に踏み込んだ記事は手薄で、MONOEN=BEGINNING LEGACYのライブコマース実務（2ステップ設計、最初20分の会社・技術紹介、朝7〜8時のゴールデンタイム、失敗要因）を最も具体的に語れる領域のため選定。P3はMONOEN独自性が最大のピラーであり、クラスタ充填の優先度も高い。",
+  "sources": [
+    {"title": "【2026年】TikTok Shopライブコマースで売上UP！配信テクニックと失敗しないための7つのポイント", "publisher": "ジャグー株式会社", "date": "2026", "url": "https://jagoo.co.jp/column/tiktokshop-livecommerce/"},
+    {"title": "TikTok配信で年商16億円、2年連続で前年比400%達成のライブコマース専門事務所「トキバナ」がTikTok Shopにショップ開設！2026年6月期は年商50億を目指す", "publisher": "株式会社Cellest（PR TIMES）", "date": "2026", "url": "https://prtimes.jp/main/html/rd/p/000000052.000102719.html"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "TikTokのライブ配信画面を思わせる縦長スマートフォンのシルエットと、工業素材（金属・木工など）のクローズアップを片側に配置し、反対側を暗く空けた構図。実在商品・実在アプリ画面を再現しない抽象表現。",
+  "eyecatch_text": "売れているのは、\n最初の20分。",
+  "eyecatch_eyebrow": "LIVE COMMERCE FORMAT",
+  "char_count": 3922,
+  "eyecatch_status": "skipped_no_api_key"
+}

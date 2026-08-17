@@ -1,0 +1,28 @@
+{
+  "decision": "publish",
+  "total_score": 87,
+  "scores": {
+    "title_lead": 14,
+    "headings": 13,
+    "llmo": 19,
+    "internal_links": 3,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：最初約20分を会社・技術紹介にあてる配信構成、朝7〜8時のゴールデンタイム、フォロワー数より『語れるか』の出演者選定基準、東大阪倉庫での物流代行",
+    "具体的手順：0〜5分/5〜20分/20分〜の時間配分表による台本設計",
+    "当事者視点：『私たちが中小メーカーの経営者と話す中で』という一次経験の記述",
+    "独自フレーム：最初の20分（会社・技術紹介）→ 販売パートという二部構成の型",
+    "反直感：『視聴者は集まるのに売上につながらない』原因は集客ではなく配信の中身（構成）にあるという指摘"
+  ],
+  "issues": [
+    "internal_links が0本（registryに公開済み記事のnote_urlが1本も無いため構造上やむを得ない。公開済み記事が出れば次回以降に張れる）",
+    "アイキャッチ画像なし（OPENAI_API_KEY未設定のためSTEP3でスキップ、metadataにeyecatch_status: skipped_no_api_key記録済み）",
+    "出典の年月表記が年単位まで（月次までは一部未特定）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-18T08:10:00+09:00"
+}
