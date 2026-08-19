@@ -1,0 +1,28 @@
+{
+  "decision": "publish",
+  "total_score": 88,
+  "scores": {
+    "title_lead": 14,
+    "headings": 14,
+    "llmo": 19,
+    "internal_links": 3,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：BEGINNING LEGACYのTikTok LIVE配信で最初約20分を会社・技術紹介にあてる構成、消化仕入れの掛け率50%、フォロワー数ではなく『語れるか』でキャスターを選ぶ基準",
+    "具体的手順：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階フレームに沿った、価格競争から抜け出す実践手順",
+    "当事者視点：『私たちが現場で繰り返し確認してきたのは』というライブ配信現場の一次観察の記述",
+    "独自フレーム：価格競争を『代替可能性・比較のされ方・交渉力の非対称』という3要因に構造分解する独自の切り口",
+    "反直感：『価格転嫁の交渉だけでは同じ構造が繰り返される』『技術ではなく翻訳が足りない』という通説（値引き交渉が主戦場）を裏返す主張"
+  ],
+  "issues": [
+    "internal_links が0本（registryに公開済み記事のnote_urlが1本も無いため構造上やむを得ない。公開済み記事が出れば次回以降に張れる）",
+    "アイキャッチ画像なし（OPENAI_API_KEY未設定のためSTEP3でスキップ、metadataにeyecatch_status: skipped_no_api_key記録済み）",
+    "出典の一部（発注者リスト公表時期）は年月までの特定で、公表日自体は未確定（『2026年8月上中旬に公表予定』という中小企業庁の告知内容として記載し、確定事実として断定していない）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-19T22:55:00+09:00"
+}
