@@ -1,0 +1,27 @@
+{
+  "decision": "publish",
+  "total_score": 88,
+  "scores": {
+    "title_lead": 14,
+    "headings": 13,
+    "llmo": 19,
+    "internal_links": 4,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：The Lab.（グランフロント大阪 北館2F）の出展期間2026年6月1日〜2027年4月30日、5段階フレーム(CURATE→REBRAND→CERTIFY→SELL→CO-CREATE)、3つの成長エンジン(A/B/C)、ライブコマース失敗要因『一過性のイベント化』",
+    "具体的な手順：リアル展示を検討する企業向けの3項目チェックリスト（言葉の設計／体験の順番／リアルとオンラインの接続）",
+    "当事者視点：『私たちが現場でやってみて分かったのは〜』というThe Labでの一次観察の語り",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEおよび成長エンジンA/B/Cを用いた位置づけ整理",
+    "反直感：『リアル展示の価値は商品そのものより先に背景を伝えられることにある』『良い商品を並べれば伝わるという前提を疑う』という通説の裏返し"
+  ],
+  "issues": [
+    "内部リンクが0本。理由：registry上に status=published（note_url入り）の記事が現時点で1本も無いため、リンク可能な公開済み記事が存在しない。捏造・未公開記事へのリンクを避けるため意図的に空欄とした（ガードレール優先）。将来的にnote公開が進み次第、次回以降の記事で相互リンクを追加すること。",
+    "アイキャッチ画像は OPENAI_API_KEY 未設定のためスキップ（metadata.jsonにeyecatch_status:\"skipped\"を記録済み）。画像なしでも公開基準は満たす。"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-21T07:44:22+09:00"
+}

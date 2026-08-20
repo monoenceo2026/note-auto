@@ -76,7 +76,7 @@ pillars:
     head_kw: ものづくり 事例
     articles:
       - {id: P4-000, type: pillar,  status: planned, priority: 2, intent: case, primary_kw: ものづくり 事例, title: "ものづくりの現場から｜技術を物語に変えるメーカーの記録", secondary_kw: [製造業 事例, 町工場 事例]}
-      - {id: P4-001, type: cluster, status: planned, priority: 2, intent: case, primary_kw: The Lab. グランフロント大阪, title: "The Lab.（グランフロント大阪）現場レポート", differentiator: "拠点体験レポ"}
+      - {id: P4-001, type: cluster, status: in_progress, priority: 2, intent: case, primary_kw: The Lab. グランフロント大阪, title: "The Lab.（グランフロント大阪）現場レポート", differentiator: "拠点体験レポ"}
       - {id: P4-002, type: cluster, status: planned, priority: 3, intent: case, primary_kw: 金属加工 ブランディング, title: "金属加工の技術を物語に変える", differentiator: "素材=金属の領域"}
       - {id: P4-003, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 刃物 ブランド, title: "刃物・道具の切れ味をどう見せるか", differentiator: "視覚的変化の見せ方"}
       - {id: P4-004, type: cluster, status: planned, priority: 3, intent: case, primary_kw: 部材メーカー D2C, title: "素材・部材メーカーがD2Cに挑む", differentiator: "BtoB→BtoC転換事例"}
