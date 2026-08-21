@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 89,
+  "scores": {"title_lead": 14, "headings": 13, "llmo": 19, "internal_links": 5, "compliance": 20, "originality": 15, "media_tags": 3},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOENの5段階フレーム（CURATE→REBRAND→CERTIFY→SELL→CO-CREATE）と、ライブコマースの2ステップ設計・朝7〜8時ゴールデンタイム・掛け率50%（配送メーカー負担時25%）という一次情報",
+    "棚卸し→小さな自社商品→語れる場→値決め経験→比率の見直し、という具体的5ステップ",
+    "「私たちが現場でやってみて分かったのは〜」という当事者視点の記述",
+    "下請け依存を『販路の単線化・評価軸の非対称・意思決定の外部化』の3要因に整理する独自フレーム（表）",
+    "反直感：『下請けをやめる』のではなく『比率を動かす』という通説を裏返す論点"
+  ],
+  "issues": [
+    "内部リンクが0本（registryに公開済み記事が現時点で1本も無いため構造的に不可。今後の公開記事増加後に相互リンクを追加すべき）",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定のためスキップ。eyecatch_prompt.txtは保存済みで後日生成可能）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-22T07:55:00+09:00"
+}

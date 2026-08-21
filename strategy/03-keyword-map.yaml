@@ -91,7 +91,7 @@ pillars:
     articles:
       - {id: P5-000, type: pillar,  status: planned, priority: 2, intent: know, primary_kw: 製造業 課題, title: "日本のものづくりの現在地｜データで読む課題と勝ち筋", secondary_kw: [中小製造業 課題, ものづくり 未来]}
       - {id: P5-001, type: cluster, status: in_progress, priority: 2, intent: know, primary_kw: 価格競争 脱却, title: "価格競争から抜け出す構造", differentiator: "なぜ価格競争になるかの構造分析"}
-      - {id: P5-002, type: cluster, status: planned, priority: 2, intent: know, primary_kw: 下請け 脱却, title: "下請け依存からの脱却", differentiator: "経営構造(取引依存)の視点"}
+      - {id: P5-002, type: cluster, status: in_progress, priority: 2, intent: know, primary_kw: 下請け 脱却, title: "下請け依存からの脱却", differentiator: "経営構造(取引依存)の視点"}
       - {id: P5-003, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 事業承継 課題, title: "後継者不足と事業承継の現実（データ）", differentiator: "承継の課題データ"}
       - {id: P5-004, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 製造業 採用 課題, title: "中小製造業の採用・人材課題", differentiator: "採用/人材の課題"}
       - {id: P5-005, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 採用ブランディング 製造業, title: "採用ブランディング（製造業）の実務", differentiator: "採用広報の実務"}

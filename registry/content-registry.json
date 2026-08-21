@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-20",
+    "updated": "2026-08-21",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -317,6 +317,21 @@
       "internal_links": [],
       "summary": "MONOENのリアル拠点The Lab.（グランフロント大阪）を舞台に、リアル展示だから伝わる価値と、展示を資産化する視点を現場目線で解説する記事。",
       "local_dir": "articles/2026-08-21-the-lab-grandfront-osaka"
+    },
+    {
+      "id": "P5-002",
+      "date": "2026-08-22",
+      "title": "下請け脱却の進め方｜自社ブランドで選ばれる会社になる方法",
+      "primary_kw": "下請け 脱却",
+      "intent": "know",
+      "pillar": "P5",
+      "type": "cluster",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 89,
+      "trend_rationale": "2026年1月施行の『取適法』（政府広報オンライン, 2025-11）と、9月の価格交渉促進月間を前にした中小企業庁調査（2026-06, 転嫁率54.2%）を根拠に、下請け依存からの脱却という経営判断への関心が高まる直前期としてP5-002を採用。",
+      "internal_links": [],
+      "summary": "下請け依存が固定化する3つの構造要因と、2026年の取適法・価格交渉促進月間を踏まえた抜け出す手順をMONOENの実践とともに示すP5クラスタ記事。"
     }
   ]
 }
