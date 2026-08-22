@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 87,
+  "scores": {"title_lead": 14, "headings": 14, "llmo": 19, "internal_links": 4, "compliance": 20, "originality": 14, "media_tags": 2},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：BEGINNING LEGACYの消化仕入れ掛け率50%/25%・推奨単価5,000〜10,000円・朝7〜8時ゴールデンタイム",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEを『小さな脱却』の4段階手順として転用",
+    "反直感：脱却の第一歩は『下請けをやめること』ではなく『下請けのままで交渉力を取り戻すこと』",
+    "具体的手順：取適法の4つの実務変更点、脱却の3レベル（交渉力回復→取引先分散→自社ブランド化）"
+  ],
+  "issues": [
+    "内部リンクが0本（registry内に公開済み記事が1本も無いため、リンク可能な記事が存在しない構造的制約）",
+    "アイキャッチ画像が未生成（OPENAI_API_KEYが環境に未設定のためスキップ）",
+    "当事者視点はペルソナ定義止まりで、個別の物語（課題→意思決定→実行→学び）までは踏み込めていない"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-23T08:15:00+09:00"
+}

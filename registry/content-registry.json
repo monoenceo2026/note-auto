@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-20",
+    "updated": "2026-08-22",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -317,6 +317,27 @@
       "internal_links": [],
       "summary": "MONOENのリアル拠点The Lab.（グランフロント大阪）を舞台に、リアル展示だから伝わる価値と、展示を資産化する視点を現場目線で解説する記事。",
       "local_dir": "articles/2026-08-21-the-lab-grandfront-osaka"
+    },
+    {
+      "id": "P5-002",
+      "date": "2026-08-23",
+      "title": "下請け脱却とは｜取適法後、中小製造業が自社ブランドを持つ理由",
+      "primary_kw": "下請け 脱却",
+      "secondary_kw": [
+        "下請法 取適法",
+        "自社ブランド 中小企業",
+        "OEM 自社ブランド"
+      ],
+      "intent": "know",
+      "pillar": "P5",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 87,
+      "trend_rationale": "下請法が『取適法（中小受託取引適正化法）』へ改正され2026年1月1日に施行済み。中小企業庁は2025年10月に改正ポイント説明会資料を公開しており、規制対象拡大・現金払い原則化・価格協議応諾義務化・運送委託の対象化という実務変更が進行中（出典：中小企業庁 https://www.chusho.meti.go.jp/keiei/torihiki/2025/251014.html、公正取引委員会・中小企業庁リーフレット https://www.jftc.go.jp/file/toriteki_leaflet.pdf）。加えて経済産業省が2026年6月26日に公表した『価格交渉促進月間（2026年3月）フォローアップ調査』で、価格転嫁率が54.2%にとどまることが示され、制度変化と実態のギャップが今まさに論点化している（https://www.meti.go.jp/press/2026/06/20260626003/20260626003.html）。下請け依存からの脱却＝自社ブランド化というMONOENの核心テーマを、公的一次情報を出典に語れるタイミングとして選定。",
+      "internal_links": [],
+      "summary": "取適法施行という制度変化を起点に、下請け脱却を「交渉力回復→取引先分散→自社ブランド化」の3段階で解説するP5クラスタ記事。",
+      "local_dir": "articles/2026-08-23-subcontract-dependence-exit"
     }
   ]
 }
