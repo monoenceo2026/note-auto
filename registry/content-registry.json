@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-22",
+    "updated": "2026-08-24",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -338,6 +338,21 @@
       "internal_links": [],
       "summary": "取適法施行という制度変化を起点に、下請け脱却を「交渉力回復→取引先分散→自社ブランド化」の3段階で解説するP5クラスタ記事。",
       "local_dir": "articles/2026-08-23-subcontract-dependence-exit"
+    },
+    {
+      "id": "P2-003",
+      "date": "2026-08-25",
+      "title": "製造業の新商品開発の進め方｜「価値の棚卸し」から始める4ステップ",
+      "primary_kw": "製造業 新商品開発",
+      "intent": "how",
+      "pillar": "P2",
+      "type": "cluster",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 87,
+      "trend_rationale": "中小企業庁『新事業進出・ものづくり商業サービス補助金』の第1回公募が2026年8月31日〜9月30日受付開始（応募締切10/30、最大9,000万円）。あわせて2026年9月9〜11日『ファクトリーイノベーションWeek秋』（幕張メッセ）など秋の展示会シーズンとも重なり、新商品開発への関心が高まる時期。",
+      "internal_links": [],
+      "summary": "アイデア出しではなく「価値の棚卸し」から始める、製造業の新商品開発4ステップの解説記事。"
     }
   ]
 }
