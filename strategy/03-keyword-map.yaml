@@ -28,7 +28,7 @@ pillars:
       - {id: P1-001, type: cluster, status: planned, priority: 2, intent: how,  primary_kw: 製造業 リブランディング, title: "製造業リブランディングの進め方", differentiator: "既存を作り直すREBRAND特化"}
       - {id: P1-002, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 中小企業 ブランディング, title: "中小企業のブランディング入門", differentiator: "中小全般の上位概念"}
       - {id: P1-003, type: cluster, status: in_progress, priority: 2, intent: how,  primary_kw: 町工場 自社ブランド, title: "町工場が自社ブランドを持つには", differentiator: "町工場主体・ブランド戦略視点"}
-      - {id: P1-004, type: cluster, status: planned, priority: 2, intent: how,  primary_kw: 技術の見せ方, title: "技術の見せ方：スペックを欲しい理由に翻訳する", differentiator: "表現/伝え方に特化"}
+      - {id: P1-004, type: cluster, status: draft, priority: 2, intent: how,  primary_kw: 技術の見せ方, title: "技術の見せ方：スペックを欲しい理由に翻訳する", differentiator: "表現/伝え方に特化"}
       - {id: P1-005, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 職人 ブランド化, title: "職人をブランド化する方法", differentiator: "個人(職人)の人格ブランド"}
       - {id: P1-006, type: cluster, status: planned, priority: 3, intent: know, primary_kw: ブランド診断, title: "ブランド診断とは｜自社の現在地を知る", differentiator: "入口サービス解説"}
       - {id: P1-007, type: cluster, status: planned, priority: 3, intent: commercial, primary_kw: 製造業 ブランディング 費用, title: "製造業ブランディングの費用と期間の考え方", differentiator: "お金/期間の意思決定"}
