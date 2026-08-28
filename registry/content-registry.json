@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-27",
+    "updated": "2026-08-28",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -374,6 +374,27 @@
       "internal_links": [],
       "summary": "賃上げ要件が求める価格決定力を、既存商品・会社のリブランディングで作る3ステップの解説記事。",
       "local_dir": "articles/2026-08-27-manufacturing-rebranding"
+    },
+    {
+      "id": "P2-002",
+      "date": "2026-08-28",
+      "title": "商品ブランディングとは｜スペックだけでは選ばれない時代の定義",
+      "primary_kw": "商品 ブランディング",
+      "secondary_kw": [
+        "商品ブランディングとは",
+        "スペック 差別化",
+        "商品リブランディング 違い"
+      ],
+      "intent": "know",
+      "pillar": "P2",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 89,
+      "trend_rationale": "2026年に入り、複数のブランディング専門メディアが『生成AI時代はスペック・価格などの機能的価値が生成AIの情報整理により誰でも即座に比較・取得できるようになり、差別化の源泉は情緒的価値＝ブランドに移る』と指摘している（出典：株式会社フラグアウト「生成AI時代のBtoB商材ブランディング戦略」2026年、フォーティエンスコンサルティング株式会社（NTTデータグループ）「生成AI時代におけるブランド強化の重要性」2026年2月）。MONOENの核心ポジショニング『技術はある。でも、選ばれる理由が伝わっていない』と直結し、直近14日間で最も手薄なピラーの一つであるP2の基礎クラスタとして選定。",
+      "internal_links": [],
+      "summary": "生成AIでスペック比較が容易になる時代に、商品ブランディングとは何かをMONOENの5段階フレームで定義するP2クラスタ記事。",
+      "local_dir": "articles/2026-08-28-product-branding-definition"
     }
   ]
 }
