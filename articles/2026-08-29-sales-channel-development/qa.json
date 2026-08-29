@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 88,
+  "scores": {"title_lead": 14, "headings": 13, "llmo": 19, "internal_links": 5, "compliance": 20, "originality": 15, "media_tags": 2},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：ライブコマース『勝利の2ステップ設計』、朝7〜8時のゴールデンタイム、掛け率50%/25%、東大阪倉庫での消化仕入れオペレーション",
+    "独自フレーム：4タイプの販路マップ（展示会/EC/卸・商社/ライブコマース）と『販路の前に文脈を用意する』という自社フレーズ",
+    "当事者視点：『私たちが現場で運用してみて分かったのは』という一次経験の明示",
+    "反直感：『販路は増やすより順番で決める』（一般論『販路は多いほど良い』を裏返す主張）",
+    "具体的手順：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階、STEP1〜3の導入フロー"
+  ],
+  "issues": [
+    "内部リンクが0本（registry公開済み記事が現時点でまだ無いため）。次回以降、公開済み記事が増え次第リンクを追加する",
+    "アイキャッチ画像なし（OPENAI_API_KEY未設定のためスキップ）。手動投稿時に画像追加を検討"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-29T08:00:00+09:00"
+}
