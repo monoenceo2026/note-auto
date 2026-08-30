@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-31",
+  "id": "P1-004",
+  "pillar": "P1",
+  "type": "cluster",
+  "primary_kw": "技術の見せ方",
+  "intent": "how",
+  "title": "技術の見せ方：スペックを欲しい理由に翻訳する",
+  "candidates_considered": [
+    {"id": "P1-004", "primary_kw": "技術の見せ方", "base_score": 3, "trend_score": 3, "final_score": 6},
+    {"id": "P2-001", "primary_kw": "商品リブランディング 事例", "base_score": 3, "trend_score": 2, "final_score": 5},
+    {"id": "P2-002", "primary_kw": "商品 ブランディング", "base_score": 3, "trend_score": 1, "final_score": 4}
+  ],
+  "trend_rationale": "中小企業庁は毎年9月・3月を「価格交渉促進月間」に設定しており、2026年8月4日更新の同庁ページで直近の価格転嫁率（2026年3月調査・54.2%）とあわせて周知されている（出典：中小企業庁『価格交渉促進月間の実施とフォローアップ調査結果』https://www.chusho.meti.go.jp/keiei/torihiki/follow-up/index.html、2026年8月4日更新）。加えて令和8年1月に「中小受託取引適正化法」が施行され、価格転嫁・下請取引の適正化への関心が来月にかけて社会的に高まる局面。この文脈は『価格を上げても選ばれる理由をどう伝えるか＝技術をスペックのまま出さず“欲しい理由”に翻訳する』というP1-004のテーマと直結するため、trend_score=3としてP1-004を本日のテーマに採用した。",
+  "differentiator": "P1-000（製造業ブランディングとはの完全ガイド）とはKW非重複（『技術の見せ方』で独立）。“伝え方・表現”という一点（スペック→欲しい理由の翻訳）に絞り、価格競争からの脱却は結論ではなく導入動機として触れるにとどめ、P5-001（価格競争から抜け出す構造）と役割分担する。",
+  "internal_link_candidates": {
+    "note": "registry上に公開済み(note_url)記事が無いため、本文中は将来公開予定のP1ピラー・P5-001等へのテキスト参照に留め、URLリンクは張らない（公開済みのみリンク可のルールを遵守）"
+  },
+  "cannibal_check": {
+    "status": "ok",
+    "conflicts": [],
+    "warns": []
+  },
+  "recent_14d_pillar_balance": {
+    "P1": 1, "P2": 1, "P3": 2, "P4": 1, "P5": 2, "P6": 0, "P7": 0
+  },
+  "last_article_pillar": "P3"
+}

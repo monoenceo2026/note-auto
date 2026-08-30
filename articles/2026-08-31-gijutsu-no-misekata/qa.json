@@ -1,0 +1,27 @@
+{
+  "decision": "publish",
+  "total_score": 89,
+  "scores": {
+    "title_lead": 14,
+    "headings": 14,
+    "llmo": 19,
+    "internal_links": 5,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 2
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：ライブコマース配信の最初約20分を会社紹介・技術紹介に充てる構成（brand-brief §5）",
+    "MONOEN一次情報：STEP1現状資料共有→STEP2診断ミーティング→STEP3提案範囲決定の導入フロー",
+    "独自フレーム：技術を欲しい理由に翻訳する『棚卸し→翻訳→物語化→証拠づけ』の4手順",
+    "当事者視点：The Lab.・TikTok LIVE配信現場での一次観察に基づく記述",
+    "反直感：『日本のものづくりは衰退ではなく翻訳不足』『技術力の高さと伝わる文章の質は別スキル』"
+  ],
+  "issues": [
+    "内部リンク：registry公開済み記事が0件のため、親ピラー・関連クラスタへのハイパーリンクを設置できていない（本文内は未公開ピラー記事名の文章参照のみでリンクなし＝ルール遵守）。次回以降、公開済み記事が増え次第、優先的にリンクを追加する。",
+    "アイキャッチ画像：OPENAI_API_KEY未設定のため画像生成をスキップ（eyecatch_prompt.txtは保存済み、後日手動生成可）。"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-08-31T07:50:00+09:00"
+}
