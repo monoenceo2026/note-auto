@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-29",
+    "updated": "2026-08-31",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -395,6 +395,27 @@
       "internal_links": [],
       "summary": "中小製造業向けに、展示会・EC・卸・ライブコマースの4タイプの販路を地図化し、選ぶ順番とMONOENのライブコマース実務知見を示す記事。",
       "local_dir": "articles/2026-08-29-sales-channel-development"
+    },
+    {
+      "id": "P1-004",
+      "date": "2026-09-01",
+      "title": "技術の見せ方｜スペックを「欲しい理由」に翻訳する4つの視点",
+      "primary_kw": "技術の見せ方",
+      "secondary_kw": [
+        "スペック 翻訳",
+        "町工場 技術 伝え方",
+        "製造業 ブランディング"
+      ],
+      "intent": "how",
+      "pillar": "P1",
+      "type": "cluster",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 87,
+      "trend_rationale": "2026年9月2日〜4日、東京ビッグサイト西展示棟で第14回『町工場NOW!』が開催される（出典：一般社団法人日本ギフト用品協会 https://www.giftshow.co.jp/tigs/category_sp/factorynow/）。同展示会は『世界に誇れる町工場の技術を、より多くの人に伝え、新しいライフスタイル市場を開拓する』ことを掲げており、『技術の見せ方（翻訳）』というテーマと直結する時事性がある。",
+      "internal_links": [],
+      "summary": "スペックを『変化・比較対象・失敗回避・背景の物語』の4視点で欲しい理由に翻訳する方法を、MONOENのライブ配信現場の一次情報で解説するP1クラスタ記事。",
+      "local_dir": "articles/2026-09-01-technical-storytelling"
     }
   ]
 }

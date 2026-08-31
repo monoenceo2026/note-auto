@@ -1,0 +1,27 @@
+{
+  "decision": "publish",
+  "total_score": 87,
+  "scores": {
+    "title_lead": 14,
+    "headings": 13,
+    "llmo": 19,
+    "internal_links": 4,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 2
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：ライブ配信冒頭約20分を会社紹介・技術紹介に充てる／朝7〜8時ゴールデンタイム",
+    "独自フレーム：翻訳4視点（変化／比較対象／失敗回避／背景の物語）",
+    "当事者視点：『私たちが現場でTikTok LIVEの配信台本を作るときも』のMONOEN現場の一人称記述",
+    "反直感：『技術がないのではなく、翻訳できていないことが価格競争の主因』",
+    "具体的手順：主力商品1つ→仕様5項目書き出し→4視点表に当てはめる、という次アクション"
+  ],
+  "issues": [
+    "content-registry.jsonにpublished記事が0件のため、親ピラー・関連クラスタへの内部リンクを設置できず内部リンクスコアが低い（構造上の制約。将来公開が進み次第、追記予定）。",
+    "OPENAI_API_KEY未設定のためアイキャッチ画像を生成できず（eyecatch_status: skipped）。画像・タグスコアを一部減点。"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-01T07:42:00+09:00"
+}

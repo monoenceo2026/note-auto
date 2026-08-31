@@ -1,0 +1,21 @@
+{
+  "id": "P1-004",
+  "date": "2026-09-01",
+  "primary_kw": "技術の見せ方",
+  "intent": "how",
+  "pillar": "P1",
+  "type": "cluster",
+  "title_working": "技術の見せ方：スペックを欲しい理由に翻訳する",
+  "trend_rationale": "2026年9月2日〜4日、東京ビッグサイト西展示棟で第14回『町工場NOW!』が開催される（出典：一般社団法人日本ギフト用品協会 展示会情報 https://www.giftshow.co.jp/tigs/category_sp/factorynow/）。同展示会は『世界に誇れる町工場の技術をより多くの人々に伝え、新しいライフスタイル市場を開拓する』ことを目的に掲げており、『スペックをどう翻訳して伝えるか』というMONOENのP1-004クラスタと主題が直結する。また note記事『町工場ブランド化時代の到来。技術力だけでは選ばれない時代が始まっている。』（FACTORY note、町工場戦略室、2026年）でも『技術力だけでは選ばれない』という同様の問題提起がされており、技術の見せ方・翻訳の重要性が業界内で継続的に語られているトレンドと判断した。",
+  "differentiator": "P1-000（製造業ブランディング完全ガイド／know）やP2-000（商品リブランディング5ステップ／how・商品単位）とは異なり、本記事は『伝え方・表現（クリエイティブディレクション）』という1機能に絞ったhowクラスタ。技術情報を欲しい理由に翻訳する具体的な思考プロセスに特化する。",
+  "cannibal_check": {
+    "command": "python3 scripts/registry.py check \"技術の見せ方\" --intent how",
+    "result": "ok",
+    "conflicts": [],
+    "warns": []
+  },
+  "internal_link_candidates": {
+    "note": "content-registry.json に published エントリが0件のため、内部リンクは既存クラスタ記事の完成後まで空欄とする",
+    "parent_pillar": "製造業 ブランディング（P1-000、未公開のためリンク保留）"
+  }
+}

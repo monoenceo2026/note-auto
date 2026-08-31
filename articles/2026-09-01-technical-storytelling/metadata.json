@@ -1,0 +1,32 @@
+{
+  "id": "P1-004",
+  "date": "2026-09-01",
+  "title": "技術の見せ方｜スペックを「欲しい理由」に翻訳する4つの視点",
+  "primary_kw": "技術の見せ方",
+  "secondary_kw": ["スペック 翻訳", "町工場 技術 伝え方", "製造業 ブランディング"],
+  "intent": "how",
+  "pillar": "P1",
+  "type": "cluster",
+  "hashtags": ["#製造業", "#ブランディング", "#ものづくり", "#中小企業", "#MONOEN"],
+  "lead_140": "技術の見せ方とは、加工精度や工程・素材といったスペック情報を、顧客が「欲しい」と感じる言葉や体験に置き換える技術のことです。中小メーカーの多くは技術ではなく、この「翻訳」の工程が抜け落ちているために価格競争へ引き込まれています。翻訳に使える4つの視点を解説します。",
+  "summary": "スペックを「変化・比較対象・失敗回避・背景の物語」の4視点で欲しい理由に翻訳する方法を、MONOENのライブ配信現場の一次情報で解説するP1クラスタ記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "2026年9月2日〜4日、東京ビッグサイト西展示棟で第14回『町工場NOW!』が開催される（出典：一般社団法人日本ギフト用品協会 https://www.giftshow.co.jp/tigs/category_sp/factorynow/）。同展示会は『世界に誇れる町工場の技術を、より多くの人に伝え、新しいライフスタイル市場を開拓する』ことを掲げており、『技術の見せ方（翻訳）』というテーマと直結する時事性がある。",
+  "sources": [
+    {
+      "title": "町工場NOW! 開催情報（第14回）",
+      "publisher": "一般社団法人日本ギフト用品協会",
+      "date": "2026-09",
+      "url": "https://www.giftshow.co.jp/tigs/category_sp/factorynow/"
+    }
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "工場の作業台の上に置かれた金属部品の抽象的なクローズアップ。片側にスポットライト、反対側は暗いグラデーションで沈める。無機物に生命が宿る瞬間の静物写真的な質感。",
+  "eyecatch_text": "技術はある。\nでも、伝わっていない。",
+  "eyecatch_eyebrow": "MANUFACTURING BRANDING",
+  "char_count": 3700,
+  "eyecatch_status": "skipped",
+  "eyecatch_skip_reason": "OPENAI_API_KEY未設定のため画像生成をスキップ"
+}
