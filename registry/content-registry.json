@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-08-31",
+    "updated": "2026-09-02",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -416,6 +416,27 @@
       "internal_links": [],
       "summary": "スペックを『変化・比較対象・失敗回避・背景の物語』の4視点で欲しい理由に翻訳する方法を、MONOENのライブ配信現場の一次情報で解説するP1クラスタ記事。",
       "local_dir": "articles/2026-09-01-technical-storytelling"
+    },
+    {
+      "id": "P1-008",
+      "date": "2026-09-03",
+      "title": "会社リブランディング｜事業承継で「会社の見え方」を更新する3ステップ",
+      "primary_kw": "会社 リブランディング",
+      "secondary_kw": [
+        "事業承継 ブランディング",
+        "後継者 会社イメージ 刷新",
+        "二代目社長 ブランディング"
+      ],
+      "intent": "how",
+      "pillar": "P1",
+      "type": "cluster",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 89,
+      "trend_rationale": "2026年5月、日経クロストレンドが『事業承継とリブランディング、実は好相性 難題を乗り越えた6社』を特集（https://xtrend.nikkei.com/atcl/contents/18/01375/00001/）。中小企業庁『事業承継・M&Aに関する現状分析と今後の取組の方向性について』（令和6年6月）でも、若い年代での承継ほど付加価値額の増加率が高い傾向が報告されている。MONOENの主要ペルソナ（大阪の金属加工会社を継いだ45歳二代目社長）と直結する、根拠のある“今”のテーマ。",
+      "internal_links": [],
+      "summary": "事業承継の時期に会社リブランディングへ着手する理由と、現状資料の共有→診断ミーティング→提案範囲の決定という3ステップの進め方を解説するP1クラスタ記事。",
+      "local_dir": "articles/2026-09-03-company-rebranding-succession"
     }
   ]
 }
