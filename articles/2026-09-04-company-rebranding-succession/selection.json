@@ -1,0 +1,21 @@
+{
+  "id": "P1-008",
+  "pillar": "P1",
+  "type": "cluster",
+  "primary_kw": "会社 リブランディング",
+  "intent": "how",
+  "title": "会社リブランディングとは｜事業承継期に「会社の見え方」を更新する",
+  "base_score": 2,
+  "trend_score": 3,
+  "final_score": 5,
+  "trend_rationale": "法人版事業承継税制の特例措置を使うための『特例承継計画』提出期限が2026年3月末に迫っており、後継者への引き継ぎを進める中小企業経営者にとって意思決定が集中する時期（出典：中小企業庁『法人版事業承継税制（特例措置）』 https://www.chusho.meti.go.jp/zaimu/shoukei/shoukei_enkatsu_zouyo_souzoku.html 、2026年参照）。同時に『2026年問題』として、承継の準備が整わないまま廃業に至る中小企業が話題化している（出典：2025年版中小企業白書 第9節 事業承継 https://www.chusho.meti.go.jp/pamflet/hakusyo/2025/chusho/b1_1_9.html ）。制度上の締切と経営判断のタイミングが重なる今、『税務・法務の承継』だけでなく『会社の見え方（ブランド）の承継』を扱う記事の需要が高いと判断した。",
+  "differentiator": "主体=会社（コーポレート）、事業承継という時間軸に特化。P1-000（製造業ブランディング全体ガイド）や既存クラスタとはキーワード非重複（registry.py check: status=ok, conflicts=[], warns=[]）。",
+  "internal_link_candidates": {
+    "note": "content-registry.json 内に note_url が設定された公開済み記事が現時点で存在しない（すべて draft/hold）ため、internal_links は空配列とする。将来公開が進んだら P1-000（製造業ブランディング）、P4記事（事業承継ブランド意思決定）と相互リンクを張る想定。"
+  },
+  "cannibal_check": {
+    "status": "ok",
+    "conflicts": [],
+    "warns": []
+  }
+}
