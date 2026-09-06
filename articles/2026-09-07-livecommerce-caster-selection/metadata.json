@@ -1,0 +1,28 @@
+{
+  "id": "P3-006",
+  "date": "2026-09-07",
+  "title": "ライブコマーサーの選び方｜フォロワー数より“相性”を見る3つの視点",
+  "primary_kw": "ライブコマーサー 選び方",
+  "secondary_kw": ["ライブコマース 演者", "TikTok LIVE 配信者 選定", "ライブコマース キャスティング"],
+  "intent": "compare",
+  "pillar": "P3",
+  "type": "cluster",
+  "hashtags": ["#ライブコマース", "#製造業", "#ものづくり", "#中小企業", "#MONOEN"],
+  "lead_140": "ライブコマーサーの選び方とは、フォロワー数の多さではなく「商品を自分の言葉で語れるか」「メーカーの世界観と相性が良いか」を基準に配信者を選ぶことです。TikTok Shopの拡大で大手メーカーのライブ参入が相次ぐいま、製造業にとって「誰に配信を任せるか」は、集客施策以上に売上を左右する経営判断になっています。",
+  "summary": "ライブコマーサーの選び方を、フォロワー数偏重の失敗要因とMONOENの3視点（商品理解・冒頭20分・生活者感覚）で解説。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "TikTok Shop日本市場は2026年に年間流通額約1,283億円規模へ急拡大（出典：Commerce hack「TikTok Shop日本市場、2026年に約1,280億円規模へ急拡大」2026年）。TikTok公式発表でも全体流通総額の約7割が動画・LIVE配信起点、登録クリエイター数20万人以上・セラー数5万店以上と拡大が裏付けられている（出典：TikTok Newsroom公式発表、2026年2月）。国内でも大手メーカーの参入が相次ぎ（出典：note「ライブコマース研究所」2026年9月後半のトレンド記事）、演者選定が製造業側の新たな意思決定課題になっている。",
+  "sources": [
+    {"title": "TikTok Shop日本市場、2026年に約1,280億円規模へ急拡大", "publisher": "Commerce hack（W2ソリューション）", "date": "2026", "url": "https://www.w2solution.co.jp/enterprise/knowledge/tiktok-market-japan-report-2026/"},
+    {"title": "TikTok Shop 提供開始から半年の実績発表", "publisher": "TikTok Newsroom", "date": "2026年2月", "url": "https://newsroom.tiktok.com/tiktok-shop?lang=ja-JP"},
+    {"title": "【9月後半のライブコマーストレンド】TikTok Shopが牽引する大手参入と、国内外で進化するライブコマースの今", "publisher": "ライブコマース研究所（note）", "date": "2026年9月", "url": "https://note.com/livecommercelab/n/n39c94b172cc0"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "工業的な質感の抽象背景（金属・工具のシルエットや配線を思わせる幾何学モチーフ）に、光源が片側から差し込み反対側は暗く落ちる構図。人物・実在商品は描かない。",
+  "eyecatch_text": "フォロワー数より、\n相性。",
+  "eyecatch_eyebrow": "LIVE COMMERCE",
+  "char_count": 4139,
+  "eyecatch_status": "skipped"
+}

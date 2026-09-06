@@ -1,0 +1,26 @@
+{
+  "decision": "publish",
+  "total_score": 90,
+  "scores": {
+    "title_lead": 14,
+    "headings": 14,
+    "llmo": 20,
+    "internal_links": 5,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 2
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：BEGINNING LEGACY配信の冒頭20分構成／朝7〜8時ゴールデンタイム／社内で明文化した失敗要因の定義",
+    "具体的な手順・チェックリスト：職人本人／社内担当／外部キャスターの3タイプ比較表と、事前レクチャー必須化という実務手順",
+    "独自フレーム：演者選定の『3つの視点』（商品を語れるか／冒頭20分を任せられるか／ゴールデンタイムの生活者感覚）",
+    "反直感的な主張：『フォロワー数より相性』『演者交代よりも内容が薄い配信の継続の方がファン離れのリスクが高い』"
+  ],
+  "issues": [
+    "registryに公開済みnote_urlが0件のため、親ピラー・関連クラスタへの内部リンクを設置できていない（internal_links空欄は現状の制約であり、要素追加による品質不足ではない）",
+    "OPENAI_API_KEY未設定のためアイキャッチ画像が未生成（eyecatch_status: skipped）。画像・タグ配点を満点にできていない"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-07T09:30:00+09:00"
+}

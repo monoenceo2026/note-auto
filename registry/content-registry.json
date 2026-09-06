@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-09-03",
+    "updated": "2026-09-06",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -437,6 +437,27 @@
       "internal_links": [],
       "summary": "事業承継税制の期限延長を背景に、税務・法務とは別に「会社の見え方」を承継する会社リブランディングの3ステップを解説する記事。",
       "local_dir": "articles/2026-09-04-company-rebranding-succession"
+    },
+    {
+      "id": "P3-006",
+      "date": "2026-09-07",
+      "title": "ライブコマーサーの選び方｜フォロワー数より“相性”を見る3つの視点",
+      "primary_kw": "ライブコマーサー 選び方",
+      "secondary_kw": [
+        "ライブコマース 演者",
+        "TikTok LIVE 配信者 選定",
+        "ライブコマース キャスティング"
+      ],
+      "intent": "compare",
+      "pillar": "P3",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 90,
+      "trend_rationale": "TikTok Shop日本市場は2026年に年間流通額約1,283億円規模へ急拡大（出典：Commerce hack 2026年）。TikTok公式発表でも全体流通総額の約7割が動画・LIVE配信起点、登録クリエイター数20万人以上・セラー数5万店以上と裏付けられている（出典：TikTok Newsroom公式発表 2026年2月）。国内でも大手メーカーの参入が相次ぎ（出典：note「ライブコマース研究所」2026年9月後半のトレンド記事）、市場拡大に伴い『誰に配信してもらうか＝演者選定』が製造業側の新たな意思決定課題になっている。P3内の他クラスタ（始め方・失敗・費用・集客等）とはキーワード非重複（registry.py check: status=ok）。",
+      "internal_links": [],
+      "summary": "ライブコマーサーの選び方を、フォロワー数偏重の失敗要因とMONOENの3視点（商品理解・冒頭20分・生活者感覚）で解説する記事。",
+      "local_dir": "articles/2026-09-07-livecommerce-caster-selection"
     }
   ]
 }

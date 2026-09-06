@@ -1,0 +1,15 @@
+{
+  "id": "P3-006",
+  "pillar": "P3",
+  "type": "cluster",
+  "title": "ライブコマーサーの選び方（作業タイトル。最終タイトルはSTEP2で確定）",
+  "primary_kw": "ライブコマーサー 選び方",
+  "secondary_kw": ["ライブコマース 演者", "TikTok LIVE 配信者 選定", "ライブコマース キャスティング"],
+  "intent": "compare",
+  "trend_score": 3,
+  "trend_rationale": "TikTok Shop日本市場は2026年に年間流通額約1,283億円規模へ急拡大（出典：Commerce hack 2026年 https://www.w2solution.co.jp/enterprise/knowledge/tiktok-market-japan-report-2026/）。TikTok公式発表でも全体流通総額の約7割が動画・LIVE配信起点、登録クリエイター数20万人以上・セラー数5万店以上と裏付けられている（出典：TikTok Newsroom公式発表 2026年2月 https://newsroom.tiktok.com/tiktok-shop?lang=ja-JP）。国内でも大手メーカーの参入が相次ぎ（出典：note「ライブコマース研究所」2026年9月後半のトレンド記事 https://note.com/livecommercelab/n/n39c94b172cc0）、市場拡大に伴い『誰に配信してもらうか＝演者選定』が製造業側の新たな意思決定課題になっている。MONOENの実務知見（相性＞フォロワー数）を今出す意義が大きい。",
+  "cannibal_check": "ok（registry.py check: conflicts=[], warns=[]）",
+  "differentiator": "P3内の他記事は『始め方』『失敗』『費用』『集客』等の運営設計に対し、本記事は唯一『演者（ライブコマーサー）の選定基準』という人選・キャスティングの意思決定に特化する。",
+  "target_reader": "ライブコマースを始めたいが、誰に配信を任せるか（社員／職人本人／外部キャスター）で迷っている製造業の経営者・広報担当者",
+  "internal_link_candidates": []
+}
