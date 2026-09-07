@@ -49,7 +49,7 @@ pillars:
       - {id: P2-005, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 商品 ネーミング, title: "売れる商品ネーミング・コピー設計", differentiator: "言語設計の実務"}
       - {id: P2-006, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 商品ページ 作り方, title: "商品ページ・パッケージの設計", differentiator: "販売導線の見せ物設計"}
       - {id: P2-007, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 別注 商品開発, title: "別注・限定品のつくり方（共創）", differentiator: "CO-CREATE特化"}
-      - {id: P2-008, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 価格 決め方 製造業, title: "価格競争にならない値付け", differentiator: "価格戦略特化"}
+      - {id: P2-008, type: cluster, status: in_progress, priority: 3, intent: how,  primary_kw: 価格 決め方 製造業, title: "価格競争にならない値付け", differentiator: "価格戦略特化"}
       - {id: P2-009, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: OEM 自社ブランド, title: "OEM・下請けから自社ブランドへ（商品ライン戦略）", differentiator: "商品ラインの作り方視点"}
 
   # ---------------- P3 ライブコマース・D2C・EC・販路開拓 ----------------
