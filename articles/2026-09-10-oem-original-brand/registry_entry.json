@@ -1,0 +1,21 @@
+{
+  "id": "P2-009",
+  "date": "2026-09-10",
+  "title": "OEM・下請けから自社ブランドへ｜商品ラインの作り方3ステップ",
+  "primary_kw": "OEM 自社ブランド",
+  "secondary_kw": [
+    "OEM 自社ブランド 立ち上げ",
+    "下請け 脱却 ブランド",
+    "町工場 自社ブランド"
+  ],
+  "intent": "how",
+  "pillar": "P2",
+  "type": "cluster",
+  "note_url": "",
+  "status": "draft",
+  "qa_score": 90,
+  "trend_rationale": "OEM専業メーカーが取引先依存リスクと収益頭打ちを背景に自社ブランド化へ挑戦する動きが継続（出典：Amaneno note、2026年閲覧）。2026年度は事業再構築・新事業進出補助金など業態転換支援が拡充（出典：MSコンパス、2026年）。MONOENの主要ペルソナと直結するテーマとして選定。",
+  "internal_links": [],
+  "summary": "OEM・下請け依存からの脱却が進む背景と、技術の棚卸し→看板商品の設計→小さく売る検証、という商品ライン設計3ステップをMONOENの一次情報で解説する記事。",
+  "local_dir": "articles/2026-09-10-oem-original-brand"
+}

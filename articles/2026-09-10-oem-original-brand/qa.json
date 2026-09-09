@@ -1,0 +1,26 @@
+{
+  "decision": "publish",
+  "total_score": 90,
+  "scores": {
+    "title_lead": 14,
+    "headings": 14,
+    "llmo": 19,
+    "internal_links": 5,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：初期フェーズ特別提案（固定費なし・キャスティング費なし・掛け率50%）と朝7〜8時ゴールデンタイム",
+    "具体手順：技術の棚卸し→看板商品の設計→小さく売る検証、という商品ライン設計3ステップ",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEと和製LVMHへのロードマップ4段階を商品ライン設計に適用",
+    "反直感：『ブランドを先に宣言せず、売る場を先につくってから編集する』という順序の逆転"
+  ],
+  "issues": [
+    "公開済みの親ピラー記事（P2-000）がまだ無いため、内部リンクを設置できていない（registry上published記事ゼロのため構造的制約。今後P2-000が公開され次第、追記リンクを推奨）",
+    "アイキャッチ画像は環境変数OPENAI_API_KEY未設定のためスキップ（metadata.jsonにeyecatch_status:skippedを記録済み）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-10T08:15:00+09:00"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "P2-009",
+  "date": "2026-09-10",
+  "title": "OEM・下請けから自社ブランドへ｜商品ラインの作り方3ステップ",
+  "primary_kw": "OEM 自社ブランド",
+  "secondary_kw": ["OEM 自社ブランド 立ち上げ", "下請け 脱却 ブランド", "町工場 自社ブランド"],
+  "intent": "how",
+  "pillar": "P2",
+  "type": "cluster",
+  "hashtags": ["#製造業", "#OEM", "#ブランディング", "#ものづくり", "#MONOEN"],
+  "lead_140": "OEM・下請け製造から自社ブランドへの転換とは、取引先の仕様に合わせてつくる商品づくりから、自社が企画・命名し、自社の名前で売る商品づくりへ主導権を移すことです。技術の棚卸しから看板商品の設計、小さく売って検証する場づくりまでを3ステップで解説します。",
+  "summary": "OEM・下請け依存からの脱却が進む背景と、技術の棚卸し→看板商品の設計→小さく売る検証、という商品ライン設計3ステップをMONOENの一次情報で解説する記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "OEM専業メーカーが取引先依存リスクと収益頭打ちを背景に自社ブランド化へ挑戦する動きが継続（出典：Amaneno note、2026年閲覧、https://note.com/amaneno/n/na22bdaeb6e74）。2026年度は事業再構築・新事業進出補助金など業態転換支援が拡充（出典：MSコンパス、2026年、https://mscompass.ms-ins.com/business-news/new-subsidies-2026/）。MONOENの主要ペルソナ（下請け依存から自社ブランドを育てたい二代目社長）と直結するテーマとして選定。",
+  "sources": [
+    {"title": "OEMメーカーが自社ブランド商品を開発する時。ぶつかりがちな「見えない壁」", "publisher": "Amaneno（note）", "date": "2026年閲覧", "url": "https://note.com/amaneno/n/na22bdaeb6e74"},
+    {"title": "2026年度に新設される補助金・助成金｜主な種類と申請時のポイントを解説", "publisher": "MSコンパス（三井住友海上）", "date": "2026年", "url": "https://mscompass.ms-ins.com/business-news/new-subsidies-2026/"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "工場の作業台の上で、規格化された部品の列から1つだけ独自の意匠が施された試作品が浮かび上がるような静物構成。片側を暗く落とし、反対側にライトを当てて「量産の中から生まれる自社の一本」を象徴する抽象的な構図。実在商品・工程は再現しない。",
+  "eyecatch_text": "つくるだけの会社から、\n決める会社へ。",
+  "eyecatch_eyebrow": "OEM TO OWN BRAND",
+  "char_count": 3454,
+  "eyecatch_status": "skipped"
+}

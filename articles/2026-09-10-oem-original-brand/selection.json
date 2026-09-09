@@ -1,0 +1,24 @@
+{
+  "id": "P2-009",
+  "date": "2026-09-10",
+  "title": "OEM・下請けから自社ブランドへ｜商品ラインの作り方3ステップ",
+  "primary_kw": "OEM 自社ブランド",
+  "secondary_kw": ["OEM 自社ブランド 立ち上げ", "下請け 脱却 ブランド", "町工場 自社ブランド"],
+  "intent": "how",
+  "pillar": "P2",
+  "type": "cluster",
+  "differentiator": "商品ラインの作り方視点（P1『町工場 自社ブランド』のブランド戦略、P5『下請け 脱却』の経営構造とは切り口を分け、商品を何本立てるか・どう並べるかという商品ライン設計に特化する）",
+  "candidates_considered": [
+    {"id": "P2-009", "primary_kw": "OEM 自社ブランド", "base_score": 2, "trend_score": 3, "total": 5},
+    {"id": "P1-005", "primary_kw": "職人 ブランド化", "base_score": 2, "trend_score": 2, "total": 4},
+    {"id": "P2-001", "primary_kw": "商品リブランディング 事例", "base_score": 3, "trend_score": 0, "total": 3},
+    {"id": "P2-002", "primary_kw": "商品 ブランディング", "base_score": 3, "trend_score": 0, "total": 3},
+    {"id": "P1-002", "primary_kw": "中小企業 ブランディング", "base_score": 2, "trend_score": 1, "total": 3},
+    {"id": "P1-006", "primary_kw": "ブランド診断", "base_score": 2, "trend_score": 0, "total": 2},
+    {"id": "P2-004", "primary_kw": "価値の棚卸し", "base_score": 2, "trend_score": 0, "total": 2},
+    {"id": "P1-007", "primary_kw": "製造業 ブランディング 費用", "base_score": 2, "trend_score": 0, "total": 2, "note": "cannibal_warn: P1-000と67%重複のため見送り"}
+  ],
+  "trend_rationale": "OEM専業だった製造業が『取引先依存のリスク』『原価管理だけでは収益が頭打ち』を背景に自社ブランド立ち上げへ挑戦する動きが継続的に報じられている（出典：Amaneno note『OEMメーカーが自社ブランド商品を開発する時。ぶつかりがちな「見えない壁」』2026年閲覧、https://note.com/amaneno/n/na22bdaeb6e74）。加えて2026年度の中小企業向け補助金は事業再構築・新事業進出補助金など『業態転換』支援が拡充されており（出典：中小企業の未来をサポート MSコンパス『2026年度に新設される補助金・助成金』2026年、https://mscompass.ms-ins.com/business-news/new-subsidies-2026/）、OEM企業が自社ブランドという新事業へ踏み出す環境が整いつつある。MONOENのペルソナ（下請け依存から脱却し自社ブランドを育てたい二代目社長）と最も一致する。",
+  "internal_link_candidates": [],
+  "cannibal_check": {"status": "ok", "conflicts": [], "warns": []}
+}
