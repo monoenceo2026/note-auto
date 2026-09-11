@@ -96,7 +96,7 @@ pillars:
       - {id: P5-004, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 製造業 採用 課題, title: "中小製造業の採用・人材課題", differentiator: "採用/人材の課題"}
       - {id: P5-005, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 採用ブランディング 製造業, title: "採用ブランディング（製造業）の実務", differentiator: "採用広報の実務"}
       - {id: P5-006, type: cluster, status: planned, priority: 4, intent: know, primary_kw: 地域ブランド 製造業, title: "地場産業・地域ブランドの活性化", differentiator: "地域/産地の視点"}
-      - {id: P5-007, type: cluster, status: planned, priority: 3, intent: know, primary_kw: 製造業 AI 活用, title: "製造業のAI・DX活用の現実解", differentiator: "技術活用の現実解"}
+      - {id: P5-007, type: cluster, status: in_progress, priority: 3, intent: know, primary_kw: 製造業 AI 活用, title: "製造業のAI・DX活用の現実解", differentiator: "技術活用の現実解"}
       - {id: P5-008, type: cluster, status: planned, priority: 4, intent: know, primary_kw: インバウンド 製造業, title: "インバウンド×ものづくり", differentiator: "訪日需要の視点"}
       # トレンド枠：日々のトレンド分析で見つけた時事ネタをここに動的追加（primary_kwは都度設定）
 
