@@ -1,0 +1,27 @@
+{
+  "decision": "publish",
+  "total_score": 89,
+  "scores": {
+    "title_lead": 14,
+    "headings": 13,
+    "llmo": 18,
+    "internal_links": 7,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 2
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：The Lab.現場観察／ライブコマース最初20分の会社紹介／朝7〜8時ゴールデンタイム／サンプル受領後1〜2週間〜1ヶ月のリードタイム",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階、および3つの再設計パターン（型1〜3）",
+    "当事者視点：The Lab.・TikTok LIVE現場での一次観察に基づく記述",
+    "反直感：『フォロワー数の多さより、商品と語り手の相性を優先する』という事例学習の落とし穴の指摘"
+  ],
+  "issues": [
+    "lead_140が148字とやや目安（140字）を超過（許容範囲内、内容自体は結論先出しで問題なし）",
+    "eyecatch画像は OPENAI_API_KEY 未設定のため生成スキップ（記事は画像なしで公開可の方針に従う）",
+    "内部リンクは公開済み記事が0件のためすべて空欄（カニバリ・リンク切れの必須NGには非該当）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-13T07:55:00+09:00"
+}
