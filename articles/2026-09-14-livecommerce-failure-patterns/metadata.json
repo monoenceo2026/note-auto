@@ -1,0 +1,28 @@
+{
+  "id": "P3-005",
+  "date": "2026-09-14",
+  "title": "ライブコマースでよくある失敗3パターン｜安売り沼にハマらない見極め方",
+  "primary_kw": "ライブコマース 失敗",
+  "secondary_kw": ["ライブコマース 失敗事例", "TikTok LIVE 失敗", "ライブコマース 続かない"],
+  "intent": "know",
+  "pillar": "P3",
+  "type": "cluster",
+  "hashtags": ["#ライブコマース", "#TikTokLIVE", "#製造業", "#ものづくり", "#MONOEN"],
+  "lead_140": "ライブコマースの失敗とは、フォロワー数への過信・安売り目的の視聴者への依存・一過性のイベント化という3つの構造的な要因が重なり、売上だけでなくブランド価値まで毀損してしまう状態を指します。",
+  "summary": "ライブコマースの失敗3パターン（フォロワー過信・安売り依存・一過性）と、MONOENの2ステップ設計による避け方を解説するP3クラスタ記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "TikTok Shopのライブコマース比率が2026年6月時点で売上全体の5〜6割まで上昇し参入クリエイター・事業者が急増する一方、物流体制の未整備・コンテンツ流用・告知不足・クリエイターのミスマッチが典型的な失敗パターンとして指摘されている（出典：ジャグー株式会社 2026年、株式会社チホサポ 2026年版）。参入急増の今こそ失敗要因を先に知る需要が強く、P3（ライブコマース・D2C・EC・販路開拓）は月間目安7本に対し直近実績が手薄なため優先。",
+  "sources": [
+    {"title": "【2026年】TikTok Shopライブコマースで売上UP！配信テクニックと失敗しないための7つのポイント", "publisher": "ジャグー株式会社", "date": "2026", "url": "https://jagoo.co.jp/column/tiktokshop-livecommerce/"},
+    {"title": "TikTok Shop成功・失敗事例から学ぶ｜日本企業6社の実例と運営のポイント【2026年版】", "publisher": "株式会社チホサポ", "date": "2026", "url": "https://chihosapo.co.jp/knowledge/tiktok-shop-case-2026/"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "磨かれた金属の器具と、光を反射する薄い布(のれん/暖簾のような素材)が片側に配置された静物。安売りの喧騒ではなく、静かに信頼を積み上げる時間を象徴する構図。",
+  "eyecatch_text": "安さで集めた人は、\n安さでしか残らない。",
+  "eyecatch_eyebrow": "LIVE COMMERCE",
+  "char_count": 3668,
+  "eyecatch_status": "skipped",
+  "eyecatch_skip_reason": "OPENAI_API_KEY 未設定"
+}

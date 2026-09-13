@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 85,
+  "scores": {"title_lead": 14, "headings": 13, "llmo": 19, "internal_links": 2, "compliance": 20, "originality": 15, "media_tags": 2},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：勝利の2ステップ設計・掛け率50%/25%・ゴールデンタイム朝7〜8時・消化仕入れの倉庫運用",
+    "具体的な手順：失敗を避ける3つの確認項目を表で提示",
+    "当事者視点：BEGINNING LEGACYとしての現場実践から語る一人称の記述",
+    "独自フレーム：フォロワー過信／安売り依存／一過性イベントの3分類＋2ステップ設計での回避策",
+    "反直感：『フォロワー数が多い＝売れる』は誤解／『安さで集めた人は安さでしか残らない』"
+  ],
+  "issues": [
+    "registry上に公開済み記事が0件のため、親ピラー・関連クラスタへの内部リンクを張れていない（internal_linksが空）。台帳に公開URLが増え次第、次回更新で追記すべき",
+    "OPENAI_API_KEY未設定のためアイキャッチ画像が生成できていない（画像なしで継続）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-14T09:00:00+09:00"
+}
