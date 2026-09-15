@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-09-13",
+    "updated": "2026-09-15",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -521,6 +521,27 @@
       "internal_links": [],
       "summary": "ライブコマースの失敗3パターン（フォロワー過信・安売り依存・一過性）と、MONOENの2ステップ設計による避け方を解説するP3クラスタ記事。",
       "local_dir": "articles/2026-09-14-livecommerce-failure-patterns"
+    },
+    {
+      "id": "P1-006",
+      "date": "2026-09-15",
+      "title": "ブランド診断とは｜自社の現在地を知るための3つの視点",
+      "primary_kw": "ブランド診断",
+      "secondary_kw": [
+        "ブランド診断 中小企業",
+        "自社ブランド 現在地",
+        "製造業 ブランディング 診断"
+      ],
+      "intent": "know",
+      "pillar": "P1",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 90,
+      "trend_rationale": "日経リサーチが2026年9月10日、評価対象企業を600社→1000社へ拡大した新指標『Nikkei-R Brand Equity Score』を核とする『ブランド戦略サーベイ1000』を発表（出典：日経リサーチ プレスリリース／PR TIMES、2026年9月）。ブランド価値の定量診断が大企業側で標準化・拡大している時期であり、中小メーカー向けに『診断から始める』意義を説く適時性が高いため選定。",
+      "internal_links": [],
+      "summary": "ブランド診断＝技術・伝わり方・市場での位置づけの3視点で現在地を診る作業。MONOENの診断〜提案3ステップと、日経リサーチの最新動向を交え解説するP1クラスタ記事。",
+      "local_dir": "articles/2026-09-15-brand-diagnosis-guide"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 90,
+  "scores": {"title_lead": 14, "headings": 14, "llmo": 19, "internal_links": 5, "compliance": 20, "originality": 15, "media_tags": 3},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：診断〜提案の3ステップ（現状資料の共有→診断ミーティング→提案範囲の決定）とプロジェクト3タイプ（01診断→02実装→03販売・共創）",
+    "具体的な手順・図表：3視点（技術/伝わり方/市場での位置づけ）を表で整理",
+    "当事者視点：The Lab.・ライブコマース現場での対話から得た一次観察の言及",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEおよび01→02→03の診断先行フロー",
+    "反直感：『技術力を磨くより先に診断を挟むほうが近道』という通説の裏返し"
+  ],
+  "issues": [
+    "registryに公開済み記事が1件もないため内部リンクを設置できず（内部リンクスコアを部分減点）",
+    "OPENAI_API_KEYが未設定のためアイキャッチ画像を生成できず（eyecatch_status: skipped）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-15T22:50:00+09:00"
+}
