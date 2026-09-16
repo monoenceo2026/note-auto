@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-09-15",
+    "updated": "2026-09-16",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -542,6 +542,27 @@
       "internal_links": [],
       "summary": "ブランド診断＝技術・伝わり方・市場での位置づけの3視点で現在地を診る作業。MONOENの診断〜提案3ステップと、日経リサーチの最新動向を交え解説するP1クラスタ記事。",
       "local_dir": "articles/2026-09-15-brand-diagnosis-guide"
+    },
+    {
+      "id": "P2-001",
+      "date": "2026-09-16",
+      "title": "商品リブランディングの事例｜スペックを「欲しい理由」に変えた3つの型",
+      "primary_kw": "商品リブランディング 事例",
+      "secondary_kw": [
+        "商品 ブランディング 中小企業",
+        "価値の棚卸し",
+        "スペック 欲しい理由"
+      ],
+      "intent": "case",
+      "pillar": "P2",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 92,
+      "trend_rationale": "中小企業庁「ミラサポplus」の『事例から学ぶ！ブランディング』特集が継続掲載され、中小製造業向けブランディング事例への関心が公的機関発信でも裏付けられている（2026年9月時点参照）。また事業承継・M&A補助金16次公募が2026年9月4日公表・10月2日申請開始となり、承継期のメーカーが既存商品の価値を再定義するタイミングと重なる。直近1週間はP1・P3が続いたためP2の空白を埋める優先度も高い。",
+      "internal_links": [],
+      "summary": "既存商品の性能はそのままに、伝え方を作り直す商品リブランディングを、相談でよく見る3つの型（スペック先行/物語不在/チャネル不一致）で解説",
+      "local_dir": "articles/2026-09-16-product-rebranding-cases"
     }
   ]
 }
