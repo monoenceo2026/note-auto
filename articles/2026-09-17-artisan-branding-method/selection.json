@@ -1,0 +1,15 @@
+{
+  "id": "P1-005",
+  "pillar": "P1",
+  "type": "cluster",
+  "title": "職人をブランド化する方法",
+  "primary_kw": "職人 ブランド化",
+  "secondary_kw": ["職人 ブランディング", "町工場 個人ブランド", "事業承継 ブランディング"],
+  "intent": "how",
+  "trend_score": 2,
+  "trend_rationale": "中小企業庁は令和8年度（2026年度）『後継者支援ネットワーク事業』の公募を2026年4月に開始しており（中小企業庁 https://www.chusho.meti.go.jp/koukai/itaku/kobo/2026/260403001.html）、事業承継・後継者問題は2026年も継続する政策テーマ。また業界メディアでは『事業承継はブランドを作り直せる最も条件の良いタイミング』（reiro『事業承継とブランディング』2026年 https://reiro.co.jp/blog/succession-branding/）という論調が広がっており、後継者自身が“職人・作り手”としてどう自分の名前でブランドを立てるかという切り口が今の関心と重なる。",
+  "cannibal_check": "ok（scripts/registry.py check '職人 ブランド化' --intent how → status:ok, conflicts:[], warns:[]）",
+  "differentiator": "既存クラスタ案『職人が自ら語ると売れる理由』(P4/know/職人 発信)が“なぜ効くか”の理由解説なのに対し、本記事は“職人個人をブランド化する具体的な手順”に絞ったhow記事。また同日連投を避けるため、直近3日（ライブコマース失敗=P3、ブランド診断=P1、商品リブランディング事例=P2）と重ならないP1クラスタを選定。",
+  "target_reader": "技術・腕には自信があるが名前や個性が表に出ておらず、下請け仕事が中心の職人・二代目社長（MONOENペルソナ：大阪の金属加工会社を継いだ45歳の二代目社長）",
+  "internal_link_candidates": []
+}
