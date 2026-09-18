@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-09-17",
+    "updated": "2026-09-18",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -584,6 +584,27 @@
       "internal_links": [],
       "summary": "職人個人を主語にしたブランド化の定義と、価値の棚卸し→編集→発信の3ステップ、つまずきやすいポイントを解説",
       "local_dir": "articles/2026-09-17-artisan-branding-method"
+    },
+    {
+      "id": "P3-009",
+      "date": "2026-09-19",
+      "title": "ライブコマース費用の相場とは｜手数料7〜12%時代に損をしない選び方",
+      "primary_kw": "ライブコマース 費用",
+      "secondary_kw": [
+        "TikTok Shop 手数料",
+        "ライブコマース 手数料",
+        "ライブコマーサー 費用"
+      ],
+      "intent": "commercial",
+      "pillar": "P3",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 87,
+      "trend_rationale": "TikTok Shop日本市場は2026年8月31日〜9月6日週の週次GMVが24.55億円、登録ショップ数5万店・登録クリエイター数20万人を突破し、2026年通年で約1,283億円規模へ拡大する見通し（コマースピック 2026年9月 https://www.commercepick.com/archives/102518、W2ソリューション 2026年 https://www.w2solution.co.jp/enterprise/knowledge/tiktok-market-japan-report-2026/）。販売手数料はカテゴリー別に7〜12%へ2026年5月に改定されており、出店を検討する製造業・メーカーにとって費用の意思決定材料としての関心が高い時期のため、P3配下のcommercial意図クラスタを選定。",
+      "internal_links": [],
+      "summary": "TikTok Shopの手数料相場とBEGINNING LEGACYの消化仕入れ型費用モデルを比較し、ライブコマースの費用で失敗しない選び方を解説する記事。",
+      "local_dir": "articles/2026-09-19-livecommerce-cost-guide"
     }
   ]
 }

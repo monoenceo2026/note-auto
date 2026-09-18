@@ -1,0 +1,38 @@
+{
+  "id": "P3-009",
+  "date": "2026-09-19",
+  "title": "ライブコマース費用の相場とは｜手数料7〜12%時代に損をしない選び方",
+  "primary_kw": "ライブコマース 費用",
+  "secondary_kw": ["TikTok Shop 手数料", "ライブコマース 手数料", "ライブコマーサー 費用"],
+  "intent": "commercial",
+  "pillar": "P3",
+  "type": "cluster",
+  "hashtags": ["#製造業", "#ライブコマース", "#TikTokShop", "#ものづくり", "#MONOEN"],
+  "lead_140": "ライブコマースの費用とは、配信プラットフォームや委託先に支払う「手数料（掛け率）」と「固定費・オペレーション費」の合計で決まります。TikTok Shopの販売手数料はカテゴリー別に7〜12%（2026年5月改定）、BEGINNING LEGACYは掛け率50%を基本に、立ち上げ期は固定費・キャスティング費を免除する提案を行っています。中小メーカーが",
+  "summary": "TikTok Shopの手数料相場とBEGINNING LEGACYの消化仕入れ型費用モデルを比較し、ライブコマースの費用で失敗しない選び方を解説する記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "TikTok Shop日本市場は2026年8月31日〜9月6日週の週次GMVが24.55億円、登録ショップ数5万店・登録クリエイター数20万人を突破し、2026年通年で約1,283億円規模へ拡大する見通し（コマースピック 2026年9月、W2ソリューション 2026年）。また販売手数料はカテゴリー別に7〜12%へ2026年5月に改定されており、出店を検討する製造業・メーカーにとって費用の意思決定材料としての関心が高い時期のため、P3配下のcommercial意図クラスタを選定。",
+  "sources": [
+    {
+      "title": "TikTok Shop日本市場、8月31日〜9月6日週はGMV24.55億円で前週比5.64%減 ライブルーム数は過去最多を更新",
+      "publisher": "コマースピック",
+      "date": "2026-09",
+      "url": "https://www.commercepick.com/archives/102518"
+    },
+    {
+      "title": "TikTok Shop日本市場、2026年に約1,280億円規模へ急拡大——30〜50代女性が牽引する新たなEC経済圏",
+      "publisher": "W2ソリューション",
+      "date": "2026",
+      "url": "https://www.w2solution.co.jp/enterprise/knowledge/tiktok-market-japan-report-2026/"
+    }
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "電卓や紙の見積書のような抽象的なモチーフではなく、天秤や積み上げられた木箱など「費用のバランス」を象徴する静物の片側を暖色の照明で照らし、反対側は暗く落として余白をつくる抽象構図。実在の商品・工程・企業ロゴは再現しない。",
+  "eyecatch_text": "手数料の数字より、\n何が含まれているか。",
+  "eyecatch_eyebrow": "LIVE COMMERCE COST",
+  "eyecatch_status": "skipped",
+  "eyecatch_skip_reason": "OPENAI_API_KEY未設定のため画像生成をスキップ（記事は画像なしで継続）",
+  "char_count": 4726
+}

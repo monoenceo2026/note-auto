@@ -1,0 +1,15 @@
+{
+  "id": "P3-009",
+  "pillar": "P3",
+  "type": "cluster",
+  "title": "ライブコマースの費用・手数料の考え方",
+  "primary_kw": "ライブコマース 費用",
+  "secondary_kw": ["TikTok Shop 手数料", "ライブコマース 手数料", "ライブコマーサー 費用"],
+  "intent": "commercial",
+  "trend_score": 3,
+  "trend_rationale": "TikTok Shop日本市場は2026年8月31日〜9月6日週の週次GMVが24.55億円、登録ショップ数は5万店・登録クリエイター数は20万人を突破し、2026年通年では約1,283億円規模へ拡大する見通しと報じられている（コマースピック 2026年9月 https://www.commercepick.com/archives/102518、W2ソリューション『TikTok Shop日本市場レポート』2026年 https://www.w2solution.co.jp/enterprise/knowledge/tiktok-market-japan-report-2026/）。また販売手数料はカテゴリー別に7〜12%へ2026年5月に改定されており、出店を検討する製造業・メーカーにとって『費用がいくらかかるのか』が最も具体的で切実な意思決定材料になっている。市場拡大＋手数料改定という2つの一次情報が重なる今、P3（ライブコマース・D2C・販路）配下の中でも費用・手数料に焦点を当てたcommercial意図の記事の需要が高いと判断した。",
+  "cannibal_check": "ok（scripts/registry.py check 'ライブコマース 費用' --intent commercial → status:ok, conflicts:[], warns:[]）",
+  "differentiator": "既存の公開予定クラスタは『ライブコマースでよくある失敗3パターン』(P3-005/know、原因分析)、『TikTok LIVEの売れる配信構成』(P3-004/how、配信台本)、『ライブコマーサーの選び方』(P3-006/compare、演者選定)であり、いずれも費用や手数料そのものには触れていない。本記事は『出店・委託にいくらかかるか』というお金の意思決定に絞ったcommercial記事で、直近3日（P3=ライブコマース失敗、P1=ブランド診断ではなく職人ブランド化、P1=職人ブランド化）とも重複しない。前回P3公開は3日前（09-14）で3連投にもあたらない。",
+  "target_reader": "ライブコマース／TikTok Shopへの出店を検討しているが、手数料や委託費用の相場が分からず二の足を踏んでいる中小メーカーの経営者・EC担当者（MONOENペルソナ：大阪の金属加工会社を継いだ45歳の二代目社長）",
+  "internal_link_candidates": []
+}
