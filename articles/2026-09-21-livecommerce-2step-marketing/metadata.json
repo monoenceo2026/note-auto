@@ -1,0 +1,28 @@
+{
+  "id": "P3-008",
+  "date": "2026-09-21",
+  "title": "ライブコマース集客とは｜Instagramで育て、TikTokで刈り取る2ステップ設計",
+  "primary_kw": "ライブコマース 集客",
+  "secondary_kw": ["TikTok LIVE 集客", "Instagram ライブ配信 集客", "ライブコマース 視聴者数"],
+  "intent": "how",
+  "pillar": "P3",
+  "type": "cluster",
+  "hashtags": ["#ライブコマース", "#TikTokLIVE", "#製造業", "#ものづくり", "#MONOEN"],
+  "lead_140": "ライブコマース集客とは、配信の告知だけに頼らず、配信の前に「見に来る理由」を作っておく設計のことです。TikTok LIVEを始めたのに視聴者が集まらない——その原因の多くは配信当日ではなく「配信前」の設計不足にあります。",
+  "summary": "配信前にInstagramで興味を育て、TikTok LIVEで刈り取るMONOENの2ステップ集客設計を、具体手順と失敗例で解説するP3クラスタ記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "TikTok Shopは2026年6月30日に日本ローンチ1周年を迎え、利用者数は2025年7月比30倍以上に拡大。コンテンツ起点の流通総額の7割超が動画・LIVE配信経由で、そのうち約6割がLIVE配信経由（出典：renue『ソーシャルコマース・ライブコマースとは？TikTok Shop・Instagram Shopの活用と売上拡大の実践ガイド【2026年版】』2026年）。加えて日本最大級のライブコマース祭典『Live Commerce Festival 2026』が2026年9月8〜9日に東京・八芳園で開催されたばかりで（出典：株式会社NACプレスリリース、PR TIMES 2026年9月）、業界の関心が『どう始めるか』から『どう集めるか』へ移っている時期。",
+  "sources": [
+    {"title": "ソーシャルコマース・ライブコマースとは？TikTok Shop・Instagram Shopの活用と売上拡大の実践ガイド【2026年版】", "publisher": "renue", "date": "2026", "url": "https://renue.co.jp/posts/social-commerce-live-commerce-tiktok-shop-instagram-guide"},
+    {"title": "日本最大級のライブコマース祭典「Live Commerce Festival 2026」9月8日・9日に八芳園で開催", "publisher": "株式会社NAC（PR TIMES）", "date": "2026-09", "url": "https://prtimes.jp/main/html/rd/p/000000010.000140472.html"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "スマートフォン画面越しに配信ライトが灯るような、片側に温かい光、反対側は暗く落とした抽象的な構図。工業的な質感（金属・光沢）と生命感のあるライト（朝焼け色）を対比させる静物イメージ。実在商品・工程は描かない。",
+  "eyecatch_text": "配信の前に、\n勝負は決まっている。",
+  "eyecatch_eyebrow": "LIVE COMMERCE MARKETING",
+  "eyecatch_status": "skipped",
+  "eyecatch_skip_reason": "OPENAI_API_KEY 未設定のため画像生成をスキップ",
+  "char_count": 4904
+}

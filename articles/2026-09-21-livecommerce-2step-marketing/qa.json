@@ -1,0 +1,27 @@
+{
+  "decision": "publish",
+  "total_score": 90,
+  "scores": {
+    "title_lead": 14,
+    "headings": 14,
+    "llmo": 19,
+    "internal_links": 5,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：朝7〜8時のゴールデンタイム、配信冒頭20分は会社・技術紹介",
+    "独自フレーム：Instagram×TikTokの「勝利の2ステップ設計」（表で提示）",
+    "当事者視点：「私たちが現場でやってみて分かったのは」という一次経験の明示",
+    "反直感：「フォロワー数より、相性。」というキャスティング基準",
+    "具体的な手順：STEP1の3投稿タイプ、STEP2の当日構成をチェックリスト化"
+  ],
+  "issues": [
+    "registryに公開済み記事がまだ0本のため、内部リンク（親ピラー・関連クラスタ）を設置できなかった（内部リンク配点を減点）。",
+    "OPENAI_API_KEY未設定のためアイキャッチ画像を生成できず、画像なしでの公開となる（画像・タグ配点を一部減点）。"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-21T07:41:23+09:00"
+}
