@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-09-20",
+    "updated": "2026-09-22",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -626,6 +626,26 @@
       "internal_links": [],
       "summary": "配信前にInstagramで興味を育て、TikTok LIVEで刈り取るMONOENの2ステップ集客設計を、具体手順と失敗例で解説するP3クラスタ記事。",
       "local_dir": "articles/2026-09-21-livecommerce-2step-marketing"
+    },
+    {
+      "id": "P2-002",
+      "date": "2026-09-23",
+      "title": "商品ブランディングとは｜スペックを「欲しい理由」に変える基礎知識",
+      "primary_kw": "商品 ブランディング",
+      "secondary_kw": [
+        "商品ブランディング 基礎",
+        "スペック 欲しい理由"
+      ],
+      "intent": "know",
+      "pillar": "P2",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 85,
+      "trend_rationale": "2026年のブランディング関連調査で『独自の価値の明確化による価格競争からの脱却』が中小企業の重点テーマとして取り上げられている（cascaded.ai、PULSE AI media、2026年）。直近2本（9/19・9/21）がP3連投だったため、ピラーP2の基礎クラスタを充填した。",
+      "internal_links": [],
+      "summary": "商品ブランディングの定義と、価値の棚卸し→市場での位置づけ→言語設計という進め方を、MONOENの一次情報とともに解説する基礎クラスタ記事。",
+      "local_dir": "articles/2026-09-23-product-branding-basics"
     }
   ]
 }

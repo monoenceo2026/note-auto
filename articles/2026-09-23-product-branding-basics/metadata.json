@@ -1,0 +1,27 @@
+{
+  "id": "P2-002",
+  "date": "2026-09-23",
+  "title": "商品ブランディングとは｜スペックを「欲しい理由」に変える基礎知識",
+  "primary_kw": "商品 ブランディング",
+  "secondary_kw": ["商品ブランディング 基礎", "スペック 欲しい理由"],
+  "intent": "know",
+  "pillar": "P2",
+  "type": "cluster",
+  "hashtags": ["#製造業", "#ブランディング", "#商品開発", "#MONOEN"],
+  "lead_140": "商品ブランディングとは、性能や仕様（スペック）の説明だけでは伝わらない「なぜこれを選ぶべきか」という理由を、顧客の頭の中に一貫したイメージとして育てていく活動のことです。技術があるのに価格で比較される中小メーカー経営者に向けた基礎解説です。",
+  "summary": "商品ブランディングの定義と、価格競争から抜け出すための棚卸し→位置づけ→言語設計の3ステップをMONOENの一次情報とともに解説。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "2026年のブランディング関連調査で『独自の価値の明確化による価格競争からの脱却』が中小企業の重点テーマとして取り上げられている（cascaded.ai、PULSE AI media、2026年）。直近2本がP3連投だったためP2ピラーの基礎記事でクラスタ充填を行った。",
+  "sources": [
+    {"title": "2026年版 中小企業白書・小規模企業白書の概要", "publisher": "中小企業庁", "date": "2026-04", "url": "https://www.chusho.meti.go.jp/pamflet/hakusyo/2026/PDF/2026gaiyou.pdf"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "磨かれた真鍮の板と、まだ磨かれていない鉄の原石を並べた静物。価値の転換（スペック→欲しい理由）を象徴する対比構図。",
+  "eyecatch_text": "技術はある。\nでも、伝わっていない。",
+  "eyecatch_eyebrow": "PRODUCT BRANDING",
+  "eyecatch_status": "skipped",
+  "eyecatch_skip_reason": "OPENAI_API_KEY未設定のため画像生成をスキップ",
+  "char_count": 3693
+}

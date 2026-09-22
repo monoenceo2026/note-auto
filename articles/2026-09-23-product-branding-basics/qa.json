@@ -1,0 +1,27 @@
+{
+  "decision": "publish",
+  "total_score": 85,
+  "scores": {
+    "title_lead": 14,
+    "headings": 12,
+    "llmo": 19,
+    "internal_links": 3,
+    "compliance": 20,
+    "originality": 15,
+    "media_tags": 2
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：BEGINNING LEGACYのライブ配信で最初の約20分を会社・技術紹介に充てる構成",
+    "独自フレーム：CURATE→REBRAND→CERTIFY→SELL→CO-CREATEの5段階と、商品ブランディングがどの段階にあたるかの位置づけ",
+    "反直感：『技術力の不足ではなく、伝え方・見せ方（翻訳）の不足』という価格競争の構造分析",
+    "当事者視点：『私たちが多くの中小メーカーの相談を受けて感じるのは』という現場の一次観察",
+    "具体手順：価値の棚卸し→市場での位置づけ→言語・見せ方の設計の3ステップ表、および棚卸しの3つの問い"
+  ],
+  "issues": [
+    "OPENAI_API_KEY未設定によりアイキャッチ画像が生成できず、画像なしでの公開になる（記事本文の品質には影響なし）",
+    "registryに公開済み記事がまだ0件のため、内部リンクを設置できていない（隣接記事公開後に追記が必要）"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-23T08:10:00+09:00"
+}
