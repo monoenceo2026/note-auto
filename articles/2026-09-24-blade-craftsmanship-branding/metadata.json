@@ -1,0 +1,28 @@
+{
+  "id": "P4-003",
+  "date": "2026-09-24",
+  "title": "刃物ブランディングの実践｜「切れ味」を選ばれる理由に変える方法",
+  "primary_kw": "刃物 ブランド",
+  "secondary_kw": ["刃物 ブランディング", "切れ味 見せ方", "伝統工芸 ブランディング"],
+  "intent": "how",
+  "pillar": "P4",
+  "type": "cluster",
+  "hashtags": ["#製造業", "#ブランディング", "#ものづくり", "#伝統工芸", "#MONOEN"],
+  "lead_140": "刃物ブランディングとは、切れ味・仕上げの精度という言葉で説明しにくい価値を、顧客が体感できる形に翻訳し、選ばれる理由に変える活動です。訪日客のお土産としても人気が高まる日本製刃物・道具を、価格ではなく体感で選ばれる商品にしたい中小メーカーの経営者に向けて、MONOENの現場知見から具体的な見せ方を解説します。",
+  "summary": "刃物・道具の「切れ味」という体感価値を、接写・実演・作り手の言葉で見せる方法を、MONOENのライブコマース実務とともに解説するP4クラスタ記事。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "訪日外国人数は2025年に過去最多を記録しショッピングが消費の約27%を占める（stockcrew.co.jp、2026年）中、爪切り・刃物は訪日客のお土産人気カテゴリーとして繰り返し取り上げられている（訪日ラボ、2026年）。直近2本（9/21=P3、9/23=P2）でピラーが偏っていたため、E-E-A-Tの経験軸を担うP4クラスタを選定した。",
+  "sources": [
+    {"title": "爪切りにおけるインバウンド人気商品・お土産ランキング", "publisher": "訪日ラボ", "date": "2026", "url": "https://honichi.com/goods/categories/medicine/958/ranking/"},
+    {"title": "越境EC市場規模と商材別需要構造【2026年版】", "publisher": "stockcrew.co.jp", "date": "2026", "url": "https://stockcrew.co.jp/insights/cross-border-ec"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "片刃の刃物の刃先だけにスポットライトを当てた静物構図。片側は光沢のある金属の質感を強調し、反対側は暗く落として奥行きを出す。実在商品の完全再現はしない抽象的な刃物シルエット。",
+  "eyecatch_text": "切れ味は、\n見せなければ伝わらない。",
+  "eyecatch_eyebrow": "BLADE CRAFTSMANSHIP",
+  "eyecatch_status": "skipped",
+  "eyecatch_skip_reason": "OPENAI_API_KEY未設定のため画像生成をスキップ",
+  "char_count": 3885
+}
