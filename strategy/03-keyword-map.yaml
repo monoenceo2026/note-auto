@@ -68,7 +68,7 @@ pillars:
       - {id: P3-008, type: cluster, status: in_progress, priority: 3, intent: how,  primary_kw: ライブコマース 集客, title: "Instagram×TikTokの2ステップ集客設計", differentiator: "事前集客→刈り取り動線"}
       - {id: P3-009, type: cluster, status: in_progress, priority: 3, intent: commercial, primary_kw: ライブコマース 費用, title: "ライブコマースの費用・手数料の考え方", differentiator: "お金の意思決定"}
       - {id: P3-010, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 展示販売, title: "リアル×オンライン連動の展示販売", differentiator: "The Lab.リアル起点"}
-      - {id: P3-011, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: ライブコマース 商品 選び方, title: "ライブで売れる商品の3条件", differentiator: "商材適性の診断"}
+      - {id: P3-011, type: cluster, status: in_progress, priority: 3, intent: how,  primary_kw: ライブコマース 商品 選び方, title: "ライブで売れる商品の3条件", differentiator: "商材適性の診断"}
 
   # ---------------- P4 ものづくりの現場・職人の物語 ----------------
   - id: P4

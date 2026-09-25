@@ -1,0 +1,27 @@
+{
+  "id": "P3-011",
+  "date": "2026-09-26",
+  "title": "ライブコマース商品の選び方｜売れる3条件と出品チェックリスト",
+  "primary_kw": "ライブコマース 商品 選び方",
+  "secondary_kw": ["ライブコマース 商材", "TikTok Shop 商品選定", "ライブ配信 売れる商品"],
+  "intent": "how",
+  "pillar": "P3",
+  "type": "cluster",
+  "hashtags": ["#製造業", "#ライブコマース", "#商品選び", "#ものづくり", "#MONOEN"],
+  "lead_140": "ライブコマースで売れる商品の選び方とは、視聴者が配信中に価値を直感で理解し、購入への迷いを越えられる商品を見極めるプロセスです。本記事では、TikTok LIVEでの販売支援を行うMONOENの現場知見をもとに、商材適性を3条件で診断するチェックリストを紹介します。",
+  "summary": "ライブコマースで売れる商品を「ストーリー性」「視覚的変化」「手に取りやすい価格」の3条件で診断する方法を、MONOENの配信実務から解説。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "TikTok Shop日本市場は2026年9月時点でライブルーム数が過去最多を更新し、新商品投入数は前週比+51.50%と『秋冬商戦を見据えた動き』が活発化している（出典：Kalowave Japan『Kalodataウィークリー』2026年8月31日週、PR TIMES）。年間流通額も2026年末に約1,283億円規模へ拡大予測（出典：Commerce hack、2026年）。『どの商品をライブに出すべきか』という商材選定の意思決定が今シーズン増えているタイミングであり、MONOENの一次情報（推奨単価5,000〜10,000円、視覚的変化が伝わる商材が強い等）で直接答えられるテーマ。",
+  "sources": [
+    {"title": "【Kalodataウィークリー】日本TikTok Shop市場、GMV24.55億円・5.64%と微減 新商品数51.50%増、秋冬シーズンを見据えた動き（8月31日週）", "publisher": "Kalowave Japan（PR TIMES）", "date": "2026年9月", "url": "https://prtimes.jp/main/html/rd/p/000000061.000167462.html"},
+    {"title": "TikTok Shop日本市場、2026年に約1,280億円規模へ急拡大", "publisher": "Commerce hack（W2ソリューション）", "date": "2026年", "url": "https://www.w2solution.co.jp/enterprise/knowledge/tiktok-market-japan-report-2026/"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "配信スタジオの照明の中、商品陳列台の上に置かれた抽象化された道具（フライパン・小さな金属道具のシルエット）。片側に強いスポットライト、反対側は暗く落として被写体を際立たせる静物構図。実在商品を再現しない。",
+  "eyecatch_text": "スペックより、\n伝わる「変化」を選ぶ。",
+  "eyecatch_eyebrow": "LIVE COMMERCE",
+  "eyecatch_status": "skipped",
+  "char_count": 3671
+}

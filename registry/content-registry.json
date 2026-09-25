@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-09-24",
+    "updated": "2026-09-25",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -667,6 +667,27 @@
       "internal_links": [],
       "summary": "刃物・道具の「切れ味」という体感価値を、接写・実演・作り手の言葉で見せる方法を、MONOENのライブコマース実務とともに解説するP4クラスタ記事。",
       "local_dir": "articles/2026-09-24-blade-craftsmanship-branding"
+    },
+    {
+      "id": "P3-011",
+      "date": "2026-09-26",
+      "title": "ライブコマース商品の選び方｜売れる3条件と出品チェックリスト",
+      "primary_kw": "ライブコマース 商品 選び方",
+      "secondary_kw": [
+        "ライブコマース 商材",
+        "TikTok Shop 商品選定",
+        "ライブ配信 売れる商品"
+      ],
+      "intent": "how",
+      "pillar": "P3",
+      "type": "cluster",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 86,
+      "trend_rationale": "TikTok Shop日本市場は2026年9月時点でライブルーム数が過去最多を更新し、新商品投入数は前週比+51.50%と秋冬商戦を見据えた動きが活発化している（Kalowave Japan／PR TIMES、2026年8月31日週）。年間流通額も2026年末に約1,283億円規模へ拡大予測（Commerce hack、2026年）。商材選定の意思決定が今シーズン増えているタイミングであり、MONOENの一次情報で直接答えられるテーマのため、直近3日P3不在のP3クラスタを選定した。",
+      "internal_links": [],
+      "summary": "ライブコマースで売れる商品を「ストーリー性」「視覚的変化」「手に取りやすい価格」の3条件で診断する方法を、MONOENの配信実務から解説するP3クラスタ記事。",
+      "local_dir": "articles/2026-09-26-live-commerce-product-fit"
     }
   ]
 }
