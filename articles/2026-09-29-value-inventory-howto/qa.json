@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 83,
+  "scores": {"title_lead":14,"headings":14,"llmo":18,"internal_links":3,"compliance":19,"originality":13,"media_tags":2},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：商品リブランディングの骨子、配信最初の約20分を会社・技術紹介に充てる構成、BEGINNING LEGACY／The Lab.",
+    "具体手順：素材→工程→背景→顧客の言葉の4層とステップ別の問い・表",
+    "独自フレーム：4層の棚卸し／3つの目（顧客の言葉・他で言えない・根拠）",
+    "反直感：足りないのは技術ではなく言葉、棚卸しは盛る作業ではなく翻訳"
+  ],
+  "issues": [
+    "公開済み記事がregistryに0件のため内部リンクなし",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定）",
+    "白書本文はfetch不可（403）のため、検索結果の要約に基づく定性的記述のみ使用。数値は記載していない"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-29T07:40:00+09:00"
+}
