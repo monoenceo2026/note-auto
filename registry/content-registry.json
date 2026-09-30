@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -730,6 +730,21 @@
       "internal_links": [],
       "summary": "価値の棚卸しの定義と、素材→工程→背景→顧客の言葉の4層で進める手順、判断基準、失敗例を2026年版中小企業白書の動向と合わせて解説する。",
       "local_dir": "articles/2026-09-29-value-inventory-howto"
+    },
+    {
+      "id": "P3-007",
+      "date": "2026-09-30",
+      "title": "消化仕入れとは｜メーカーが知るべき仕組み・委託販売との違い・掛け率の考え方",
+      "primary_kw": "消化仕入れ とは",
+      "intent": "know",
+      "pillar": "P3",
+      "type": "cluster",
+      "trend_rationale": "TikTok Shop日本版の流通総額の約70%がコンテンツ起点（Bytedance株式会社／TikTok Japan、PR TIMES、2026年2月3日）。ライブ販売に挑むメーカーが増え、在庫リスクを抑える取引形態への関心が高まっている。",
+      "internal_links": [],
+      "summary": "消化仕入れの定義、買取仕入れ・委託販売との違い、メーカーのリスク、ライブコマースでの掛け率（50%/25%）と契約前チェックリストを解説する。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 82
     }
   ]
 }

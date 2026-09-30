@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 82,
+  "scores": {"title_lead":14,"headings":14,"llmo":18,"internal_links":3,"compliance":19,"originality":12,"media_tags":2},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：掛け率50%／25%、初期フェーズ特別提案、東大阪倉庫での預かり・繰越or返却、リードタイム、最初の約20分の会社・技術紹介",
+    "具体手順：契約前6項目チェックリスト、掛け率の計算例、3形態比較表",
+    "反直感：消化仕入れは『リスクを負わず売ってもらえる仕組み』ではなく『売り方の品質まで預ける取引』"
+  ],
+  "issues": [
+    "公開済み記事がregistryに0件のため内部リンクなし",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定）",
+    "会計・税務の扱いは一般論に留め税理士確認を明記。TikTok Shopの約70%はPR TIMES一次発表を取得して確認済み",
+    "消化仕入れ/委託販売の一般的整理は検索結果の解説記事に基づく。契約ごとに異なる旨を本文に記載"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-09-30T07:40:00+09:00"
+}

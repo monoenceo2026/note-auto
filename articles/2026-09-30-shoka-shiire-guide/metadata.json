@@ -1,0 +1,28 @@
+{
+  "id": "P3-007",
+  "date": "2026-09-30",
+  "title": "消化仕入れとは｜メーカーが知るべき仕組み・委託販売との違い・掛け率の考え方",
+  "primary_kw": "消化仕入れ とは",
+  "secondary_kw": ["消化仕入れ 委託販売 違い", "消化仕入れ メーカー 掛け率", "ライブコマース 仕入れ"],
+  "intent": "know",
+  "pillar": "P3",
+  "type": "cluster",
+  "hashtags": ["#消化仕入れ", "#ライブコマース", "#製造業", "#ものづくり", "#MONOEN"],
+  "lead_140": "消化仕入れとは、商品が顧客に売れた時点で、はじめて小売側が仕入れを計上する取引形態です。売れるまでの所有権と在庫リスクはメーカー側にあります。本記事では、中小メーカー向けに、仕組み、委託販売との違い、掛け率の考え方を解説します。",
+  "summary": "消化仕入れの定義、買取仕入れ・委託販売との違い、メーカーのリスク、ライブコマースでの掛け率（50%/25%）と契約前チェックリストを解説する。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "TikTok Shop日本版の流通総額の約70%がコンテンツ起点（Bytedance株式会社／TikTok Japan、PR TIMES、2026年2月3日）。ライブ販売に挑むメーカーが増え、在庫リスクを抑える取引形態への関心が高まっている。",
+  "sources": [
+    {"title": "TikTok Shop、日本での提供開始から半年が経過", "publisher": "Bytedance株式会社（TikTok Japan）/PR TIMES", "date": "2026年2月3日", "url": "https://prtimes.jp/main/html/rd/p/000001278.000030435.html"},
+    {"title": "消化仕入れとは？具体例や会計処理、仕訳をわかりやすく解説", "publisher": "マネーフォワード", "date": "参照2026年9月", "url": "https://biz.moneyforward.com/accounting/basic/74821/"},
+    {"title": "消化仕入とは", "publisher": "GLOBIS", "date": "参照2026年9月", "url": "https://globis.jp/article/dic_xil_mrosg68j/"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "倉庫の棚に並ぶ抽象的な箱のシルエット。片側から自然光、反対側は暗く空ける。実在商品は再現しない。",
+  "eyecatch_text": "売れてから、仕入れる。\nその意味を知る。",
+  "eyecatch_eyebrow": "LIVE COMMERCE",
+  "eyecatch_status": "skipped",
+  "char_count": 3900
+}
