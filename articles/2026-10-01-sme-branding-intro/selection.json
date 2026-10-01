@@ -1,0 +1,15 @@
+{
+  "id": "P1-002",
+  "pillar": "P1",
+  "type": "cluster",
+  "title": "中小企業のブランディング入門",
+  "primary_kw": "中小企業 ブランディング",
+  "secondary_kw": ["中小企業 ブランディング 進め方", "ブランディング 意味", "ブランド 選ばれる理由"],
+  "intent": "know",
+  "trend_score": 1,
+  "trend_rationale": "中小企業庁が「JAPANブランド育成支援等事業」でブランディング・新商品開発・販路開拓を支援しており、下期（10月）の計画づくりの時期に、ブランディングの全体像を整理する需要がある。出典：中小企業庁 JAPANブランド育成支援等事業 募集説明資料（https://www.chusho.meti.go.jp/shogyo/chiiki/japan_brand/2022/22062002Jbrand-koubo_setsumei.pdf、参照2026年10月）。",
+  "cannibal_check": "ok",
+  "differentiator": "製造業特化ではなく中小企業全般の上位概念として、ブランディングの定義と進め方の全体像を示す入門記事。",
+  "target_reader": "ブランディングを始めたいが何からか分からない中小企業の経営者・後継者",
+  "internal_link_candidates": []
+}

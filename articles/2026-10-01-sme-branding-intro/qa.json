@@ -1,0 +1,14 @@
+{
+  "decision": "publish",
+  "total_score": 81,
+  "scores": {"title_lead":14,"headings":13,"llmo":17,"internal_links":3,"compliance":19,"originality":12,"media_tags":3},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：和製LVMH・翻訳不足の主張、勝利の2ステップ設計、失敗要因3点",
+    "具体手順：4ステップ＋6項目チェックリスト＋比較表",
+    "独自フレーム：価値の棚卸し→相手を絞る→一言→接点で試す"
+  ],
+  "issues": ["公開済み記事0件のため内部リンクなし", "アイキャッチ未生成（OPENAI_API_KEY未設定）", "外部統計は不使用。中小企業庁の事業は2022年度資料に基づくため年度ごとに変わる旨を明記"],
+  "fix_instructions": [],
+  "checked_at": "2026-10-01T07:40:00+09:00"
+}

@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-09-30",
+    "updated": "2026-10-01",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -745,6 +745,26 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 82
+    },
+    {
+      "id": "P1-002",
+      "date": "2026-10-01",
+      "title": "中小企業のブランディング入門｜「選ばれる理由」をつくる4つの考え方",
+      "primary_kw": "中小企業 ブランディング",
+      "secondary_kw": [
+        "中小企業 ブランディング 進め方",
+        "ブランディング 意味",
+        "選ばれる理由"
+      ],
+      "intent": "know",
+      "pillar": "P1",
+      "type": "cluster",
+      "trend_rationale": "中小企業庁がJAPANブランド育成支援等事業でブランディング等を支援。下期開始の10月に全体像を整理する需要。出典：中小企業庁 募集説明資料（参照2026年10月）。",
+      "internal_links": [],
+      "summary": "中小企業向けにブランディングの定義、必要な理由、失敗パターン、小さく始める4ステップと着手前チェックリストを解説する入門記事。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 81
     }
   ]
 }
