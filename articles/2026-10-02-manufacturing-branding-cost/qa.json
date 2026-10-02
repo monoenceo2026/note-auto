@@ -1,0 +1,26 @@
+{
+  "decision": "publish",
+  "total_score": 82,
+  "scores": {
+    "title_lead": 14,
+    "headings": 14,
+    "llmo": 17,
+    "internal_links": 3,
+    "compliance": 19,
+    "originality": 12,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：ライブコマースの掛け率50%/25%・初期免除・リードタイム、3タイプの導入フロー、失敗要因3点",
+    "具体手順：見積前の3基準・4要素表・3フェーズ表・4ステップ",
+    "独自フレーム：費用の形（固定費/成果連動/ハイブリッド）と3基準"
+  ],
+  "issues": [
+    "公開済み記事0件のため内部リンクなし",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定）",
+    "金額相場は出典なき断定を避け不記載。補助金は公式ページへの誘導のみ"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-10-02T07:40:00+09:00"
+}

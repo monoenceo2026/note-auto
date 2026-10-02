@@ -1,0 +1,15 @@
+{
+  "id": "P1-007",
+  "pillar": "P1",
+  "type": "cluster",
+  "title": "製造業ブランディングの費用と期間の考え方",
+  "primary_kw": "製造業 ブランディング 費用",
+  "secondary_kw": ["ブランディング 費用 相場", "ブランディング 期間", "製造業 ブランディング 補助金"],
+  "intent": "commercial",
+  "trend_score": 1,
+  "trend_rationale": "下期（10月）は来期予算・設備/販促計画の検討時期で、補助金の公募状況を確認する経営者が増える。中小企業庁が補助金・公募の一覧を随時更新している（出典：中小企業庁「補助金公募」ページ https://www.chusho.meti.go.jp/koukai/hojyokin/kobo.html、参照2026年10月）。",
+  "cannibal_check": "warn(P1-000『製造業 ブランディング』はintent=know。本記事はcommercial＝お金と期間の意思決定に特化し棲み分け)",
+  "differentiator": "ブランディングの定義や全体像（P1-000/P1-002）ではなく、費用の内訳・期間・投資判断の基準と見積もりの確認点に絞る。",
+  "target_reader": "ブランディングを検討しているが、費用感と期間が読めず踏み出せない中小メーカーの経営者・後継者",
+  "internal_link_candidates": []
+}

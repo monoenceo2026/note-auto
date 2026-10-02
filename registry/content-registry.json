@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -765,6 +765,26 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 81
+    },
+    {
+      "id": "P1-007",
+      "date": "2026-10-02",
+      "title": "製造業ブランディングの費用と期間｜見積もりの前に決める3つの基準",
+      "primary_kw": "製造業 ブランディング 費用",
+      "secondary_kw": [
+        "ブランディング 費用 相場",
+        "ブランディング 期間",
+        "製造業 ブランディング 補助金"
+      ],
+      "intent": "commercial",
+      "pillar": "P1",
+      "type": "cluster",
+      "trend_rationale": "下期（10月）は来期予算・設備/販促計画の検討時期で、補助金の公募状況を確認する経営者が増える。中小企業庁が補助金・公募の一覧を随時更新している（出典：中小企業庁「補助金公募」ページ https://www.chusho.meti.go.jp/koukai/hojyokin/kobo.html、参照2026年10月）。",
+      "internal_links": [],
+      "summary": "製造業ブランディングの費用の内訳4要素、期間の3フェーズ、見積もり前に決める3基準、費用の形の違いと小さく始める方法を解説する。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 82
     }
   ]
 }
