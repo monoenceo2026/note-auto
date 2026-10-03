@@ -1,0 +1,15 @@
+{
+  "id": "P5-005",
+  "pillar": "P5",
+  "type": "cluster",
+  "title": "採用ブランディング（製造業）の実務",
+  "primary_kw": "採用ブランディング 製造業",
+  "secondary_kw": ["製造業 採用 伝わらない", "中小企業 採用 広報", "会社の物語 採用"],
+  "intent": "how",
+  "trend_score": 3,
+  "trend_rationale": "日本商工会議所の人手不足調査（2026年7月21日〜8月21日実施、2,654社回答）で、中小企業の6割が人手不足と回答、うち約半数が事業運営に影響・支障と報告（2026年9月公表。参照：https://www.kaiketsu-j.com/?p=24126 ／参照2026年10月）。秋の採用・来期計画の時期に合致。",
+  "cannibal_check": "ok（registry check: conflicts/warns なし）。P5-004（採用課題・know）と棲み分け、本記事は実務(how)。",
+  "differentiator": "採用課題のデータ解説ではなく、技術と物語を採用資産に変える実務手順（棚卸し→言語化→発信→応募者体験）に特化。",
+  "target_reader": "技術に自信はあるが、求職者に会社の魅力が伝わらず採用に苦戦する中小メーカーの経営者・後継者・人事担当",
+  "internal_link_candidates": []
+}

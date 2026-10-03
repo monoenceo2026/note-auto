@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-02",
+    "updated": "2026-10-03",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -785,6 +785,26 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 82
+    },
+    {
+      "id": "P5-005",
+      "date": "2026-10-03",
+      "title": "採用ブランディング（製造業）の実務｜技術を「働く理由」に翻訳する4ステップ",
+      "primary_kw": "採用ブランディング 製造業",
+      "secondary_kw": [
+        "製造業 採用 伝わらない",
+        "中小企業 採用 広報",
+        "会社の物語 採用"
+      ],
+      "intent": "how",
+      "pillar": "P5",
+      "type": "cluster",
+      "trend_rationale": "日本商工会議所の人手不足調査（2026年7月21日〜8月21日実施、2,654社回答）で、中小企業の6割が人手不足と回答、うち約半数が事業運営に影響・支障と報告（2026年9月公表。参照2026年10月）。",
+      "internal_links": [],
+      "summary": "製造業の採用ブランディングの定義と、棚卸し・言語化・発信・応募者体験の4ステップ、よくある失敗、最初の一歩を解説する。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 84
     }
   ]
 }
