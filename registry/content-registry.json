@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-03",
+    "updated": "2026-10-04",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -805,6 +805,28 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 84
+    },
+    {
+      "id": "P5-003",
+      "date": "2026-10-04",
+      "title": "事業承継の課題とは｜後継者不在率50.1%の裏にある「数字に出ない」問題",
+      "primary_kw": "事業承継 課題",
+      "secondary_kw": [
+        "後継者不在率",
+        "中小企業 後継者不足",
+        "事業承継 ブランディング",
+        "後継者 選ばれる理由"
+      ],
+      "intent": "know",
+      "pillar": "P5",
+      "type": "cluster",
+      "trend_rationale": "帝国データバンクの全国約27万社調査（ITmedia 2026年1月報道）で、2025年の後継者不在率は50.1%と7年連続低下・過去最低。一方で小規模企業は57.3%と高止まり。特例承継計画の提出期限延長（令和9年9月30日）も重なり、準備期間の使い方が論点。",
+      "internal_links": [],
+      "summary": "後継者不在率50.1%（帝国データバンク2025）を規模別に読み解き、数字に出ない承継の3課題と最初の一歩を解説する。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 83,
+      "local_dir": "articles/2026-10-04-succession-challenges-data"
     }
   ]
 }

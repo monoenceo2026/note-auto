@@ -1,0 +1,28 @@
+{
+  "id": "P5-003",
+  "date": "2026-10-04",
+  "title": "事業承継の課題とは｜後継者不在率50.1%の裏にある「数字に出ない」問題",
+  "primary_kw": "事業承継 課題",
+  "secondary_kw": ["後継者不在率", "中小企業 後継者不足", "事業承継 ブランディング", "後継者 選ばれる理由"],
+  "intent": "know",
+  "pillar": "P5",
+  "type": "cluster",
+  "hashtags": ["#製造業", "#事業承継", "#後継者不足", "#ものづくり", "#MONOEN"],
+  "lead_140": "事業承継の課題とは、後継者を見つけることだけでなく、会社の技術・取引・存在理由を引き継げる形にすることです。後継者不在率は50.1%と7年連続で低下しましたが、小規模企業は57.3%と高止まり。数字に出ない課題を整理します。",
+  "summary": "後継者不在率50.1%（帝国データバンク2025）を規模別に読み解き、数字に出ない承継の3課題と最初の一歩を解説する。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "帝国データバンクの全国約27万社調査（ITmedia 2026年1月報道）で、2025年の後継者不在率は50.1%と7年連続低下・過去最低。一方で小規模企業は57.3%と高止まり。特例承継計画の提出期限延長（令和9年9月30日）も重なり、準備期間の使い方が論点。",
+  "sources": [
+    {"title": "日本企業の「跡継ぎ不足」は過去最低に それでも広がる地域差、背景は?", "publisher": "ITmedia（帝国データバンク調査）", "date": "2026年1月7日", "url": "https://www.itmedia.co.jp/business/spv/2601/07/news040.html"},
+    {"title": "マンスリー・ファイナンシャル・プラン 2026年2月号", "publisher": "三菱UFJモルガン・スタンレー証券", "date": "2026年2月", "url": "https://www.sc.mufg.jp/market/mnl/pdf/mnl_financialplan/mnl_financialplan_202602.pdf"},
+    {"title": "法人版事業承継税制（特例措置）と令和8年度税制改正", "publisher": "税理士法人山田&パートナーズ", "date": "2026年", "url": "https://www.yamada-partners.jp/tax-topics/newsletter-s260128"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "古い木製の作業台に、使い込まれた工具と真新しい工具が並ぶ抽象的な静物。片側から柔らかい光、反対側は暗く空ける。実在商品・実在企業は再現しない。",
+  "eyecatch_text": "後継者は、\n決まった。その先は？",
+  "eyecatch_eyebrow": "SUCCESSION DATA",
+  "eyecatch_status": "skipped_no_api_key",
+  "char_count": 3400
+}
