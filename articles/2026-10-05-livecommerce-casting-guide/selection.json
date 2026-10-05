@@ -1,0 +1,15 @@
+{
+  "id": "P3-006",
+  "pillar": "P3",
+  "type": "cluster",
+  "title": "ライブコマーサーの選び方",
+  "primary_kw": "ライブコマーサー 選び方",
+  "secondary_kw": ["ライブコマース キャスティング", "ライブコマース 演者", "TikTok LIVE 出演者", "製造業 ライブコマース"],
+  "intent": "compare",
+  "trend_score": 2,
+  "trend_rationale": "studio15株式会社の調査（2025年10月20日公表、ECのミカタ掲載）が、2025年6月30日に日本で正式ローンチしたTikTok Shopの1年間（2025年7月〜2026年6月）の累計市場規模を約500億円と予測（2025年7〜9月の売上実績と米国の市場推移から算出した予測値）。ライブ販売の担い手が増えるほど『誰に語らせるか』の選定が成果と世界観を左右する。出典：https://ecnomikata.com/ecnews/marketing/48519/（参照2026年10月）",
+  "cannibal_check": "ok（registry check: conflicts/warns なし）。P3-005（失敗パターン）・P3-011（商品選び）とは、演者選定の判断基準に特化して棲み分け。",
+  "differentiator": "『フォロワー数ではなく、商品を自分の言葉で語れるか』を軸に、メーカー側が演者を選ぶ5つの確認項目と、フォロワー型との比較表を示す演者選定特化記事。",
+  "target_reader": "ライブコマースに挑戦したい中小メーカーの経営者・営業/マーケ責任者",
+  "internal_link_candidates": []
+}

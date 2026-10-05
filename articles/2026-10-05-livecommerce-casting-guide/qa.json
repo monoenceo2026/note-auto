@@ -1,0 +1,19 @@
+{
+  "decision": "publish",
+  "total_score": 84,
+  "scores": {"title_lead":14,"headings":14,"llmo":17,"internal_links":3,"compliance":19,"originality":14,"media_tags":3},
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：2ステップ設計／最初の約20分の会社紹介／朝7〜8時／商品レクチャー／初期フェーズ特別提案",
+    "独自フレーム：演者を選ぶ5つの確認項目",
+    "反直感：フォロワー数は確認項目に含めない",
+    "具体手順：配信の流れとメーカー準備リスト"
+  ],
+  "issues": [
+    "公開済み記事0件のため内部リンクなし",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定）",
+    "TikTok Shop約500億円は予測値（2025年10月公表）。本文で予測と明記済み。実績値は人が確認推奨"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-10-05T08:00:00+09:00"
+}
