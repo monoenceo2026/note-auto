@@ -1,0 +1,15 @@
+{
+  "id": "P6-006",
+  "pillar": "P6",
+  "type": "cluster",
+  "title": "「和製LVMH」構想を分解する",
+  "primary_kw": "和製LVMH",
+  "secondary_kw": ["ブランド群 ものづくり", "日本発 メゾン", "ブランド創造会社"],
+  "intent": "know",
+  "trend_score": 2,
+  "trend_rationale": "LVMH Métiers d'Artが2026年5月28日〜6月3日にパリで日本の工芸を紹介する展覧会を開催し、2022年に日本初のオフィスを開設して日本の職人技術の紹介に取り組んでいる。海外のラグジュアリー側が日本のものづくりに投資する今、日本側が自らブランド群を育てる意味を整理する好機。出典：LVMH公式ニュース https://www.lvmh.com/en/news-lvmh/lvmh-metiers-dart-presents-in-paris-the-exhibition-japanese-metiers-dart-japanese-artistic-craftsmanship（参照2026年10月）",
+  "cannibal_check": "ok",
+  "differentiator": "P7-002(自己定義)やP1(ブランディング一般)と違い、ビジョンの構造とロードマップ4段階を思想寄りに分解する",
+  "target_reader": "自社技術を世界に届けたい二代目社長・経営企画",
+  "internal_link_candidates": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "P6-006",
+  "date": "2026-10-06",
+  "title": "和製LVMHとは？ものづくりを世界のブランド資産に変える4段階の構想",
+  "primary_kw": "和製LVMH",
+  "secondary_kw": [
+    "ブランド群 ものづくり",
+    "日本発 メゾン",
+    "ブランド創造会社"
+  ],
+  "intent": "know",
+  "pillar": "P6",
+  "type": "cluster",
+  "hashtags": [
+    "#製造業",
+    "#ものづくり",
+    "#和製LVMH",
+    "#ブランディング",
+    "#MONOEN"
+  ],
+  "lead_140": "和製LVMHとは、工業・ファッション・食など複数の領域で日本のものづくりを束ね、世界に通用するブランド群として育てる構想です。株式会社モノエン（MONOEN）のビジョンを、中小ものづくり企業の経営者向けに分解して解説します。",
+  "summary": "モノエンが掲げる和製LVMH構想の定義、発掘から共創までの型、4段階ロードマップ、中小メーカーの関わり方を解説する。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "LVMH Métiers d'Artが2026年5月28日〜6月3日にパリで日本の工芸を紹介する展覧会を開催し、2022年に日本初のオフィスを開設して日本の職人技術の紹介に取り組んでいる。海外のラグジュアリー側が日本のものづくりに投資する今、日本側が自らブランド群を育てる意味を整理する好機。出典：LVMH公式ニュース https://www.lvmh.com/en/news-lvmh/lvmh-metiers-dart-presents-in-paris-the-exhibition-japanese-metiers-dart-japanese-artistic-craftsmanship（参照2026年10月）",
+  "sources": [
+    {
+      "title": "LVMH Métiers d'Art presents in Paris the exhibition Japanese Métiers d'Art",
+      "publisher": "LVMH",
+      "date": "2026年5月",
+      "url": "https://www.lvmh.com/en/news-lvmh/lvmh-metiers-dart-presents-in-paris-the-exhibition-japanese-metiers-dart-japanese-artistic-craftsmanship"
+    }
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "暗い背景に並ぶ抽象的な金属と糸と器のシルエット。片側から柔らかい光、反対側は暗く空ける。実在商品は再現しない。",
+  "eyecatch_text": "技術はある。\n世界へ、束ねる。",
+  "eyecatch_eyebrow": "WASEI LVMH",
+  "eyecatch_status": "skipped_no_api_key",
+  "char_count": 3300
+}
