@@ -1,0 +1,13 @@
+{
+  "id": "P4-002",
+  "pillar": "P4",
+  "type": "cluster",
+  "title": "金属加工の技術を物語に変える",
+  "primary_kw": "金属加工 ブランディング",
+  "intent": "case",
+  "trend_score": 2,
+  "trend_rationale": "2026年1月1日に下請法を改正した中小受託取引適正化法（取適法）が施行され、手形払い禁止や従業員基準の追加など取引適正化が進む今、下請け依存からの脱却と自社の価値づくりを整理する好機。出典：中小企業庁 ミラサポplus https://sogyotecho.jp/?p=248108（参照2026年10月）",
+  "cannibal_check": "ok",
+  "differentiator": "素材=金属の領域。5手順と取適法の文脈",
+  "internal_link_candidates": []
+}

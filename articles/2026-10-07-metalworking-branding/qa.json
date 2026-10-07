@@ -1,0 +1,28 @@
+{
+  "decision": "publish",
+  "total_score": 82,
+  "scores": {
+    "title_lead": 13,
+    "headings": 14,
+    "llmo": 17,
+    "internal_links": 3,
+    "compliance": 19,
+    "originality": 13,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：2ステップ設計／配信冒頭約20分／推奨単価・リードタイム",
+    "独自フレーム：棚卸し→翻訳→証拠→接点→検証の5手順",
+    "具体手順：手順表と成果物",
+    "反直感：フォロワー数よりブランドとの相性"
+  ],
+  "issues": [
+    "公開済み記事の内部リンクなし（台帳に公開済み0件）",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定）",
+    "取適法の記述は中小企業庁ミラサポplus経由の二次的確認。公正取引委員会・中小企業庁の一次資料での再確認を推奨",
+    "連携メーカー実名は『一例』表現に限定し、実績・成果は記載せず"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-10-07T08:00:00+09:00"
+}

@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-06",
+    "updated": "2026-10-07",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -888,6 +888,21 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 83
+    },
+    {
+      "id": "P4-002",
+      "date": "2026-10-07",
+      "title": "金属加工のブランディング｜技術を「指名される理由」に変える5つの手順",
+      "primary_kw": "金属加工 ブランディング",
+      "intent": "case",
+      "pillar": "P4",
+      "type": "cluster",
+      "trend_rationale": "2026年1月1日に下請法を改正した中小受託取引適正化法（取適法）が施行され、手形払い禁止や従業員基準の追加など取引適正化が進む今、下請け依存からの脱却と自社の価値づくりを整理する好機。出典：中小企業庁 ミラサポplus https://sogyotecho.jp/?p=248108（参照2026年10月）",
+      "internal_links": [],
+      "summary": "金属加工会社が技術を指名される理由に翻訳する5つの手順と、取適法施行下での自社価値づくり、よくある失敗を解説する。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 82
     }
   ]
 }
