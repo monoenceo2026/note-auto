@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -903,6 +903,21 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 82
+    },
+    {
+      "id": "P7-005",
+      "date": "2026-10-08",
+      "title": "D2Cとは｜製造業が知っておきたい定義と「自社ECだけではない」3つの型",
+      "primary_kw": "D2C とは",
+      "intent": "know",
+      "pillar": "P7",
+      "type": "cluster",
+      "trend_rationale": "2025年8月公表の経産省EC市場調査で物販系BtoC-EC市場が15兆2,194億円（前年比3.70%増）と示される一方、D2C単独の統計はなく定義が混同されやすい。製造業向けに定義を整理する好機（trend_score 1）。出典：経済産業省 2025年8月 https://www.meti.go.jp/press/2025/08/20250826005/20250826005-a.pdf（参照2026年10月）",
+      "internal_links": [],
+      "summary": "D2Cの定義、EC・BtoC・SPAとの違い、製造業向けの3つの型と失敗例を整理した用語解説。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 83
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "id": "P7-005",
+  "pillar": "P7",
+  "type": "cluster",
+  "title": "用語解説：D2Cとは（製造業向け）",
+  "primary_kw": "D2C とは",
+  "intent": "know",
+  "trend_score": 1,
+  "trend_rationale": "2025年8月公表の経産省EC市場調査で物販系BtoC-EC市場が15兆2,194億円（前年比3.70%増）と示される一方、D2C単独の統計はなく定義が混同されやすい。製造業向けに定義を整理する好機（trend_score 1）。出典：経済産業省 2025年8月 https://www.meti.go.jp/press/2025/08/20250826005/20250826005-a.pdf（参照2026年10月）",
+  "cannibal_check": "ok",
+  "differentiator": "『製造業 D2C』(始め方・実務)記事に対し、用語の定義とEC/BtoC/SPAとの違い・3つの型に絞った用語解説",
+  "internal_link_candidates": []
+}

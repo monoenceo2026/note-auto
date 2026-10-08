@@ -1,0 +1,41 @@
+{
+  "id": "P7-005",
+  "date": "2026-10-08",
+  "title": "D2Cとは｜製造業が知っておきたい定義と「自社ECだけではない」3つの型",
+  "primary_kw": "D2C とは",
+  "secondary_kw": [
+    "DTC とは",
+    "製造業 D2C",
+    "D2C EC 違い"
+  ],
+  "intent": "know",
+  "pillar": "P7",
+  "type": "cluster",
+  "hashtags": [
+    "#製造業",
+    "#D2C",
+    "#ものづくり",
+    "#ブランディング",
+    "#MONOEN"
+  ],
+  "lead_140": "D2C（Direct to Consumer）とは、メーカーが卸や小売店を通さず、自社の販路で消費者に直接商品を届け、顧客との関係まで自社で持つ販売モデルです。製造業の経営者・後継者に向け、定義、EC・SPAとの違い、3つの型をMONOENの現場知見で整理します。",
+  "summary": "D2Cの定義、EC・BtoC・SPAとの違い、製造業向けの3つの型と失敗例を整理した用語解説。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "2025年8月公表の経産省EC市場調査で物販系BtoC-EC市場が15兆2,194億円（前年比3.70%増）と示される一方、D2C単独の統計はなく定義が混同されやすい。製造業向けに定義を整理する好機（trend_score 1）。出典：経済産業省 2025年8月 https://www.meti.go.jp/press/2025/08/20250826005/20250826005-a.pdf（参照2026年10月）",
+  "sources": [
+    {
+      "title": "令和6年度デジタル取引環境整備事業（電子商取引に関する市場調査）",
+      "publisher": "経済産業省",
+      "date": "2025年8月",
+      "url": "https://www.meti.go.jp/press/2025/08/20250826005/20250826005-a.pdf"
+    }
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "暗い背景に置かれた抽象的な金属の小箱と一筋の光。片側に被写体、反対側は暗く空ける。実在商品は再現しない。",
+  "eyecatch_text": "売るのではなく、\n届ける。",
+  "eyecatch_eyebrow": "D2C GLOSSARY",
+  "eyecatch_status": "skipped_no_api_key",
+  "char_count": 4035
+}
