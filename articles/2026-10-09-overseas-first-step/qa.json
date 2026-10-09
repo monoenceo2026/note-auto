@@ -1,0 +1,28 @@
+{
+  "decision": "publish",
+  "total_score": 84,
+  "scores": {
+    "title_lead": 13,
+    "headings": 14,
+    "llmo": 18,
+    "internal_links": 3,
+    "compliance": 19,
+    "originality": 14,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：2ステップ設計／冒頭約20分／朝7〜8時／掛け率50%・25%／リードタイム／The Lab.",
+    "独自フレーム：翻訳→国内実証→小さな越境→拡張",
+    "反直感：販路より翻訳が先／売上目標でなく学びの目標",
+    "具体手順：最初の90日"
+  ],
+  "issues": [
+    "公開済み記事の内部リンクなし（台帳にnote_url付き公開済み0件）",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定）",
+    "ジェトロ調査は概要（時期・対象数）のみ引用。個別統計は未使用",
+    "海外販売代行を約束しない旨を本文に明記済み"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-10-09T08:00:00+09:00"
+}

@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-08",
+    "updated": "2026-10-09",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -918,6 +918,21 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 83
+    },
+    {
+      "id": "P6-001",
+      "date": "2026-10-09",
+      "title": "製造業の海外展開の始め方｜最初の一歩は「輸出」ではなく「翻訳」",
+      "primary_kw": "製造業 海外展開 始め方",
+      "intent": "how",
+      "pillar": "P6",
+      "type": "cluster",
+      "trend_rationale": "ジェトロ「第24回 日本企業の海外事業展開に関するアンケート調査（2025年度）」が2026年2月に速報、3月に報告書を公表（調査期間2025年11月4日〜12月3日、対象9,647社、有効回収3,369社）。貿易・EC・海外人材まで扱う大型調査が出た直後で、中小メーカーの『何から始めるか』需要に合致。出典：ジェトロ 2026年2〜3月 https://www.jetro.go.jp/ext_images/_Reports/01/23f5d9f6472b5c0d/20250042.pdf。同ピラーは直近で未更新（P6最終は2026-08-05）でピラーバランス上も優先。",
+      "internal_links": [],
+      "summary": "製造業の海外展開を、翻訳→国内実証→小さな越境→拡張の4ステップと最初の90日で整理した実務記事。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 84
     }
   ]
 }

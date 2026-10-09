@@ -106,7 +106,7 @@ pillars:
     head_kw: 製造業 海外展開
     articles:
       - {id: P6-000, type: pillar,  status: planned, priority: 3, intent: know, primary_kw: 製造業 海外展開, title: "ものづくりの海外展開ガイド｜小さく始めて世界に届ける", secondary_kw: [ものづくり 海外, メーカー 海外進出]}
-      - {id: P6-001, type: cluster, status: planned, priority: 3, intent: how,  primary_kw: 製造業 海外展開 始め方, title: "製造業の海外展開の始め方", differentiator: "最初の一歩"}
+      - {id: P6-001, type: cluster, status: draft, priority: 3, intent: how,  primary_kw: 製造業 海外展開 始め方, title: "製造業の海外展開の始め方", differentiator: "最初の一歩"}
       - {id: P6-002, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 越境EC 製造業, title: "越境ECの立ち上げ", differentiator: "越境ECの手段"}
       - {id: P6-003, type: cluster, status: planned, priority: 4, intent: how,  primary_kw: 多言語 発信, title: "多言語発信とAI翻訳の活用", differentiator: "発信/翻訳の実務"}
       - {id: P6-004, type: cluster, status: planned, priority: 4, intent: know, primary_kw: 地域共創, title: "自治体・金融機関との地域共創", differentiator: "産官金連携"}
