@@ -1,0 +1,28 @@
+{
+  "decision": "publish",
+  "total_score": 82,
+  "scores": {
+    "title_lead": 13,
+    "headings": 14,
+    "llmo": 17,
+    "internal_links": 3,
+    "compliance": 19,
+    "originality": 13,
+    "media_tags": 3
+  },
+  "must_ng_hits": [],
+  "originality_points": [
+    "MONOEN一次情報：ミッション/ブランド創造会社/5段階/段階設計",
+    "独自フレーム：承継3問（守る・変える・語る順序）",
+    "反直感：変革でなく翻訳／売上でなく学びの目標",
+    "具体手順：最初の90日"
+  ],
+  "issues": [
+    "公開済み記事の内部リンクなし",
+    "アイキャッチ未生成（OPENAI_API_KEY未設定）",
+    "文字数3,142字で下限に近い",
+    "制度は税制期限のみ引用し、適用可否は専門家確認と明記済み"
+  ],
+  "fix_instructions": [],
+  "checked_at": "2026-10-10T08:00:00+09:00"
+}

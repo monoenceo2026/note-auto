@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-09",
+    "updated": "2026-10-10",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -933,6 +933,21 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 84
+    },
+    {
+      "id": "P4-006",
+      "date": "2026-10-10",
+      "title": "事業承継とブランディング｜二代目が最初に決める3つのこと",
+      "primary_kw": "事業承継 ブランディング",
+      "intent": "case",
+      "pillar": "P4",
+      "type": "cluster",
+      "trend_rationale": "2026年度税制改正で、法人版事業承継税制の特例承継計画の提出期限が令和8年3月31日から令和9年9月30日に延長（新宿区の制度案内 https://www.city.shinjuku.lg.jp/jigyo/sangyo01_002198.html 、2026年度）。中小企業庁の検討会資料（2026年2月）でも特例措置の適用期限後のあり方が議論されており、承継の準備を『今期から』始める動機が強まっている。P4は直近で未更新のためピラーバランス上も優先。",
+      "internal_links": [],
+      "summary": "事業承継期のブランディングを、守る・変える・語る順序の3問と最初の90日で整理した二代目向け実務記事。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 82
     }
   ]
 }
