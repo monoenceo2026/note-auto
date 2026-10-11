@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-10",
+    "updated": "2026-10-11",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -948,6 +948,27 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 82
+    },
+    {
+      "id": "P7-004",
+      "date": "2026-10-11",
+      "title": "ライブコマースとは？製造業が知っておきたい定義・仕組み・向き不向き",
+      "primary_kw": "ライブコマース とは",
+      "secondary_kw": [
+        "ライブコマース 意味",
+        "ライブコマース 製造業",
+        "TikTok LIVE 販売"
+      ],
+      "intent": "know",
+      "pillar": "P7",
+      "type": "cluster",
+      "trend_rationale": "経済産業省『令和6年度 電子商取引に関する市場調査』(2025年8月26日公表)でBtoC-EC化率9.8%。TikTok Shopの日本展開報道も背景。裏取りが弱くtrend_score=1。",
+      "internal_links": [],
+      "summary": "ライブコマースの定義、通常ECとの違い、2ステップ設計、製造業との相性と始める前の3つの判断基準を整理した用語解説。",
+      "note_url": "",
+      "status": "draft",
+      "qa_score": 82,
+      "local_dir": "articles/2026-10-11-livecommerce-definition"
     }
   ]
 }

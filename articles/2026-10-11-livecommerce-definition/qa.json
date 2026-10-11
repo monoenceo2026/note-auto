@@ -1,0 +1,10 @@
+{
+  "decision": "publish",
+  "total_score": 82,
+  "scores": {"title_lead":13,"headings":13,"llmo":17,"internal_links":4,"compliance":18,"originality":12,"media_tags":5},
+  "must_ng_hits": [],
+  "originality_points": ["一次情報:勝利の2ステップ設計・朝7-8時・最初の20分構成", "独自フレーム:刈り取りの場としてのライブ", "反直感:フォロワー数より相性", "具体値:5,000〜10,000円・最短1〜2週間"],
+  "issues": ["公開済み記事のnote_urlが無く内部リンク0本", "EC化率9.8%は検索結果経由の確認で経産省ページ本体は取得不可(403)。公開前に人の目で数値確認を推奨", "アイキャッチ未生成(OPENAI_API_KEY無し)", "TikTok Shop日本展開時期は報道間で相違のため本文では断定していない"],
+  "fix_instructions": ["経産省公表資料でEC化率9.8%を確認", "アイキャッチを生成して添付", "公開済みのP3-000等のnote_urlが確定したら内部リンクを追加"],
+  "checked_at": "2026-10-11T08:00:00+09:00"
+}
