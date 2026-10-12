@@ -1,0 +1,15 @@
+{
+  "id": "P7-002",
+  "pillar": "P7",
+  "type": "cluster",
+  "title": "「販売会社ではなくブランド創造会社」宣言の意味",
+  "primary_kw": "ブランド創造会社 とは",
+  "secondary_kw": ["ブランド創造会社", "MONOEN", "和製LVMH"],
+  "intent": "know",
+  "trend_score": 2,
+  "trend_rationale": "中小企業庁『2026年版 中小企業白書』(2026年4月24日閣議決定)が『稼ぐ力』の強化・現状維持は最大のリスクと提示。政策の軸が効率化から付加価値創出へ寄る中、『売る会社』と『ブランドを創る会社』の違いを自己定義として説明する需要がある。出典: J-Net21「『稼ぐ力』強化し、『強い中小企業』に 26年版中小企業白書」 https://j-net21.smrj.go.jp/news/nskto6000001wd4p.html。白書本文の詳細数値は未確認のため記事では方向性の言及にとどめる。",
+  "cannibal_check": "ok（registry check: conflict/warn なし）",
+  "differentiator": "P7-000(思想と実践の総覧)に対し、本稿は『販売会社ではなくブランド創造会社』という一文の定義と、販売会社との違い・判断基準だけを解説する。",
+  "target_reader": "下請け依存から脱したい二代目社長・経営企画・商品開発責任者",
+  "internal_link_candidates": []
+}

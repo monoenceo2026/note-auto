@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-11",
+    "updated": "2026-10-12",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -969,6 +969,21 @@
       "status": "draft",
       "qa_score": 82,
       "local_dir": "articles/2026-10-11-livecommerce-definition"
+    },
+    {
+      "id": "P7-002",
+      "date": "2026-10-12",
+      "title": "ブランド創造会社とは？「販売会社ではない」と宣言するモノエンの考え方",
+      "primary_kw": "ブランド創造会社 とは",
+      "intent": "know",
+      "pillar": "P7",
+      "type": "cluster",
+      "trend_rationale": "中小企業庁『2026年版 中小企業白書』(2026年4月24日閣議決定)が「稼ぐ力」強化を提示。出典: J-Net21 https://j-net21.smrj.go.jp/news/nskto6000001wd4p.html",
+      "internal_links": [],
+      "summary": "ブランド創造会社の定義、販売会社との違い、発掘・編集・販売・共創の4ステップ、自社が売るで止まっていないか確かめる3つの問いを解説。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 82
     }
   ]
 }

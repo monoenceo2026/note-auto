@@ -1,0 +1,10 @@
+{
+  "decision": "publish",
+  "total_score": 82,
+  "scores": {"title_lead":13,"headings":14,"llmo":17,"internal_links":4,"compliance":19,"originality":12,"media_tags":3},
+  "must_ng_hits": [],
+  "originality_points": ["一次情報:4ステップ・2ステップ設計・最初の20分構成・3ブランド", "独自フレーム:発掘→編集→販売→共創／販売は途中経過", "反直感:衰退ではなく翻訳不足、フォロワー数より相性", "具体的な3つの問い"],
+  "issues": ["公開済みnote_urlが無く内部リンク0本", "アイキャッチ未生成(OPENAI_API_KEY無し)", "白書の記述は方向性のみ引用(J-Net21経由)。本文数値は未確認のため使用せず"],
+  "fix_instructions": ["公開済みP7-000/P3-000等のnote_url確定後に内部リンク追加", "アイキャッチ生成"],
+  "checked_at": "2026-10-12T08:00:00+09:00"
+}
