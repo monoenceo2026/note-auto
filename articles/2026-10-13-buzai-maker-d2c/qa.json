@@ -1,0 +1,10 @@
+{
+  "decision": "publish",
+  "total_score": 81,
+  "scores": {"title_lead":13,"headings":14,"llmo":17,"internal_links":3,"compliance":19,"originality":12,"media_tags":3},
+  "must_ng_hits": [],
+  "originality_points": ["一次情報:2ステップ設計・最初の20分・掛け率50%/25%・東大阪倉庫・リードタイム", "独自フレーム:素材→商品→接点の3転換", "具体手順:価値の棚卸し/6項目チェックリスト", "反直感:足りないのは技術ではなく言葉"],
+  "issues": ["公開済みnote_urlが無く内部リンク0本", "アイキャッチ未生成(OPENAI_API_KEY無し)", "公庫資料は2022年頃。数値は使わず方向性のみ引用", "case意図だが実名事例は許可範囲外のため書かず、モデル手順で代替"],
+  "fix_instructions": ["公開済みP7-005/P3-001のnote_url確定後に内部リンク追加", "アイキャッチ生成"],
+  "checked_at": "2026-10-13T08:00:00+09:00"
+}

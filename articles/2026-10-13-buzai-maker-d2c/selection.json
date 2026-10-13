@@ -1,0 +1,15 @@
+{
+  "id": "P4-004",
+  "pillar": "P4",
+  "type": "cluster",
+  "title": "素材・部材メーカーがD2Cに挑む",
+  "primary_kw": "部材メーカー D2C",
+  "secondary_kw": ["部素材メーカー 自社ブランド", "BtoB BtoC 転換", "素材 D2C"],
+  "intent": "case",
+  "trend_score": 1,
+  "trend_rationale": "日本政策金融公庫の調査・論文がDtoCを中小企業の「売る力」補強とOEM新規受注につながる手段と整理する一方、知名度のない中小企業が始めても簡単には成功しないと指摘。出典: 日本政策金融公庫 総合研究所 論文 ronbun2211_02 (https://www.jfc.go.jp/n/findings/pdf/ronbun2211_02.pdf)、同 topics_220307a (https://www.jfc.go.jp/n/release/pdf/topics_220307a.pdf)。資料は2022年頃のため、本文では方向性の引用にとどめ数値は使わない。",
+  "cannibal_check": "ok（registry check: conflict/warn なし）",
+  "differentiator": "P7-005『D2Cとは』(定義)・P3-001『D2Cの始め方』(販売設計)に対し、本稿は『最終消費者に遠い部材メーカー』がBtoB→BtoCへ踏み出す際の転換の型と判断基準に絞る。",
+  "target_reader": "素材・部材・加工系メーカーの二代目社長、経営企画、商品開発責任者",
+  "internal_link_candidates": []
+}

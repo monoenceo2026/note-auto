@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-12",
+    "updated": "2026-10-13",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -984,6 +984,21 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 82
+    },
+    {
+      "id": "P4-004",
+      "date": "2026-10-13",
+      "title": "部材メーカーのD2Cとは？BtoBからBtoCへ踏み出す3つの転換",
+      "primary_kw": "部材メーカー D2C",
+      "intent": "case",
+      "pillar": "P4",
+      "type": "cluster",
+      "trend_rationale": "日本政策金融公庫の論文・調査がDtoCを中小企業の「売る力」補強手段と整理する一方、知名度のない中小企業には容易でないと指摘。出典: https://www.jfc.go.jp/n/findings/pdf/ronbun2211_02.pdf （2022年頃の資料のため方向性のみ引用）",
+      "internal_links": [],
+      "summary": "部材メーカーのD2Cの定義、迷う理由、素材→商品→接点の3転換、最初の1商品の選び方チェックリスト、失敗パターンを解説。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 81
     }
   ]
 }
