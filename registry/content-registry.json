@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -996,6 +996,21 @@
       "trend_rationale": "日本政策金融公庫の論文・調査がDtoCを中小企業の「売る力」補強手段と整理する一方、知名度のない中小企業には容易でないと指摘。出典: https://www.jfc.go.jp/n/findings/pdf/ronbun2211_02.pdf （2022年頃の資料のため方向性のみ引用）",
       "internal_links": [],
       "summary": "部材メーカーのD2Cの定義、迷う理由、素材→商品→接点の3転換、最初の1商品の選び方チェックリスト、失敗パターンを解説。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 81
+    },
+    {
+      "id": "P3-010",
+      "date": "2026-10-14",
+      "title": "展示販売とは？メーカーがリアルとオンラインをつなぐ4つの設計",
+      "primary_kw": "展示販売",
+      "intent": "how",
+      "pillar": "P3",
+      "type": "cluster",
+      "trend_rationale": "製造業の大型展示会 Manufacturing World Osaka 2026 が 2026年10月7〜9日に INTEX Osaka で開催され、ものづくりの『見せる場』への関心が高まる時期。ただし来場者は主に業界関係者で、一般消費者に届く常設の見せ場は別設計が必要。出典: Everything RF イベント情報 https://www.everythingrf.com/events/details/1078-manufacturing-world-osaka-2026 （数値は本文では使わない）",
+      "internal_links": [],
+      "summary": "展示販売の定義、展示会との違い、見る→試す→買う→つながるの4設計、6項目チェックリスト、失敗パターンを解説。",
       "status": "draft",
       "note_url": "",
       "qa_score": 81

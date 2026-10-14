@@ -1,0 +1,10 @@
+{
+  "decision": "publish",
+  "total_score": 81,
+  "scores": {"title_lead":13,"headings":14,"llmo":17,"internal_links":3,"compliance":19,"originality":12,"media_tags":3},
+  "must_ng_hits": [],
+  "originality_points": ["一次情報:The Lab.・BEGINNING LEGACY・2ステップ設計・最初の20分・推奨単価・東大阪倉庫・リードタイム", "独自フレーム:見る→試す→買う→つながるの4設計", "具体手順:6項目チェックリスト", "反直感:来場者数より語れる人・相性"],
+  "issues": ["公開済みnote_urlが無く内部リンク0本", "アイキャッチ未生成(OPENAI_API_KEY無し)", "展示会情報は海外イベント掲載サイト由来のため開催事実のみ引用"],
+  "fix_instructions": ["公開済み記事のnote_url確定後に内部リンク追加", "アイキャッチ生成"],
+  "checked_at": "2026-10-14T08:00:00+09:00"
+}

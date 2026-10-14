@@ -1,0 +1,15 @@
+{
+  "id": "P3-010",
+  "pillar": "P3",
+  "type": "cluster",
+  "title": "リアル×オンライン連動の展示販売",
+  "primary_kw": "展示販売",
+  "secondary_kw": ["リアル店舗 オンライン 連動", "メーカー 展示 常設", "展示会 BtoC"],
+  "intent": "how",
+  "trend_score": 1,
+  "trend_rationale": "製造業の大型展示会 Manufacturing World Osaka 2026 が 2026年10月7〜9日に INTEX Osaka で開催され、ものづくりの『見せる場』への関心が高まる時期。ただし来場者は主に業界関係者で、一般消費者に届く常設の見せ場は別設計が必要。出典: Everything RF イベント情報 https://www.everythingrf.com/events/details/1078-manufacturing-world-osaka-2026 （数値は本文では使わない）",
+  "cannibal_check": "ok（registry check: conflict/warn なし）",
+  "differentiator": "展示会（BtoB・短期）との対比で、The Lab.のような常設リアル拠点を起点に『見る→試す→オンラインで買う』を設計する視点に絞る。",
+  "target_reader": "自社商品を持つ中小メーカーの経営者、商品開発・営業責任者",
+  "internal_link_candidates": []
+}
