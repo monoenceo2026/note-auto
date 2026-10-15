@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-14",
+    "updated": "2026-10-15",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -1014,6 +1014,26 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 81
+    },
+    {
+      "id": "P5-008",
+      "date": "2026-10-15",
+      "title": "インバウンド×製造業｜免税リファンド方式移行で、メーカーが見直す3つの設計",
+      "primary_kw": "インバウンド 製造業",
+      "secondary_kw": [
+        "免税 リファンド方式",
+        "訪日外国人 土産 メーカー",
+        "越境EC 連携"
+      ],
+      "intent": "know",
+      "pillar": "P5",
+      "type": "cluster",
+      "trend_rationale": "訪日外国人向け免税制度（輸出物品販売場制度）が2026年11月1日から『リファンド方式』へ移行する。購入時は税込価格で販売し、出国時の税関確認後に消費税相当額を返金する仕組みで、移行期間の併用はなし。制度開始の約2週間前で、メーカーの商品が『免税店の棚』でどう扱われるかが変わる直前のタイミング。出典: 国税庁 輸出物品販売場制度Q&A（リファンド方式・概要編） https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/pdf/0025003-110_02.pdf （2026年10月参照）／TKC 解説コラム 2026年7月 https://tkc.jp/consolidate/webcolumn/column202607_1_col01",
+      "internal_links": [],
+      "summary": "免税制度のリファンド方式移行を機に、メーカーが見直す「持ち帰れる・語れる・つながる」の3設計と5項目チェックリストを解説。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 80
     }
   ]
 }

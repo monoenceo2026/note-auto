@@ -1,0 +1,10 @@
+{
+  "decision": "publish",
+  "total_score": 80,
+  "scores": {"title_lead":13,"headings":14,"llmo":17,"internal_links":3,"compliance":18,"originality":12,"media_tags":3},
+  "must_ng_hits": [],
+  "originality_points": ["一次情報:BEGINNING LEGACYの推奨単価5,000〜10,000円・最初の20分・安売り視聴者の失敗要因", "独自フレーム:インバウンド3設計(持ち帰れる・語れる・つながる)", "具体手順:5項目チェックリスト", "反直感:制度変更は価格で選ばれる商品と理由で選ばれる商品の差を見せる"],
+  "issues": ["公開済みnote_urlが無く内部リンク0本", "アイキャッチ未生成(OPENAI_API_KEY無し)", "10月31日の許可失効は専門家解説由来のため『解説では』と帰属表記", "訪日客数など未確認数値は不使用"],
+  "fix_instructions": ["公開済み記事のnote_url確定後に内部リンク追加", "アイキャッチ生成"],
+  "checked_at": "2026-10-15T08:00:00+09:00"
+}

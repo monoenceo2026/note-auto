@@ -1,0 +1,19 @@
+{
+  "id": "P5-008",
+  "pillar": "P5",
+  "type": "cluster",
+  "title": "インバウンド×ものづくり（免税リファンド方式移行）",
+  "primary_kw": "インバウンド 製造業",
+  "secondary_kw": [
+    "免税 リファンド方式",
+    "訪日外国人 土産 メーカー",
+    "越境EC 連携"
+  ],
+  "intent": "know",
+  "trend_score": 3,
+  "trend_rationale": "訪日外国人向け免税制度（輸出物品販売場制度）が2026年11月1日から『リファンド方式』へ移行する。購入時は税込価格で販売し、出国時の税関確認後に消費税相当額を返金する仕組みで、移行期間の併用はなし。制度開始の約2週間前で、メーカーの商品が『免税店の棚』でどう扱われるかが変わる直前のタイミング。出典: 国税庁 輸出物品販売場制度Q&A（リファンド方式・概要編） https://www.nta.go.jp/publication/pamph/shohi/menzei/201805/pdf/0025003-110_02.pdf （2026年10月参照）／TKC 解説コラム 2026年7月 https://tkc.jp/consolidate/webcolumn/column202607_1_col01",
+  "cannibal_check": "ok（registry check: conflict/warn なし）",
+  "differentiator": "免税店向け実務解説ではなく、『商品を作る側のメーカー』が、制度変更を機に『持ち帰れる・語れる・帰国後につながる』を設計し直す視点に絞る。",
+  "target_reader": "自社商品を持つ中小メーカーの経営者、商品開発・営業責任者",
+  "internal_link_candidates": []
+}
