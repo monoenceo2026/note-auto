@@ -1,0 +1,10 @@
+{
+  "decision": "publish",
+  "total_score": 81,
+  "scores": {"title_lead":13,"headings":14,"llmo":17,"internal_links":3,"compliance":18,"originality":13,"media_tags":3},
+  "must_ng_hits": [],
+  "originality_points": ["一次情報:BEGINNING LEGACYの推奨単価・2ステップ設計・最初の約20分・掛け率50%/25%・ロードマップ", "独自フレーム:理由・名前・数量・場・還流の5設計", "具体手順:5項目チェックリスト", "反直感:合わせた量より、変えない部分が指名理由"],
+  "issues": ["公開済みnote_urlが無く内部リンク0本", "アイキャッチ未生成(OPENAI_API_KEY無し)", "外部統計は不使用。出典は別注/OEMの定義1点のみ(本文確認済み)", "近畿経産局資料は取得不可のため記述を削除"],
+  "fix_instructions": ["公開済み記事のnote_url確定後に内部リンク追加", "アイキャッチ生成"],
+  "checked_at": "2026-10-16T08:00:00+09:00"
+}

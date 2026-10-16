@@ -1,0 +1,26 @@
+{
+  "id": "P2-007",
+  "date": "2026-10-16",
+  "title": "別注の商品開発｜下請けで終わらせず、自社ブランドにつなげる5つの設計",
+  "primary_kw": "別注 商品開発",
+  "secondary_kw": ["別注品 つくり方", "限定品 メーカー", "共創 ものづくり"],
+  "intent": "how",
+  "pillar": "P2",
+  "type": "cluster",
+  "hashtags": ["#別注", "#商品開発", "#製造業", "#ものづくり", "#MONOEN"],
+  "lead_140": "別注の商品開発とは、相手の要望に合わせて既存商品の仕様や見せ方を変え、その相手だけの商品をつくることです。OEM・下請け比率が高い中小メーカー向けに、別注を自社ブランドへつなげる5つの設計を整理します。",
+  "summary": "別注の商品開発を下請けの延長で終わらせず自社ブランドにつなげる「理由・名前・数量・場・還流」の5設計と、MONOENの共創ロードマップを解説。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "年末のギフト・販促シーズン前で、OEM・下請け中心から自社ブランド・別注へ軸足を移す動きがある。別注とOEMの違いを整理した解説（ecnomikata）はあるが、メーカー側が別注を共創の入口として設計する実務解説は少ない。新規の制度・統計トレンドは確認できず trend_score=1。",
+  "sources": [
+    {"title": "OEMと別注の解説", "publisher": "ecnomikata", "date": "2026-10", "url": "https://ecnomikata.com/blog/10989"}
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "Abstract still life of two brushed-steel blocks, one raw and one polished with a brass inlay, on dark linen; no real product.",
+  "eyecatch_text": "変えない部分が、\n指名される理由。",
+  "eyecatch_eyebrow": "CO-CREATE",
+  "eyecatch_status": "skipped",
+  "char_count": 4300
+}

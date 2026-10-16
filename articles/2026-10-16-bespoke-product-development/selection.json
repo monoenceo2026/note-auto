@@ -1,0 +1,15 @@
+{
+  "id": "P2-007",
+  "pillar": "P2",
+  "type": "cluster",
+  "title": "別注・限定品のつくり方（共創）",
+  "primary_kw": "別注 商品開発",
+  "secondary_kw": ["別注品 つくり方", "限定品 メーカー", "共創 ものづくり"],
+  "intent": "how",
+  "trend_score": 1,
+  "trend_rationale": "年末のギフト・販促シーズン前で、OEMや下請け中心から自社ブランド・別注へ軸足を移す中小製造業の動きがある。別注とOEMの違いを整理した業界解説（ecnomikata https://ecnomikata.com/blog/10989）はあるが、メーカー側が別注を『共創の入口』として設計する実務解説は少ない。なお制度・統計の新規トレンドは今回確認できず、trend_scoreは1と控えめに評価。",
+  "cannibal_check": "ok（registry check: conflict/warn なし）",
+  "differentiator": "別注の発注側ではなく、受ける側のメーカーが『下請けの延長』にせず、売り場データと物語を持ち帰って自社ブランドへつなげる共創として設計する視点。",
+  "target_reader": "OEM・下請け比率が高い中小メーカーの経営者・後継者・商品開発責任者",
+  "internal_link_candidates": []
+}

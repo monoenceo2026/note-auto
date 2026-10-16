@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-15",
+    "updated": "2026-10-16",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -1034,6 +1034,27 @@
       "status": "draft",
       "note_url": "",
       "qa_score": 80
+    },
+    {
+      "id": "P2-007",
+      "date": "2026-10-16",
+      "title": "別注の商品開発｜下請けで終わらせず、自社ブランドにつなげる5つの設計",
+      "primary_kw": "別注 商品開発",
+      "secondary_kw": [
+        "別注品 つくり方",
+        "限定品 メーカー",
+        "共創 ものづくり"
+      ],
+      "intent": "how",
+      "pillar": "P2",
+      "type": "cluster",
+      "trend_rationale": "年末のギフト・販促シーズン前で、OEM・下請け中心から自社ブランド・別注へ軸足を移す動きがある。別注とOEMの違いを整理した解説（ecnomikata）はあるが、メーカー側が別注を共創の入口として設計する実務解説は少ない。新規の制度・統計トレンドは確認できず trend_score=1。",
+      "internal_links": [],
+      "summary": "別注の商品開発を下請けの延長で終わらせず自社ブランドにつなげる「理由・名前・数量・場・還流」の5設計と、MONOENの共創ロードマップを解説。",
+      "note_url": "",
+      "status": "hold",
+      "qa_score": 81,
+      "local_dir": "articles/2026-10-16-bespoke-product-development"
     }
   ]
 }
