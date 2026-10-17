@@ -1,0 +1,15 @@
+{
+  "id": "P5-006",
+  "pillar": "P5",
+  "type": "cluster",
+  "title": "地場産業・地域ブランドの活性化",
+  "primary_kw": "地域ブランド 製造業",
+  "secondary_kw": ["地場産業 ブランド", "産地 ブランディング", "地方創生 ものづくり"],
+  "intent": "know",
+  "trend_score": 2,
+  "trend_rationale": "近畿経済産業局の調査レポート『関西企業フロントラインNEXT Vol.32 ブランド形成が地場産業の稼ぐ力の基盤に』が、地場産業の稼ぐ力の基盤としてブランド形成を取り上げ、12の地域・産品を分析している（https://www.kansai.meti.go.jp/1-9chushoresearch/frontline/frontline_no32.pdf）。同レポートは地方創生2.0基本構想（2025年6月閣議決定）にも触れる。愛知県は令和8年度の伝統的工芸品産業持続強化支援事業で産地企業のコンサル支援対象を募集しており（愛知県 産業振興）、産地支援が2026年度も継続している。",
+  "cannibal_check": "ok（registry check: conflict/warn なし）",
+  "differentiator": "個社のブランド戦略(P1)ではなく、産地・地域という『束』で語られ方を設計する視点。個社が産地ブランドにただ乗りも埋没もせず両立する考え方に絞る。",
+  "target_reader": "産地・地場産業に属する中小メーカーの経営者・後継者、商工団体・自治体の担当者",
+  "internal_link_candidates": []
+}

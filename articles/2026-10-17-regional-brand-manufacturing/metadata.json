@@ -1,0 +1,47 @@
+{
+  "id": "P5-006",
+  "date": "2026-10-17",
+  "title": "地域ブランドと製造業｜産地の「束」で語られ方を設計する4つの視点",
+  "primary_kw": "地域ブランド 製造業",
+  "secondary_kw": [
+    "地場産業 ブランド",
+    "産地 ブランディング",
+    "地方創生 ものづくり"
+  ],
+  "intent": "know",
+  "pillar": "P5",
+  "type": "cluster",
+  "hashtags": [
+    "#地域ブランド",
+    "#製造業",
+    "#地場産業",
+    "#ものづくり",
+    "#MONOEN"
+  ],
+  "lead_140": "地域ブランドとは、産地や地域の名前が品質・背景・物語の保証として機能し、個々の製品が選ばれる理由になっている状態です。地場産業の経営者・後継者に向けて、産地の「束」で語られ方を設計する4つの視点を整理します。",
+  "summary": "製造業の地域ブランドを、産地は入口・個社は指名理由の二段構えで捉え、共通語・指名理由・語る場・還流の4視点で解説する。",
+  "supervisor": "中村貴広（株式会社モノエン 代表取締役 CEO）",
+  "author": "MONOEN編集部",
+  "trend_rationale": "近畿経済産業局の調査レポート『関西企業フロントラインNEXT Vol.32 ブランド形成が地場産業の稼ぐ力の基盤に』が、地場産業の稼ぐ力の基盤としてブランド形成を取り上げ、12の地域・産品を分析している（https://www.kansai.meti.go.jp/1-9chushoresearch/frontline/frontline_no32.pdf）。同レポートは地方創生2.0基本構想（2025年6月閣議決定）にも触れる。愛知県は令和8年度の伝統的工芸品産業持続強化支援事業で産地企業のコンサル支援対象を募集しており（愛知県 産業振興）、産地支援が2026年度も継続している。",
+  "sources": [
+    {
+      "title": "関西企業フロントラインNEXT Vol.32 ブランド形成が地場産業の稼ぐ力の基盤に",
+      "publisher": "近畿経済産業局",
+      "date": "2026",
+      "url": "https://www.kansai.meti.go.jp/1-9chushoresearch/frontline/frontline_no32.pdf"
+    },
+    {
+      "title": "令和8年度あいち伝統的工芸品産業持続強化支援事業",
+      "publisher": "愛知県",
+      "date": "2026年度",
+      "url": "https://www.pref.aichi.jp/soshiki/sangyoshinko/"
+    }
+  ],
+  "internal_links": [],
+  "cta": "無料相談",
+  "eyecatch_brief": "Abstract still life of several small brushed-steel and ceramic forms grouped together on dark linen, one slightly apart; no real product.",
+  "eyecatch_text": "産地は入口。\n指名は、1社から。",
+  "eyecatch_eyebrow": "REGIONAL BRAND",
+  "eyecatch_status": "skipped",
+  "char_count": 3237
+}

@@ -2,7 +2,7 @@
   "meta": {
     "description": "MONOEN note 公開記事の台帳（カニバリ制御の主データ）。毎日の公開後に1件追記する。",
     "version": 1,
-    "updated": "2026-10-16",
+    "updated": "2026-10-17",
     "note_account": "https://note.com/monoen_co_jp",
     "fields": {
       "id": "keyword-map のスロットID（例: P3-004）。トレンド新規は T-YYYYMMDD",
@@ -1055,6 +1055,27 @@
       "status": "hold",
       "qa_score": 81,
       "local_dir": "articles/2026-10-16-bespoke-product-development"
+    },
+    {
+      "id": "P5-006",
+      "date": "2026-10-17",
+      "title": "地域ブランドと製造業｜産地の「束」で語られ方を設計する4つの視点",
+      "primary_kw": "地域ブランド 製造業",
+      "secondary_kw": [
+        "地場産業 ブランド",
+        "産地 ブランディング",
+        "地方創生 ものづくり"
+      ],
+      "intent": "know",
+      "pillar": "P5",
+      "type": "cluster",
+      "trend_rationale": "近畿経済産業局の調査レポート『関西企業フロントラインNEXT Vol.32 ブランド形成が地場産業の稼ぐ力の基盤に』が、地場産業の稼ぐ力の基盤としてブランド形成を取り上げ、12の地域・産品を分析している（https://www.kansai.meti.go.jp/1-9chushoresearch/frontline/frontline_no32.pdf）。同レポートは地方創生2.0基本構想（2025年6月閣議決定）にも触れる。愛知県は令和8年度の伝統的工芸品産業持続強化支援事業で産地企業のコンサル支援対象を募集しており（愛知県 産業振興）、産地支援が2026年度も継続している。",
+      "internal_links": [],
+      "summary": "製造業の地域ブランドを、産地は入口・個社は指名理由の二段構えで捉え、共通語・指名理由・語る場・還流の4視点で解説する。",
+      "status": "draft",
+      "note_url": "",
+      "qa_score": 83,
+      "local_dir": "articles/2026-10-17-regional-brand-manufacturing"
     }
   ]
 }
